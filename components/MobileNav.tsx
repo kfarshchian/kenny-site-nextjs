@@ -3,7 +3,7 @@ import './mobileNav.scss'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, {useState} from 'react';
-import MenuIcon from '@mui/icons-material/Menu';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 const MobileNav = () => {
 
@@ -49,11 +49,17 @@ const MobileNav = () => {
         </nav>
 
         <div className={menu_class}>
-        <Link id='links' href='/'>home</Link>
-        <Link id='links' href='/'>home</Link>
-        <Link id='links' href='/'>home</Link>
-        <Link id='links' href='/'>home</Link>
-        <Link id='links' href='/'>home</Link>
+        <Link id='links' href='/' onClick={updateMenu}>home</Link>
+      
+        <Link id='links' href="/aboutus" onClick={updateMenu}>About Us</Link>
+        <Link id='links' href="/our-process" onClick={updateMenu}>Our Process</Link>
+        <Link id='links' href="/closing-guarantee" onClick={updateMenu}>Closing Guarantee</Link>
+        <Link id='links' href="/Blog" onClick={updateMenu}>Blog</Link>
+        <Link id='links' href="/contact" onClick={updateMenu}>Contact Us</Link>
+        <Link id='links' href="/Loans" onClick={updateMenu}>Loans</Link>
+
+    
+
         </div>
 
     </div>

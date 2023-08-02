@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -165,3 +165,76 @@ body {
 .profile_projects {
   @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mt-5;
 }
+#userwayAccessibilityIcon{
+  position: absolute;
+  top: 94%;
+  left: 99%;
+ }
+ .reverse-mortgage-utah-home-Container-stack-img1 {
+  display: flex;
+  margin: 0;
+}
+
+.image-container {
+  flex: 1;
+  max-width: 50%;
+
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+  max-width: 50%;
+  padding: 1rem;
+}
+#reverse-mortgage-utah-home-text-1{
+background-color: lightgray;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+justify-content: center;
+align-items: center;
+} 
+#reverse-mortgage-utah-home-text-2{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  justify-content: center;
+  align-items: center; 
+  color: white;
+  font-size: 15px !important;
+}
+
+ @media (max-width: 768px) {
+  .reverse-mortgage-utah-home-Container-stack-img1  {
+    flex-direction: column;
+  }
+
+  .image-container,
+  .text-container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .reverse-mortgage-utah-home-Container-stack-img2{
+    flex-direction: column;
+  }
+
+  .image-container,
+  .text-container {
+    max-width: 100%;
+  }
+}
+@media (max-width: 410px) {
+  
+#reverse-mortgage-utah-home-parallax-mid{
+  height: 720px;
+
+}
+}
+
+ 

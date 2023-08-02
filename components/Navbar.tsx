@@ -6,6 +6,7 @@ import './navbar.scss'
 import MobileNav from './MobileNav';
 
 
+
 const Navbar = () => {
   return (
     <>
@@ -28,12 +29,12 @@ const Navbar = () => {
     <li className="dropdown">
       <a >About Us <ArrowDropDownIcon/></a>
       <ul className="dropdown-content">
-      <li><Link href="/about-us">About Us</Link></li>
-        <li><Link href="#">Our Process</Link></li>
-        <li><Link href="#">Closing Guarantee</Link></li>
-        <li><Link href="#">Blog</Link></li>
-        <li><Link href="#">Contact Us</Link></li>
-        <li><Link href="#">Loans</Link></li>
+      <li><Link href="/aboutus">About Us</Link></li>
+        <li><Link href="/our-process">Our Process</Link></li>
+        <li><Link href="/closing-guarantee">Closing Guarantee</Link></li>
+        <li><Link href="/Blog">Blog</Link></li>
+        <li><Link href="/contact">Contact Us</Link></li>
+        <li><Link href="/Loans">Loans</Link></li>
       </ul>
         </li>
     </ul>
@@ -42,12 +43,12 @@ const Navbar = () => {
     <li className="dropdown">
       <a >Utah<ArrowDropDownIcon/></a>
       <ul className="dropdown-content">
-        <li><a href="#">Salt Lake City</a></li>
-        <li><a href="#">Layton</a></li>
-        <li><a href="#">Bountiful</a></li>
-        <li><a href="#">Syracuse</a></li>
-        <li><a href="#">Ogden</a></li>
-        <li><a href="#">West Valley City</a></li>
+        <li><a href="/Utah-mortgage-salt-lake-city">Salt Lake City</a></li>
+        <li><a href="/Utah-mortgage-Layton">Layton</a></li>
+        <li><a href="/Utah-mortgage-Bountiful">Bountiful</a></li>
+        <li><a href="/Utah-Mortgage-Syracuse">Syracuse</a></li>
+        <li><a href="/Reverse-mortgage-Utah-Ogden">Ogden</a></li>
+        <li><a href="/Reverse-mortgage-Utah-WestValleyCity">West Valley City</a></li>
       </ul>
         </li>
     </ul>
@@ -55,9 +56,9 @@ const Navbar = () => {
     <li className="dropdown">
       <a >Florida<ArrowDropDownIcon/></a>
       <ul className="dropdown-content">
-        <li><a href="#">Venice</a></li>
-        <li><a href="#">Palm Beach</a></li>
-        <li><a href="#">Naples</a></li>
+        <li><a href="/Reverse-mortgage-Florida-Venice">Venice</a></li>
+        <li><a href="/Reverse-mortgage-Florida-Palm-Beach">Palm Beach</a></li>
+        <li><a href="/Reverse-mortgage-Florida-Naples">Naples</a></li>
       </ul>
         </li>
     </ul>
@@ -65,9 +66,9 @@ const Navbar = () => {
     <li className="dropdown">
       <a >Texas<ArrowDropDownIcon/></a>
       <ul className="dropdown-content">
-        <li><a href="#">Austin</a></li>
-        <li><a href="#">Houston</a></li>
-        <li><a href="#">Dallas</a></li>
+        <li><a href="/Reverse-mortgage-Texas-Austin">Austin</a></li>
+        <li><a href="/Reverse-mortgage-Texas-Houston">Houston</a></li>
+        <li><a href="/Reverse-mortgage-Texas-Dallas">Dallas</a></li>
       </ul>
         </li>
     </ul>

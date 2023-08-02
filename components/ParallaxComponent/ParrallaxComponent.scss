@@ -1,0 +1,32 @@
+#parallax-Image{
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    z-index: -9999;
+}
+#parallax-title{
+    position: inherit;
+    position:relative;
+    top: 10%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center !important;
+    font-size: 40px !important;
+    color: #ED8B00;
+    text-shadow: rgb(0, 0, 0) 0px 0px 15px;
+}
+#parallax-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Reverse-Mortgage-Florida-Container-h2{
+    position: inherit;
+    margin: 15px;
+    font-size: 50px !important;
+    color: #4F758B;
+}
+#test{
+    height: 400px;
+}

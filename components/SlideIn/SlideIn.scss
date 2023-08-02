@@ -1,0 +1,53 @@
+#reverse-mortgage-utah-home-Container-stack-column-box{
+    background-color: white;
+    width: 250px;
+    height: 85px;
+    margin: 10px;
+    display: flex;
+    font-size: large;
+    align-items: center;
+}
+#reverse-mortgage-utah-home-Container-stack-card{
+    margin: 20px;
+}
+.slide-in {
+    animation: slideInAnimation 0.5s ease-in forwards;
+    transform: translateX(200%);
+  }
+  
+  @keyframes slideInAnimation {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .slide-in2 {
+    animation: slideInAnimation 0.5s ease-in forwards;
+    transform: translateX(200%);
+    animation-delay: .5s;
+  }
+  
+  @keyframes slideInAnimation {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .slide-in3 {
+    animation: slideInAnimation 0.5s ease-in forwards;
+    transform: translateX(200%);
+    animation-delay: .85s;
+  }
+  
+  @keyframes slideInAnimation {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
