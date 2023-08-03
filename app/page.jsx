@@ -15,7 +15,7 @@ import './home.scss'
 import ContactForm from "@/components/ContactForm/ContactForm";
 import Slidein from '@/components/SlideIn/SlideIn'
 import VTimeline from '@/components/VTimeline'
-import Reviews from '@/components/Reviews/reviews'
+import Reviews from '@/components/Reviews/index'
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
