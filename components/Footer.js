@@ -232,7 +232,7 @@ const Footer = () => {
             </Link>
             <Link
               id="reverse-mortgage-florida-footer"
-              href="/loans"
+              href="/Loans"
               sx={{
                 color: "black",
                 textTransform: "none",

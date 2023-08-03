@@ -7,7 +7,7 @@ import './syracuse.scss'
 function Syracuse() {
     const parallaxProp =[
         {headerImage: "/syracuse-reverse-mortgage-utah.jpg"},
-        {headerTitle: "Bountiful Reverse Mortgage Utah Expert"}
+        {headerTitle: "Syracuse Loan Officer Utah"}
       ]
 
   return (
