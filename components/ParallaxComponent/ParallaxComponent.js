@@ -7,7 +7,7 @@ import './ParrallaxComponent.scss'
 const ParallaxComponent = (props) => {
  
   const { parallaxProp } = props;
-console.log(parallaxProp[1].headerTitle);
+
   return (
     <>
     <div id="test">
