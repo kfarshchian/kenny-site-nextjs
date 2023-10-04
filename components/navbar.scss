@@ -1,47 +1,15 @@
 #navbar{
-    background-color: #4F758B !important;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background-color: black;
 }
-a{
-    color: white;
+#pageLink{
+    padding: 4px 8px 8px 8px;
+    border-radius: 10px;
 }
-#main-link:hover{
-    background-color: #ED8B00; 
+#pageLink:hover{
+    border: 1px solid white;
+    padding: 2px 8px 2px 8px;
     color: black;
-    border: 1px solid black;
-    padding: 3px;
-    border-radius: 4px;
-}
-.logo-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 15px 0.5rem 0.5rem 0;
-    opacity: 1 !important;
-    padding-left: 2px !important;
-    padding-right: 2px !important;
-    border-radius: 4px;
-}
-.mortgage-company-utah-apply-today{
-    background-color: #ED8B00; 
-    color: black;
-    border: 1px solid black;
-    padding: 3px;
-    border-radius: 4px;
-}
-.mortgage-company-utah-team-number{
-    background-color: #ED8B00; 
-    color: black;
-    border: 1px solid black;
-    padding: 3px;
-    border-radius: 4px;
-}
-.mortgage-company-utah-team-number:hover{
-    transform: scale(1.1); 
-}
-.mortgage-company-utah-apply-today:hover{
-    transform: scale(1.1); 
+    background-color: white;
 }
 nav ul {
     list-style: none;
@@ -52,7 +20,8 @@ nav ul {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color:#4F758B;
+    border-radius: 5px;
+    background-color:black;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
   
@@ -73,66 +42,32 @@ nav ul {
   }
   
   .dropdown-content li a:hover {
-    background-color: #ED8B00;
+    background-color: white;
+    border-radius: 3px;
+    color: black;
   }
-// mobile
-#mobileNavBar{
-    display: none;
-}
-
-
-@media screen and (max-width: 1506px) {
-
-    #Utah-Mortgage-PRMI-LOGO{
-        display: none;
+  .mortgage-company-utah-apply-today,
+  .mortgage-company-utah-team-number{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+  }
+  .mortgage-company-utah-apply-today:hover{
+    font-size: 22px;
+  }
+  .mortgage-company-utah-team-number:hover{
+    font-size: 22px;
+  }
+  @media screen and (max-width: 1125px) {
+    .mortgage-company-utah-apply-today,
+    .mortgage-company-utah-team-number{
+      display: none;
     }
-.mortgage-company-utah-apply-today{
-    display: none;
 }
-.mortgage-company-utah-team-number{
-    display: none;
-}
-}
-@media screen and (max-width: 942px) {
+@media screen and (max-width: 1077px) {
     // .logo-container,
-    a{
+    #MainNav{
         display: none;
-    }
-    .logo-container{
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        margin: 0 0 0 0rem;
-    }
-    .navbar{
-        display: grid;
-        grid-template-columns: 50px auto 50px;
-    }
-    #Utah-Mortgage-PRMI-LOGO{
-        display: none;
-    }
-    #Utah-Mortgage-KENNY-LOGO{
-        height: 5rem !important;
-    }
-    #navbar{
-        display: none;
-    }
-    #mobileNavBar{
-        display:flex;
-        // position: relative;
-        // background-color: #4F758B;
-        // height: 120px;
-        // width: 100%;
-    }
-    #logoNav{
-        padding-top: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #mobileHamburger{
-        position: absolute;
-        right: 10px;
-        top: 50px;
     }
 }

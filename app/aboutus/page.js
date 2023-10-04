@@ -6,7 +6,10 @@ import "./aboutus.scss";
 import { Container, Stack } from "@mui/material";
 import ParallaxComponent from '../../components/ParallaxComponent'
 
-
+// export const metadata = {
+//   title: 'About us',
+//   description: '...',
+// }
 function aboutus() {
   const parallaxProp =[
     {headerImage: "/arch-utah-reverse-mortgage-utah.jpg"},

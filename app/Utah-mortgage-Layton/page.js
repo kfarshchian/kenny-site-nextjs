@@ -4,7 +4,11 @@ import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import ParallaxComponent from '../../components/ParallaxComponent'
 
-
+export const metadata = {
+  title: '...',
+  description: '...',
+}
+ 
 
 function Layton() {
     const parallaxProp =[

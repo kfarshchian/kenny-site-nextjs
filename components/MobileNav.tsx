@@ -1,67 +1,179 @@
 'use client'
-import './mobileNav.scss'
-import Image from 'next/image'
-import Link from 'next/link'
-import React, {useState} from 'react';
+import Image from "next/image";
+import Link from "next/link";
+import React, {useState} from "react";
+import "./MobileNav.scss";
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+
 
 const MobileNav = () => {
 
-    const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
-    const [menu_class, setMenuClass]  = useState("menu hidden")
-    const [isMenuClicked, setIsMenuClicked]  = useState(false)
-    const updateMenu = () =>{
-        if(!isMenuClicked){
-            setBurgerClass("burger-bar clicked")
-            setMenuClass("menu visible")
-        }
-        else{
-            setBurgerClass("burger-bar unclicked")
-            setMenuClass("menu hidden") 
-        }
-        setIsMenuClicked(!isMenuClicked)
-    }
-
+  const [navbar, setNavbar] = useState(false);
   return (
     <>
-   
-    <div className="" id='mobileNavBar'>
-        
-        {/* <button id='mobileHamburger' title='hamburger'>
-        <MenuIcon/>
-        </button> */}
-
-        <nav>
-        
-            <div className='burger-menu' onClick={updateMenu}>
-                <div className={burger_class} ></div>
-                <div className={burger_class} ></div>
-                <div className={burger_class} ></div>
+<div id="MobileNav">
+      <nav className="w-full bg-white fixed top-0 left-0 right-0 z-10">
+        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+          <div>
+            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+              {/* LOGO */}
+              <Link href="/">
+                      <Image
+                        src="/smalllogokenny.png"
+                        width={350}
+                        height={150}
+                        alt="ASAP WebDevs Logo"
+                      />
+                    </Link>
+              {/* HAMBURGER BUTTON FOR MOBILE */}
+              <div className="md:hidden">
+                <button
+                  className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                  onClick={() => setNavbar(!navbar)}
+                >
+                  {navbar ? (
+                    <CloseIcon style={{color: "black"}}/>
+                  ) : (
+                    <MenuIcon style={{color: "black"}}/>
+                  )}
+                </button>
+              </div>
             </div>
-            <Link id='logoNav' href='/'>
-          <Image
-            src='/smalllogokenny.png'
-            width={250}
-            height={150}
-            alt='Kenny Mortgage Logo'
-          />
-        </Link>
-        </nav>
-
-        <div className={menu_class}>
-        <Link id='links' href='/' onClick={updateMenu}>home</Link>
-      
-        <Link id='links' href="/aboutus" onClick={updateMenu}>About Us</Link>
-        <Link id='links' href="/our-process" onClick={updateMenu}>Our Process</Link>
-        <Link id='links' href="/closing-guarantee" onClick={updateMenu}>Closing Guarantee</Link>
-        <Link id='links' href="/Blog" onClick={updateMenu}>Blog</Link>
-        <Link id='links' href="/contact" onClick={updateMenu}>Contact Us</Link>
-        <Link id='links' href="/Loans" onClick={updateMenu}>Loans</Link>
-
-    
-
+          </div>
+          <div>
+            <div
+              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+                navbar ? 'p-12 md:p-0 block' : 'hidden'
+              }`}
+            >
+              <ul className="h-screen md:h-auto items-center justify-center md:flex ">
+                {/* about us */}
+                <li className="pb-2 text-xl text-black py-2 md:px-2 text-center border-b-2 md:border-b-0   border-black-900   md:hover:bg-transparent">
+                    <Link onClick={() => setNavbar(!navbar)} id="main-link" href="/">
+                      Home
+                    </Link>
+                  </li>
+              <ul className="pb-2 text-xl text-black py-2 md:px-2 text-center border-b-2 md:border-b-0   border-black-900   md:hover:bg-transparent">
+                    <li className="dropdown">
+                      <a>
+                        About Us <ArrowDropDownIcon />
+                      </a>
+                      <ul className="dropdown-content">
+                        <li>
+                          <Link onClick={() => setNavbar(!navbar)} href="/aboutus">About Us</Link>
+                        </li>
+                        <li>
+                          <Link onClick={() => setNavbar(!navbar)} href="/our-process">Our Process</Link>
+                        </li>
+                        <li>
+                          <Link onClick={() => setNavbar(!navbar)} href="/closing-guarantee">
+                            Closing Guarantee
+                          </Link>
+                        </li>
+                        <li>
+                          <Link onClick={() => setNavbar(!navbar)} href="/Blog">Blog</Link>
+                        </li>
+                        <li>
+                          <Link onClick={() => setNavbar(!navbar)} href="/contact">Contact Us</Link>
+                        </li>
+                        <li>
+                          <Link onClick={() => setNavbar(!navbar)} href="/Loans">Loans</Link>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  {/* Utah */}
+                  <ul className="pb-2 text-xl text-black py-2 md:px-2 text-center border-b-2 md:border-b-0   border-black-900   md:hover:bg-transparent">
+                    <li className="dropdown">
+                      <a>
+                        Utah
+                        <ArrowDropDownIcon />
+                      </a>
+                      <ul className="dropdown-content">
+                        <li>
+                          <a onClick={() => setNavbar(!navbar)} href="/Utah-mortgage-salt-lake-city">
+                            Salt Lake City
+                          </a>
+                        </li>
+                        <li>
+                          <a onClick={() => setNavbar(!navbar)} href="/Utah-mortgage-Layton">Layton</a>
+                        </li>
+                        <li>
+                          <a onClick={() => setNavbar(!navbar)} href="/Utah-mortgage-Bountiful">Bountiful</a>
+                        </li>
+                        <li>
+                          <a onClick={() => setNavbar(!navbar)} href="/Utah-Mortgage-Syracuse">Syracuse</a>
+                        </li>
+                        <li>
+                          <a onClick={() => setNavbar(!navbar)} href="/Reverse-mortgage-Utah-Ogden">Ogden</a>
+                        </li>
+                        <li>
+                          <a onClick={() => setNavbar(!navbar)} href="/Reverse-mortgage-Utah-WestValleyCity">
+                            West Valley City
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  {/* florida */}
+                  <ul className="pb-2 text-xl text-black py-2 px-2 text-center  border-b-2 md:border-b-0   border-black-900  md:hover:bg-transparent">
+                    <li className="dropdown">
+                      <a>
+                        Florida
+                        <ArrowDropDownIcon />
+                      </a>
+                      <ul className="dropdown-content">
+                        <li>
+                          <a onClick={() => setNavbar(!navbar)} href="/Reverse-mortgage-Florida-Venice">Venice</a>
+                        </li>
+                        <li>
+                          <a onClick={() => setNavbar(!navbar)} href="/Reverse-mortgage-Florida-Palm-Beach">
+                            Palm Beach
+                          </a>
+                        </li>
+                        <li>
+                          <a onClick={() => setNavbar(!navbar)} href="/Reverse-mortgage-Florida-Naples">Naples</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  {/* Texas */}
+                  <ul className="pb-2 text-xl text-black py-2 px-2 text-center  border-b-2 md:border-b-0   border-black-900 md:hover:bg-transparent">
+                    <li className="dropdown">
+                      <ul>
+                        <li className="dropdown">
+                          <a>
+                            Texas
+                            <ArrowDropDownIcon />
+                          </a>
+                          <ul className="dropdown-content">
+                            <li>
+                              <a href="/Reverse-mortgage-Texas-Austin">
+                                Austin
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/Reverse-mortgage-Texas-Houston">
+                                Houston
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/Reverse-mortgage-Texas-Dallas">
+                                Dallas
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+              </ul>
+            </div>
+          </div>
         </div>
-
+      </nav>
     </div>
     </>
   )
