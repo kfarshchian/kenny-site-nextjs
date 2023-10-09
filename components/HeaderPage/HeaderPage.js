@@ -11,7 +11,7 @@ function HeaderPage(props) {
       <div id="headerPage">
         <Stack
           id="headerStack"
-          direction={{ xs: "column", sm: "row" }}
+          direction={{ sm: "column", md: "row" }}
           sx={{
             justifyContent: "center",
             alignItems: "center",
