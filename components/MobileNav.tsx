@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, {useState} from "react";
-import "./MobileNav.scss";
+import "./mobileNav.scss";
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
