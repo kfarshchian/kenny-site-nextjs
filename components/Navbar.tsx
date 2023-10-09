@@ -4,7 +4,7 @@ import React from "react";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import "./navbar.scss";
 import MobileNav from "./MobileNav";
-import "./MobileNav.scss";
+
 
 const Navbar = () => {
   return (
