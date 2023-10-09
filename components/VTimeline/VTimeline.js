@@ -25,9 +25,9 @@ import EmojiEventsOutlinedIcon from "@mui/icons-material/EmojiEventsOutlined";
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "#4F758B", color: "#fff" }}
+            contentStyle={{ background: "#00A3E0", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #4F758B" }}
-            iconStyle={{ background: "#ED8B00", color: "#fff" }}
+            iconStyle={{ background: "#00A3E0", color: "#fff" }}
             icon={<PhoneInTalkIcon />}
           >
             <h3 className="vertical-timeline-element-title">1. Apply</h3>
@@ -40,7 +40,7 @@ import EmojiEventsOutlinedIcon from "@mui/icons-material/EmojiEventsOutlined";
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#C7C9C7", color: "black" }}
             contentArrowStyle={{ borderRight: "7px solid  #C7C9C7" }}
-            iconStyle={{ background: "#ED8B00", color: "#fff" }}
+            iconStyle={{ background: "#00A3E0", color: "#fff" }}
             icon={<CheckBoxIcon />}
           >
             <h3 className="vertical-timeline-element-title">
@@ -54,9 +54,9 @@ import EmojiEventsOutlinedIcon from "@mui/icons-material/EmojiEventsOutlined";
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "#4F758B", color: "#fff" }}
+            contentStyle={{ background: "#00A3E0", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  #4F758B" }}
-            iconStyle={{ background: "#ED8B00", color: "#fff" }}
+            iconStyle={{ background: "#00A3E0", color: "#fff" }}
             icon={<LocalOfferIcon />}
           >
             <h3 className="vertical-timeline-element-title">

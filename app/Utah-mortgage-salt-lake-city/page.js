@@ -10,6 +10,11 @@ function SaltLakeCity() {
         {headerTitle: "Salt Lake City Reverse Mortgage Utah Expert"}
       ]
 
+      // const headerProp =[
+      //   {headerImage: "/3.jpg"},
+      //   {headerTitle: "Salt lake City mortgages and Reverse mortgages."},
+      //   {pHeader: "As a Utah mortgage company, we provide personalized home financing with local expertise and competitive rates. From first-time buyers, Reverse Mortgages to refinancing, we offer quick approvals and guidance, ensuring your homeownership dreams come true."}
+      // ]
   return (
     <>
       <ParallaxComponent parallaxProp={parallaxProp ?? []}/>

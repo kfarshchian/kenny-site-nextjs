@@ -1,0 +1,51 @@
+#headerPage{
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headerStack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#headerImage{
+    width: 50%;
+    animation: fade-in 2s;
+}
+#verbiage{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#titleHeader{
+    font-weight: bolder;
+    font-size: 55px;
+    text-align: center;
+    max-width: 50%;
+    animation: slideInFromLeft 1s ease forwards;
+}
+#pHeader{
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+    animation: slideInFromLeft 1.5s ease forwards;
+}
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+  
+ 

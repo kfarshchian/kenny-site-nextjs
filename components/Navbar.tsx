@@ -12,13 +12,23 @@ const Navbar = () => {
         <nav className="w-full bg-white fixed top-0 left-0 right-0 z-10">
           <div className="justify-between px-4lg:max-w-7xl md:items-center md:flex md:px-8">
             <div>
-              <div className="flex items-center justify-between py-3 md:block">
+              <div id="logoContainer" className="flex items-center justify-between py-3 md:block">
                 {/* LOGO */}
-                <Link href="/">
+                <Link href="/" >
                   <Image
                     src="/smalllogokenny.png"
                     width={250}
                     height={250}
+                    alt="Kenny Farshchian Logo PRMI"
+                  />
+                </Link>
+                {/* prmi logo */}
+                <Link href="https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com" >
+                  <Image
+                    id="prmiBlackLogo"
+                    src="/prmiblack2.png"
+                    width={240}
+                    height={240}
                     alt="Kenny Farshchian Logo PRMI"
                   />
                 </Link>
@@ -36,7 +46,7 @@ const Navbar = () => {
               >
                 <ul className="h-screen md:h-auto items-center justify-center md:flex ">
                   <li className="pb-2 text-xl text-black py-2 px-2 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-black-900  md:hover:bg-transparent">
-                    <Link id="main-link" href="/">
+                    <Link className="home" id="main-link" href="/">
                       Home
                     </Link>
                   </li>

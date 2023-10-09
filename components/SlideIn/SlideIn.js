@@ -53,7 +53,7 @@ const SlideIn = () => {
                 fontSize: "75px",
                 justifyContent: "center",
                 alignItems: "center",
-                color: "#ED8B00",
+                color: "#00A3E0",
               }}
             />
             <p>Simple Process</p>
@@ -68,7 +68,7 @@ const SlideIn = () => {
                 fontSize: "75px",
                 justifyContent: "center",
                 alignItems: "center",
-                color: "#ED8B00",
+                color: "#00A3E0",
               }}
             />
             <p>Constant Communication</p>
@@ -83,7 +83,7 @@ const SlideIn = () => {
                 fontSize: "75px",
                 justifyContent: "center",
                 alignItems: "center",
-                color: "#ED8B00",
+                color: "#00A3E0",
               }}
             />
             <p>Award winning lending team</p>

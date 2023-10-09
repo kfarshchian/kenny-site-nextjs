@@ -1,5 +1,4 @@
 import React from "react";
-import ParallaxComponent from '../components/ParallaxComponent'
 import {
   Container,
   Button,
@@ -20,19 +19,21 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-
+import HeaderPage from '../components/HeaderPage/HeaderPage'
 
 
 
 const Home = () => {
-  const parallaxProp =[
+  const headerProp =[
     {headerImage: "/3.jpg"},
-    {headerTitle: "Utah Mortgage Solutions: Your Trusted Loan Officer and Reverse Mortgage Utah Expert"}
+    {headerTitle: "Your Utah local lender."},
+    {pHeader: "As a Utah mortgage company, we provide personalized home financing with local expertise and competitive rates. From first-time buyers, Reverse Mortgages to refinancing, we offer quick approvals and guidance, ensuring your homeownership dreams come true."}
   ]
   
   return (
     <>
-    <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
+    <HeaderPage headerProp={headerProp ?? []}/>
+    {/* <ParallaxComponent parallaxProp={parallaxProp ?? []}/> */}
     <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
     </h1>
@@ -340,7 +341,7 @@ const Home = () => {
           <div id="reverse-mortgage-florida-home-map">
             <img
               id="reverse-mortgage-florida-home-map"
-              src='/kenny-map-reverse-mortgage-utah.png'
+              src='/kenny-map-reverse-mortgage-utah-2.png'
               alt="reverse mortgage Utah Moving Boxes"
             />
           </div>
@@ -626,7 +627,7 @@ const Home = () => {
         <div>
           <Accordion>
             <AccordionSummary
-              expandIcon={<ExpandMoreIcon sx={{ color: "#ED8B00" }} />}
+              expandIcon={<ExpandMoreIcon sx={{ color: "#00A3E0" }} />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
@@ -647,7 +648,7 @@ const Home = () => {
           </Accordion>
           <Accordion>
             <AccordionSummary
-              expandIcon={<ExpandMoreIcon sx={{ color: "#ED8B00" }} />}
+              expandIcon={<ExpandMoreIcon sx={{ color: "#00A3E0" }} />}
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
@@ -669,7 +670,7 @@ const Home = () => {
           </Accordion>
           <Accordion>
             <AccordionSummary
-              expandIcon={<ExpandMoreIcon sx={{ color: "#ED8B00" }} />}
+              expandIcon={<ExpandMoreIcon sx={{ color: "#00A3E0" }} />}
               aria-controls="panel3a-content"
               id="panel3a-header"
             >
@@ -692,7 +693,7 @@ const Home = () => {
         <div>
           <Accordion>
             <AccordionSummary
-              expandIcon={<ExpandMoreIcon sx={{ color: "#ED8B00" }} />}
+              expandIcon={<ExpandMoreIcon sx={{ color: "#00A3E0" }} />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
@@ -718,7 +719,7 @@ const Home = () => {
           </Accordion>
           <Accordion>
             <AccordionSummary
-              expandIcon={<ExpandMoreIcon sx={{ color: "#ED8B00" }} />}
+              expandIcon={<ExpandMoreIcon sx={{ color: "#00A3E0" }} />}
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
@@ -739,7 +740,7 @@ const Home = () => {
           </Accordion>
           <Accordion>
             <AccordionSummary
-              expandIcon={<ExpandMoreIcon sx={{ color: "#ED8B00" }} />}
+              expandIcon={<ExpandMoreIcon sx={{ color: "#00A3E0" }} />}
               aria-controls="panel3a-content"
               id="panel3a-header"
             >
