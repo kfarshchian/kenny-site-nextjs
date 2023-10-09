@@ -1,26 +1,21 @@
 import React from "react";
 import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import ParallaxComponent from '../../components/ParallaxComponent'
-import './saltlakecity.scss'
+import "./saltlakecity.scss";
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 
 function SaltLakeCity() {
-    const parallaxProp =[
-        {headerImage: "/utah-mortgage-salt-lake-city.jpg"},
-        {headerTitle: "Salt Lake City Reverse Mortgage Utah Expert"}
-      ]
-
-      // const headerProp =[
-      //   {headerImage: "/3.jpg"},
-      //   {headerTitle: "Salt lake City mortgages and Reverse mortgages."},
-      //   {pHeader: "As a Utah mortgage company, we provide personalized home financing with local expertise and competitive rates. From first-time buyers, Reverse Mortgages to refinancing, we offer quick approvals and guidance, ensuring your homeownership dreams come true."}
-      // ]
+  const headerProp = [
+    { headerImage: "/utah-mortgage-salt-lake-city.jpg" },
+    { headerTitle: "Salt lake City mortgages and Reverse mortgages." },
+    {
+      pHeader:
+        "Kenny is a standout Salt Lake City loan officer, excelling in both traditional and reverse mortgages. With local expertise, competitive rates, and a focus on customer satisfaction, he's known for transparent communication and reliable guidance. Clients trust Kenny for his integrity and experience in navigating the lending process.",
+    },
+  ];
   return (
     <>
-      <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+      <HeaderPage headerProp={headerProp ?? []} />
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">
@@ -64,9 +59,12 @@ function SaltLakeCity() {
                 serving as one of the top mortgage companies Salt Lake City
                 could ask for, for 10 years. We understand the significance of a
                 home investment to you and its impact on your life, which is why
-                our team of experienced mortgage professionals, led by <a href="/aboutus" type="page" id="pageLinksOnPage">Kenny
-                Farshchian</a>, will spare no effort to find an excellent loan
-                program and pricing for your unique situation.
+                our team of experienced mortgage professionals, led by{" "}
+                <a href="/aboutus" type="page" id="pageLinksOnPage">
+                  Kenny Farshchian
+                </a>
+                , will spare no effort to find an excellent loan program and
+                pricing for your unique situation.
               </p>
               <p id="salt-lake-city-p">
                 If you're searching for mortgage lenders Salt Lake City locals
@@ -89,7 +87,10 @@ function SaltLakeCity() {
           Typically, the mortgage loan process takes around 23-25 days from
           start to closing. However, at Primary Residential Mortgage, we take
           pride in being the dedicated mortgage lenders Salt Lake City clients
-          trust to secure the loans they need in a timely manner. <a href="/contact" type="page" id="pageLinksOnPage">Give us a call </a>
+          trust to secure the loans they need in a timely manner.{" "}
+          <a href="/contact" type="page" id="pageLinksOnPage">
+            Give us a call{" "}
+          </a>
           today if you're ready to get started, and we'll be delighted to help
           you find the right mortgage for your needs.
         </p>
@@ -97,7 +98,10 @@ function SaltLakeCity() {
       {/* second section */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          <img src='/reverse-mortgage-utah-moving.jpg' alt="reverse mortgage Utah Moving Boxes" />
+          <img
+            src="/reverse-mortgage-utah-moving.jpg"
+            alt="reverse mortgage Utah Moving Boxes"
+          />
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -108,13 +112,16 @@ function SaltLakeCity() {
             Officer with a decade of experience.
           </h2>
           <p>
-            Kenny Farshchian is an experienced <a href="/" type="page" id="pageLinksOnPage">Utah loan officer</a> with a
-            remarkable decade-long track record in the industry. With a wealth
-            of knowledge and expertise, Kenny is dedicated to making the loan
-            process as smooth and hassle-free as possible for his clients. His
-            extensive experience allows him to navigate the complexities of the
-            mortgage landscape with ease, ensuring that borrowers receive the
-            best possible financial solutions for their unique situations.
+            Kenny Farshchian is an experienced{" "}
+            <a href="/" type="page" id="pageLinksOnPage">
+              Utah loan officer
+            </a>{" "}
+            with a remarkable decade-long track record in the industry. With a
+            wealth of knowledge and expertise, Kenny is dedicated to making the
+            loan process as smooth and hassle-free as possible for his clients.
+            His extensive experience allows him to navigate the complexities of
+            the mortgage landscape with ease, ensuring that borrowers receive
+            the best possible financial solutions for their unique situations.
           </p>
           <br></br>
           <p>
@@ -134,17 +141,20 @@ function SaltLakeCity() {
             commitment to providing a personalized and customized experience
             tailored to the individual needs of each client. He takes the time
             to understand his clients' financial goals, preferences, and
-            circumstances, allowing him to offer <a href="/contact" type="page" id="pageLinksOnPage">tailored solutions</a> that align
-            perfectly with their requirements. By offering this level of
-            personalized service, Kenny ensures that every borrower receives a
-            loan package that suits their specific needs, making their
+            circumstances, allowing him to offer{" "}
+            <a href="/contact" type="page" id="pageLinksOnPage">
+              tailored solutions
+            </a>{" "}
+            that align perfectly with their requirements. By offering this level
+            of personalized service, Kenny ensures that every borrower receives
+            a loan package that suits their specific needs, making their
             homeownership dreams a reality.
           </p>
         </div>
       </div>
       <Container maxWidth="md">
         {/* third section */}
-  
+
         <div id="reverse-mortgage-texas-home-h2">
           <h2>
             Unleashing the Best Loan Experience in Utah: Kenny Farshchian, Your
@@ -153,14 +163,18 @@ function SaltLakeCity() {
         </div>
         <div id="reverse-mortgage-texas-home-p">
           <p>
-            When it comes to finding the best loan officer in <a href="/Utah-mortgage-Layton" type="page" id="pageLinksOnPage"> Utah</a>, look no
-            further than Kenny Farshchian. With a solid decade of experience in
-            the industry, Kenny has earned a reputation as the go-to
-            professional for all your lending needs. His extensive expertise
-            spans across various loan types, including conventional mortgages,
-            FHA loans, VA loans, and more. Whatever your financing requirements
-            may be, Kenny has the knowledge and experience to guide you towards
-            the optimal loan solution.
+            When it comes to finding the best loan officer in{" "}
+            <a href="/Utah-mortgage-Layton" type="page" id="pageLinksOnPage">
+              {" "}
+              Utah
+            </a>
+            , look no further than Kenny Farshchian. With a solid decade of
+            experience in the industry, Kenny has earned a reputation as the
+            go-to professional for all your lending needs. His extensive
+            expertise spans across various loan types, including conventional
+            mortgages, FHA loans, VA loans, and more. Whatever your financing
+            requirements may be, Kenny has the knowledge and experience to guide
+            you towards the optimal loan solution.
           </p>
         </div>
         <Stack
@@ -175,21 +189,29 @@ function SaltLakeCity() {
           <div id="reverse-mortgage-texas-home-stack-container">
             <img
               id="reverse-mortgage-texas-home-stack-img"
-              src='/project-reverse-mortgage-utah.jpg'
+              src="/project-reverse-mortgage-utah.jpg"
               alt="reverse mortgage Utah Moving Boxes"
             />
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
-              At Kenny Farshchian's office in <a href="/Utah-mortgage-salt-lake-city" type="page" id="pageLinksOnPage"> Salt Lake City</a>, you'll find a
-              dedicated team of professionals who are committed to providing you
-              with a positive lending experience. With a focus on personalized
-              service and attention to detail, they work tirelessly to ensure
-              that each client receives tailored solutions that align with their
-              unique goals and financial situation. From the moment you reach
-              out to them, their friendly and knowledgeable team will be by your
-              side, guiding you through the loan process with utmost care and
-              professionalism.
+              At Kenny Farshchian's office in{" "}
+              <a
+                href="/Utah-mortgage-salt-lake-city"
+                type="page"
+                id="pageLinksOnPage"
+              >
+                {" "}
+                Salt Lake City
+              </a>
+              , you'll find a dedicated team of professionals who are committed
+              to providing you with a positive lending experience. With a focus
+              on personalized service and attention to detail, they work
+              tirelessly to ensure that each client receives tailored solutions
+              that align with their unique goals and financial situation. From
+              the moment you reach out to them, their friendly and knowledgeable
+              team will be by your side, guiding you through the loan process
+              with utmost care and professionalism.
             </p>
           </div>
         </Stack>
@@ -217,40 +239,54 @@ function SaltLakeCity() {
         </div>
       </Container>
       <div id="salt-lake-city-fourth-section">
-      <Container maxWidth="md">
-         {/* fourth section */}
-        <h2 id="reverse-mortgage-texas-salt-lake-city-h2">
-          Your Top Choice <br></br>Utah Loan Officer for a Smooth Homebuying Journey
+        <Container maxWidth="md">
+          {/* fourth section */}
+          <h2 id="reverse-mortgage-texas-salt-lake-city-h2">
+            Your Top Choice <br></br>Utah Loan Officer for a Smooth Homebuying
+            Journey
           </h2>
-        <p id="salt-lake-city-p">
-          Meet <a href="/aboutus" type="page" id="pageLinksOnPage"> Kenny Farshchian</a>, your go-to Utah loan officer for a seamless and
-          hassle-free mortgage experience. With Kenny's expertise and
-          dedication, the loan process becomes smooth and easy, making
-          homeownership dreams a reality for countless families. He is
-          passionate about helping individuals and families secure the financing
-          they need to purchase their dream homes, and his commitment shines
-          through in every step of the process.
-        </p>
-        <br></br>
-        <p id="salt-lake-city-p">
-          At Kenny Farshchian's office, the focus is on providing exceptional
-          service and support to clients throughout their loan journey. Whether
-          you're a first-time homebuyer or looking to refinance, Kenny and his
-          team will guide you with expert advice and personalized solutions.
-          Their dedication to customer satisfaction is evident in the many
-          glowing reviews on their home page, showcasing the positive
-          experiences of past clients.
-        </p>
-        <br></br>
-        <p id="salt-lake-city-p">
-          Don't miss out on the opportunity to work with Kenny Farshchian, the
-          <a href="/Reverse-mortgage-Utah-WestValleyCity" type="page" id="pageLinksOnPage"> Utah loan officer</a> who prioritizes your needs and ensures a stress-free
-          path to homeownership. To start your journey towards your dream home,
-          contact Kenny's office today and experience the top-notch service that
-          sets him apart in the lending industry.
-        </p>
-        <br></br>
-      </Container>
+          <p id="salt-lake-city-p">
+            Meet{" "}
+            <a href="/aboutus" type="page" id="pageLinksOnPage">
+              {" "}
+              Kenny Farshchian
+            </a>
+            , your go-to Utah loan officer for a seamless and hassle-free
+            mortgage experience. With Kenny's expertise and dedication, the loan
+            process becomes smooth and easy, making homeownership dreams a
+            reality for countless families. He is passionate about helping
+            individuals and families secure the financing they need to purchase
+            their dream homes, and his commitment shines through in every step
+            of the process.
+          </p>
+          <br></br>
+          <p id="salt-lake-city-p">
+            At Kenny Farshchian's office, the focus is on providing exceptional
+            service and support to clients throughout their loan journey.
+            Whether you're a first-time homebuyer or looking to refinance, Kenny
+            and his team will guide you with expert advice and personalized
+            solutions. Their dedication to customer satisfaction is evident in
+            the many glowing reviews on their home page, showcasing the positive
+            experiences of past clients.
+          </p>
+          <br></br>
+          <p id="salt-lake-city-p">
+            Don't miss out on the opportunity to work with Kenny Farshchian, the
+            <a
+              href="/Reverse-mortgage-Utah-WestValleyCity"
+              type="page"
+              id="pageLinksOnPage"
+            >
+              {" "}
+              Utah loan officer
+            </a>{" "}
+            who prioritizes your needs and ensures a stress-free path to
+            homeownership. To start your journey towards your dream home,
+            contact Kenny's office today and experience the top-notch service
+            that sets him apart in the lending industry.
+          </p>
+          <br></br>
+        </Container>
       </div>
       <div id="reverse-mortgage-texas-home-Container-Contactform">
         <ContactForm id="reverse-mortgage-texas-home-Container-Contactform2" />

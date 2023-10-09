@@ -223,20 +223,8 @@ align-items: center;
    margin: 10px;
    padding: 10px;
 }
-@media (max-width: 1446px) {
-  #titleHeader{
-      font-weight: bolder;
-      font-size: 25px;
-      text-align: center;
-      // max-width: 50%;
-      animation: slideInFromLeft 1s ease forwards;
-  }
-  #pHeader{
-      font-size: 25px;
-      text-align: center;
-      // width: 50%;
-      animation: slideInFromLeft 1.5s ease forwards;
-  }
+.experience-badge{
+  margin: 15px;
 }
 @media (max-width: 768px) {
     .reverse-mortgage-utah-home-Container-stack-img1  {

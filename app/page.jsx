@@ -34,9 +34,11 @@ const Home = () => {
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
     {/* <ParallaxComponent parallaxProp={parallaxProp ?? []}/> */}
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    <Container>
+    <div className="experience-badge">
+          <img src='/top.png' alt="Top performer 2023" />
+        </div>
+    </Container>
     <Container>
     <h2
           title="reverse mortgage utah"
