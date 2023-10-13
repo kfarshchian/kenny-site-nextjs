@@ -2,7 +2,7 @@
     color: white;
 }
 #reverse-mortgage-utah-home-button-1{
-    background-color: #ED8B00;
+    background-color: #00A3E0;
     color: black;
     border: 1px solid black;
     margin-top: 15px;
@@ -12,26 +12,6 @@
     transform: scale(1.1); 
 }
 // Blog
-#reverse-mortgage-utah-blog{
-    height: 700px;
-    justify-content: center;
-    align-items: center;
-}
-#reverse-mortgage-utah-blog-title{
-    position: inherit;
-    top: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px !important;
-    color: #ED8B00;
-    text-shadow: rgb(0, 0, 0) 0px 0px 15px;
-}
-#reverse-mortgage-utah-blog-h1{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 #reverse-mortgage-utah-blog-p{
     padding: 10px;
     color: black;
@@ -47,25 +27,18 @@
     color: black !important;
     padding: 10px;
 }
-#pageLinksOnPage{
-padding: 0;
-color: #ED8B00;
-margin: 0;
-}
 #pageLinksOnPage:hover{
     padding: 0;
     color: white;
     }
-#modal-button{
-    display:inline-block !important;
-    position: relative;
-    padding-left: 10px;
-    background-color: #ED8B00;
-}
-#modal-button:hover{
-    
-}
 #thumb{
 position:inherit;
 top: 5px;
+}
+#reverse-mortgage-texas-home-Container-Contactform{
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #d3d3d3 !important;
+    display: flex;
+    justify-content: center;
 }

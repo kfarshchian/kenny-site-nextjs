@@ -1,21 +1,22 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import ParallaxComponent from '../../components/ParallaxComponent'
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './houston.scss'
 
 function Houston() {
-    const parallaxProp =[
-        {headerImage: "/houston-house-reverse-mortgage-texas.jpg"},
-        {headerTitle: "Houston Reverse Mortgage Texas"}
-      ]
 
+    const headerProp =[
+      {headerImage: "/houston-house-reverse-mortgage-texas.jpg"},
+      {headerTitle: "Houston Texas mortgages and Reverse mortgages"},
+      {pHeader: "Kenny is a standout lender in Houston, Texas, with expertise in both traditional and reverse mortgages. His local knowledge, competitive rates, and dedication to clients make him an excellent choice."}
+    ]
   return (
     <>
-      <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+      <HeaderPage headerProp={headerProp ?? []}/>
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">
@@ -42,9 +43,6 @@ function Houston() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div>
-            <h2 id="reverse-mortgage-texas-contact-us-contact-section">
-              Request A Free Consultation Today
-            </h2>
             <ContactForm></ContactForm>
           </div>
           <div>

@@ -4,18 +4,24 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import { Container, Stack, Button } from "@mui/material";
 import './closing-guarantee.scss'
 import ParallaxComponent from '../../components/ParallaxComponent'
-
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 
 
 function ClosingGuarantee() {
-    const parallaxProp =[
-        {headerImage: "/mortgage-broker-utah-approved.jpg"},
-        {headerTitle: "Loan Closing Guarantee"}
-      ]
+    // const parallaxProp =[
+    //     {headerImage: "/mortgage-broker-utah-approved.jpg"},
+    //     {headerTitle: "Loan Closing Guarantee"}
+    //   ]
 
+      const headerProp =[
+        {headerImage: "/mortgage-broker-utah-approved.jpg"},
+        {headerTitle: "Loan Closing Guarantee."},
+        {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
+      ]
   return (
     <>
-      <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
+    <HeaderPage headerProp={headerProp ?? []}/>
+
     <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
     </h1>

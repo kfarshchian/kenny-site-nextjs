@@ -4,22 +4,24 @@ import PinDropIcon from "@mui/icons-material/PinDrop";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import ForwardToInboxIcon from "@mui/icons-material/ForwardToInbox";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import ParallaxComponent from '../../components/ParallaxComponent'
 import './contact.scss'
-
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 
 function ContactUs() {
-    const parallaxProp =[
-        {headerImage: "/reverse-mortgage-florida-reverse-mortgage-texas-contact-us.jpg"},
-        {headerTitle: "Contact Us"}
-      ]
+
+    const headerProp =[
+      {headerImage: "/reverse-mortgage-florida-reverse-mortgage-texas-contact-us.jpg"},
+      {headerTitle: "Contact Us With Any Mortgage Questions."},
+      {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
+    ]
+    
 
   return (
     <>
-      <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+   <HeaderPage headerProp={headerProp ?? []}/>
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
     <Container>
         <p id="reverse-mortgage-texas-contact-us-Container-p">
           At Primary Residential Mortgage Inc., we extend a warm welcome to you.
@@ -43,9 +45,7 @@ function ContactUs() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div>
-            <h2 id="reverse-mortgage-texas-contact-us-contact-section">
-              Request A Free Consultation Today
-            </h2>
+
             <ContactForm></ContactForm>
           </div>
           <div>
@@ -60,17 +60,15 @@ function ContactUs() {
               }}
               spacing={{ xs: 1, sm: 1, md: 6 }}
             >
-              <h2 id="reverse-mortgage-texas-contact-us-contact-section">
-                Contact Us
-              </h2>
+
               <h4>
                 We're committed to helping you in any way we can. <br></br>Leave
                 us a note and we'll get in touch with you shortly.
               </h4>
-              <LocalPhoneIcon sx={{ color: "#ED8B00" }} />
+              <LocalPhoneIcon sx={{ color: "#00A3E0" }} />
               Phones: Mobile(801) 520-8475; Office(801) 320-7081{" "}
-              <ForwardToInboxIcon sx={{ color: "#ED8B00" }} />
-              kenf@primeres.com <PinDropIcon sx={{ color: "#ED8B00" }} />
+              <ForwardToInboxIcon sx={{ color: "#00A3E0" }} />
+              kenf@primeres.com <PinDropIcon sx={{ color: "#00A3E0" }} />
               Address: 1597 Woodland Park Dr STE 100, Layton, UT 84041
             </Stack>
           </div>

@@ -4,31 +4,31 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import './OurProcess.scss'
 import ParallaxComponent from '../../components/ParallaxComponent'
 import VTimeline from '@/components/VTimeline'
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 
 function OurProcess() {
-    const parallaxProp =[
-        {headerImage: "/our-process-reverse-mortgage-utah.jpg"},
-        {headerTitle: "Our Process The PRMI Home Process"}
-      ]
       
+    const headerProp =[
+      {headerImage: "/our-process-reverse-mortgage-utah.jpg"},
+      {headerTitle: "Our Process The PRMI Home Process"},
+      {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
+    ]
   return (
     <>
- <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+    <HeaderPage headerProp={headerProp ?? []}/>
+
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
       <Container maxWidth="md">
         {/* first section */}
-        <p id="reverse-mortgage-texas-contact-us-Container-p">
-          Our tried and true approach to helping homeowners, just like you,
-          navigate the mortgage world.
-        </p>
+
         <Stack
           direction={{ xs: "column", sm: "row" }}
           id="reverse-mortgage-texas-contact-us-stack"
           sx={{
             justifyContent: "center",
-            marginTop: "15px",
+            marginTop: "25px",
             marginBottom: "15px",
             paddingLeft: "5px",
             paddingRight: "5px",

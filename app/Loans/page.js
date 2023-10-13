@@ -1,37 +1,29 @@
-// import React, {useEffect} from 'react';
-// import reverseMortgageFlorida from '../logos/reverse-mortgage-florida-reverse-mortgage-texas.png'
-// import { ParallaxBanner } from 'react-scroll-parallax';
 import './Loans.scss'
 import { Container, Button, Grid } from '@mui/material';
 import Contactform from '../../components/ContactForm/ContactForm'
 import ParallaxComponent from '../../components/ParallaxComponent'
-
-
-
-
-
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 
 function Loans() {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
-// const headerImage = "/reverse-mortgage-florida-reverse-mortgage-texas.png";
-// const headerTitle = "Types of Home Loans";
 
-const parallaxProp =[
-  {headerImage: "/reverse-mortgage-florida-reverse-mortgage-texas.png"},
-  {headerTitle: "Types of Home Loans"}
+// const parallaxProp =[
+//   {headerImage: "/reverse-mortgage-florida-reverse-mortgage-texas.png"},
+//   {headerTitle: "Types of Home Loans"}
+// ]
+const headerProp =[
+  {headerImage: "/reverse-mortgage-florida-reverse-mortgage-texas.jpg"},
+  {headerTitle: "Types of Home Loans"},
+  {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
 ]
-
   return (
     
     <>
-    <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+    <HeaderPage headerProp={headerProp ?? []}/>
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
       <Container>
-        <h2 id='Reverse-Mortgage-Florida-Container-h2'>Our Services</h2>
+        <h2 id='Reverse-Mortgage-Florida-Container-title'>Our Services</h2>
         <Button  href={'#Reverse-Mortgage-Florida-Container-button'} id='Reverse-Mortgage-Florida-Container-button'>Home Loans</Button> <Button href={'https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com'} id='Reverse-Mortgage-Florida-Container-button'>Refinance</Button> 
         <h3 id='Reverse-Mortgage-Florida-Container-h3'>Not sure what type of loan you need, or what you qualify for? We offer more than a dozen types of loans and expert guidance to help you find the right loan for the home you want, with the best payment options.</h3>
         <Button id='Reverse-Mortgage-Florida-Container-button' href={'https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com'}>Loan Questionnaire</Button>

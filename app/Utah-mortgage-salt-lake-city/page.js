@@ -7,7 +7,7 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 function SaltLakeCity() {
   const headerProp = [
     { headerImage: "/utah-mortgage-salt-lake-city.jpg" },
-    { headerTitle: "Salt lake City mortgages and Reverse mortgages." },
+    { headerTitle: "Salt lake City mortgages and Reverse mortgages" },
     {
       pHeader:
         "Kenny is a standout Salt Lake City loan officer, excelling in both traditional and reverse mortgages. With local expertise, competitive rates, and a focus on customer satisfaction, he's known for transparent communication and reliable guidance. Clients trust Kenny for his integrity and experience in navigating the lending process.",

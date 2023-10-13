@@ -1,20 +1,25 @@
 import React from "react";
-import ParallaxComponent from '../../components/ParallaxComponent'
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './get.scss'
 import { Container, Button } from "@mui/material";
-
+import ContactForm from "../../components/ContactForm/ContactForm";
 
 function GetMortgage() {
-    const parallaxProp =[
-        {headerImage: "/where-to-get.jpg"},
-        {headerTitle: "Where to get a Reverse Mortgage?"}
-      ]
+    // const parallaxProp =[
+    //     {headerImage: "/where-to-get.jpg"},
+    //     {headerTitle: "Where to get a Reverse Mortgage?"}
+    //   ]
+    const headerProp =[
+      {headerImage: "/where-to-get.jpg"},
+      {headerTitle: "Where to get a Reverse Mortgage?"},
+      {pHeader: ""}
+    ]
   return (
     <>
-       <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+    <HeaderPage headerProp={headerProp ?? []}/>
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
       <Container maxWidth="md">
         <p id="reverse-mortgage-utah-blog-p">
           As of my last update in September 2021, reverse mortgages are
@@ -75,7 +80,9 @@ function GetMortgage() {
                   Go Back
                 </Button>
       </Container>
-      
+      <div id="reverse-mortgage-texas-home-Container-Contactform">
+        <ContactForm id="reverse-mortgage-texas-home-Container-Contactform2" />
+      </div>
     </>
   );
 }

@@ -1,22 +1,26 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import ParallaxComponent from '../../components/ParallaxComponent'
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './venice.scss'
 
 
 function Venice() {
-    const parallaxProp =[
-        {headerImage: "/city-reverse-mortgage-florida.jpg"},
-        {headerTitle: "Venice Reverse Mortgage Florida"}
-      ]
-
+    // const parallaxProp =[
+    //     {headerImage: "/city-reverse-mortgage-florida.jpg"},
+    //     {headerTitle: "Venice Reverse Mortgage Florida"}
+    //   ]
+    const headerProp =[
+      {headerImage: "/city-reverse-mortgage-florida.jpg"},
+      {headerTitle: "Venice Florida mortgages and Reverse mortgages"},
+      {pHeader: "Kenny excels in Venice, Florida, as a lender for both traditional and reverse mortgages. His local expertise, competitive rates, and dedicated client service make him a top-notch choice."}
+    ]
   return (
     <>
-      <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+    <HeaderPage headerProp={headerProp ?? []}/>
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">
@@ -43,9 +47,6 @@ function Venice() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div>
-            <h2 id="reverse-mortgage-texas-contact-us-contact-section">
-              Request A Free Consultation Today
-            </h2>
             <ContactForm></ContactForm>
           </div>
           <div>

@@ -1,21 +1,24 @@
 import React from "react";
 import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import ParallaxComponent from '../../components/ParallaxComponent'
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './bountiful.scss'
 
 
 function Bountiful() {
-    const parallaxProp =[
-        {headerImage: "/bountiful-reverse-mortgage-utah.jpg"},
-        {headerTitle: "Bountiful Reverse Mortgage Utah Expert"}
-      ]
+
+    const headerProp =[
+      {headerImage: "/bountiful-reverse-mortgage-utah.jpg"},
+      {headerTitle: "Bountiful Utah mortgages and Reverse mortgages"},
+      {pHeader: "Kenny is an outstanding lender in Bountiful, Utah, known for his expertise in traditional and reverse mortgages. His local insights, competitive rates, and client-centric approach make him highly recommended."}
+    ]
+    
   return (
     <>
-      <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+    <HeaderPage headerProp={headerProp ?? []}/>
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">
@@ -37,9 +40,6 @@ function Bountiful() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div>
-            <h2 id="reverse-mortgage-texas-contact-us-contact-section">
-              Request A Free Consultation Today
-            </h2>
             <ContactForm></ContactForm>
           </div>
           <div>

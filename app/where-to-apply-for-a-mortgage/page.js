@@ -1,21 +1,22 @@
 import React from "react";
-import ParallaxComponent from '../../components/ParallaxComponent'
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './apply.scss'
 import { Container, Button } from "@mui/material";
-
+import ContactForm from "../../components/ContactForm/ContactForm";
 
 function Apply() {
-    const parallaxProp =[
-        {headerImage: "/what-mortgage-afford.jpg"},
-        {headerTitle: "What mortgage can I afford?"}
-      ]
 
+      const headerProp =[
+        {headerImage: "/what-mortgage-afford.jpg"},
+        {headerTitle: "Where to apply for a reverse mortgage?"},
+        {pHeader: ""}
+      ]
   return (
     <>
-      <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+<HeaderPage headerProp={headerProp ?? []}/>
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
       <Container maxWidth="md">
         <p id="reverse-mortgage-utah-blog-p">
           To apply for a reverse mortgage, you can follow these general steps:
@@ -85,7 +86,9 @@ function Apply() {
           Go Back
         </Button>
       </Container>
-      
+      <div id="reverse-mortgage-texas-home-Container-Contactform">
+        <ContactForm id="reverse-mortgage-texas-home-Container-Contactform2" />
+      </div>
     </>
   );
 }

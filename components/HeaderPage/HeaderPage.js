@@ -5,7 +5,7 @@ import { Stack } from "@mui/material";
 function HeaderPage(props) {
 
     const { headerProp } = props;
-    console.log(headerProp);
+
   return (
     <>
       <div id="headerPage">

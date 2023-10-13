@@ -26,14 +26,14 @@ import HeaderPage from '../components/HeaderPage/HeaderPage'
 const Home = () => {
   const headerProp =[
     {headerImage: "/3.jpg"},
-    {headerTitle: "Your Utah local lender."},
+    {headerTitle: "Your Utah Local Lender."},
     {pHeader: "As a Utah mortgage company, we provide personalized home financing with local expertise and competitive rates. From first-time buyers, Reverse Mortgages to refinancing, we offer quick approvals and guidance, ensuring your homeownership dreams come true."}
   ]
   
   return (
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <ParallaxComponent parallaxProp={parallaxProp ?? []}/> */}
+    
     <Container>
     <div className="experience-badge">
           <img src='/top.png' alt="Top performer 2023" />

@@ -1,20 +1,22 @@
 import React from "react";
-import ParallaxComponent from '../../components/ParallaxComponent'
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './afford.scss'
 import { Container, Button } from "@mui/material";
-
+import ContactForm from "../../components/ContactForm/ContactForm";
 
 function Afford() {
-    const parallaxProp =[
+
+      const headerProp =[
         {headerImage: "/what-mortgage-afford.jpg"},
-        {headerTitle: "What mortgage can I afford?"}
+        {headerTitle: "What Mortgage Can I Afford?"},
+        {pHeader: ""}
       ]
   return (
     <>
-      <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+     <HeaderPage headerProp={headerProp ?? []}/>
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
       <Container maxWidth="md">
         <p id="reverse-mortgage-utah-blog-p">
           Determining what mortgage you can afford involves considering various
@@ -94,7 +96,9 @@ function Afford() {
           Go Back
         </Button>
       </Container>
-      
+      <div id="reverse-mortgage-texas-home-Container-Contactform">
+        <ContactForm id="reverse-mortgage-texas-home-Container-Contactform2" />
+      </div>
     </>
   );
 }

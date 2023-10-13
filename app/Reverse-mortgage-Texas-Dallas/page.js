@@ -1,21 +1,25 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import ParallaxComponent from '../../components/ParallaxComponent'
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './dallas.scss'
 
 function Dallas() {
-    const parallaxProp =[
-        {headerImage: "/dallas-city-reverse-mortgage-texas.jpg"},
-        {headerTitle: "Dallas Reverse Mortgage Texas"}
-      ]
-
+    // const parallaxProp =[
+    //     {headerImage: "/dallas-city-reverse-mortgage-texas.jpg"},
+    //     {headerTitle: "Dallas Reverse Mortgage Texas"}
+    //   ]
+    const headerProp =[
+      {headerImage: "/dallas-city-reverse-mortgage-texas.jpg"},
+      {headerTitle: "Dallas Texas mortgages and Reverse mortgages"},
+      {pHeader: "Kenny is an outstanding lender in Dallas, Texas, excelling in both traditional and reverse mortgages. His local expertise, competitive rates, and dedication to clients make him a top choice."}
+    ]
   return (
     <>
-     <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+    <HeaderPage headerProp={headerProp ?? []}/>
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">
@@ -44,9 +48,6 @@ function Dallas() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div>
-            <h2 id="reverse-mortgage-texas-contact-us-contact-section">
-              Request A Free Consultation Today
-            </h2>
             <ContactForm></ContactForm>
           </div>
           <div>
@@ -62,7 +63,7 @@ function Dallas() {
               spacing={{ xs: 1, sm: 1, md: 6 }}
             >
               <p id="salt-lake-city-p">
-                In Dallas, Texas, you'll find Kenny Farshchian and his team,
+                In Dallas, Texas, you'll find <a href="/aboutus" type="page" id="pageLinksOnPage">Kenny Farshchian</a> and his team,
                 boasting years of experience in the mortgage industry, making
                 them true experts in finding the right loan for you while
                 ensuring a smooth process. As licensed lenders, trusted in
@@ -93,7 +94,7 @@ function Dallas() {
 
         <p id="salt-lake-city-p">
           Discover why we are the most ideal provider for first-time buyer home
-          loans in Dallas, TX. Our track record speaks for itself! Contact us
+          loans in Dallas, TX. Our track record speaks for itself! <a href="/contact" type="page" id="pageLinksOnPage">Contact us</a>
           today to experience a seamless and rewarding home financing journey
           with Kenny Farshchian and his team.
         </p>

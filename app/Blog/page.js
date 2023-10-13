@@ -1,6 +1,6 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import ParallaxComponent from '../../components/ParallaxComponent'
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import {
   Container,
   Button,
@@ -16,17 +16,19 @@ import './blog.scss'
 
 
 function Austin() {
-    const parallaxProp =[
-        {headerImage: "/blog-reverse-mortgage-utah.jpg"},
-        {headerTitle: "Reaping the Benefits of Reverse Mortgages Securing Your Financial Future in Retirement"}
-      ]
-
+  
+    const headerProp =[
+      {headerImage: "/blog-reverse-mortgage-utah.jpg"},
+      {headerTitle: "Securing Your Financial Future in mortgages and Reverse mortgages Blog"},
+      {pHeader: ""}
+    ]
+    
   return (
     <>
-      <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+     <HeaderPage headerProp={headerProp ?? []}/>
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
       <Container maxWidth="md">
         <Stack
           direction={{ xs: "column", sm: "row" }}
@@ -34,6 +36,7 @@ function Austin() {
           sx={{
             justifyContent: "center",
             alignItems: "center",
+            margin: "55px"
           }}
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
@@ -121,6 +124,100 @@ function Austin() {
               </Button>
             </CardActions>
           </Card>
+        </Stack>
+        {/* stack 2 for card */}
+        <Stack
+          direction={{ xs: "column", sm: "row" }}
+          id="reverse-mortgage-utah-home-Container-stack-card"
+          sx={{
+            justifyContent: "center",
+            alignItems: "center",
+            margin: "55px"
+          }}
+          spacing={{ xs: 1, sm: 2, md: 2 }}
+        >
+          {/* card 1 */}
+          <Card sx={{ maxWidth: 345, minWidth:320 }}>
+            <CardMedia
+              sx={{ height: 140 }}
+              image='/doesTheBankOwnMyMortgage.jpg'
+              title="green iguana"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+              Does the Bank Own My Home with a Reverse Mortgage?
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+              Reverse mortgages have gained popularity in recent years as a financial tool for retirees looking to tap into the equity of their homes...
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button
+                title="Does the Bank Own My Home with a Reverse Mortgage?"
+                href="/does-the-bank-own-my-home-with-a-reverse-mortgage"
+                id="reverse-mortgage-utah-home-button-1"
+                size="small"
+              >
+                Read it here
+              </Button>
+            </CardActions>
+          </Card>
+          {/* card 2 */}
+          {/* <Card sx={{ maxWidth: 345, minWidth:320 }}>
+            <CardMedia
+              sx={{ height: 140 }}
+              image='/where-to-apply.jpg'
+              title="green iguana"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                where to apply for a reverse mortgage?
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                To apply for a reverse mortgage, you can follow these general
+                steps: Research and compare lenders: Start by researching
+                various lenders...
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button
+                title="reverse mortgage utah"
+                href="where-to-apply-for-a-mortgage"
+                id="reverse-mortgage-utah-home-button-1"
+                size="small"
+              >
+                Read it here
+              </Button>
+            </CardActions>
+          </Card> */}
+          {/* card 3 */}
+          {/* <Card sx={{ maxWidth: 345, minWidth:320 }}>
+            <CardMedia
+              sx={{ height: 140 }}
+              image='/what-mortgage-afford.jpg'
+              title="green iguana"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                What mortgage can I afford?
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Determining what mortgage you can afford involves considering
+                various financial factors to ensure you can comfortably manage
+                your monthly payments and...
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button
+                title="reverse mortgage utah"
+                href="../how-much-mortgage-can-I-afford"
+                id="reverse-mortgage-utah-home-button-1"
+                size="small"
+              >
+                Read it here
+              </Button>
+            </CardActions>
+          </Card> */}
         </Stack>
       </Container>
       <div id="reverse-mortgage-texas-home-Container-Contactform">

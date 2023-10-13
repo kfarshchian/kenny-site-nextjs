@@ -4,24 +4,26 @@ import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import "./aboutus.scss";
 import { Container, Stack } from "@mui/material";
-import ParallaxComponent from '../../components/ParallaxComponent'
+import HeaderPage from "../../components/HeaderPage/HeaderPage";
 
 // export const metadata = {
 //   title: 'About us',
 //   description: '...',
 // }
 function aboutus() {
-  const parallaxProp =[
+
+  const headerProp =[
     {headerImage: "/arch-utah-reverse-mortgage-utah.jpg"},
-    {headerTitle: "Utah Loan Officer and Utah Mortgage Broker"}
+    {headerTitle: "Utah Loan Officer and Utah Mortgage Lender."},
+    {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
   ]
-  
   return (
     <>
-    <ParallaxComponent parallaxProp={parallaxProp ?? []}/>
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+    <HeaderPage headerProp={headerProp ?? []}/>
+    
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
       <Container maxWidth="md">
         <h2 id="reverse-mortgage-florida-aboutus-Container-h2">
           Kenny Farshchian
