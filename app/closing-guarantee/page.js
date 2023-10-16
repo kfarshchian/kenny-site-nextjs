@@ -26,9 +26,9 @@ function ClosingGuarantee() {
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
 
-    <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
+    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
     reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1>
+    </h1> */}
       <Container maxWidth="md">
         <h2 id="mortgage-broker-utah-closing-guarantee-Container-h2">
           Our Commitment to You

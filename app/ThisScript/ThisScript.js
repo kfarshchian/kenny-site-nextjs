@@ -14,6 +14,7 @@ function ThisScript() {
     type='text/javascript'>
     </script>
     <script src="https://cdn.userway.org/widget.js" data-account="TFsl3YzRJU"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JS8BE8RMX7"></script>
 </>
   );
 }
