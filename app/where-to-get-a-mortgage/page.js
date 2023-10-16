@@ -4,6 +4,11 @@ import './get.scss'
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 
+export const metadata = {
+  title: 'Blog | Where to get a Reverse Mortgage? | Utah Mortgage Lender and Reverse Mortgages |',
+  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Where to get a Reverse Mortgage?',
+}
+
 function GetMortgage() {
     // const parallaxProp =[
     //     {headerImage: "/where-to-get.jpg"},

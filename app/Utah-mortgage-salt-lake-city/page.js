@@ -4,6 +4,11 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import "./saltlakecity.scss";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 
+export const metadata = {
+  title: 'Salt lake City | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
+  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Salt lake City.',
+}
+
 function SaltLakeCity() {
   const headerProp = [
     { headerImage: "/utah-mortgage-salt-lake-city.jpg" },

@@ -4,6 +4,12 @@ import './bankOwn.scss'
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 
+export const metadata = {
+  title: 'Blog | Does the Bank Own My Home with a Reverse Mortgage? | Utah Mortgage Lender and Reverse Mortgages |',
+  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Does the Bank Own My Home with a Reverse Mortgage?',
+}
+
+
 function Afford() {
 
       const headerProp =[

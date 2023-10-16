@@ -6,10 +6,10 @@ import "./aboutus.scss";
 import { Container, Stack } from "@mui/material";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 
-// export const metadata = {
-//   title: 'About us',
-//   description: '...',
-// }
+export const metadata = {
+  title: 'About Us | Utah Mortgage Lender and Reverse Mortgages | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
+  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers.',
+}
 function aboutus() {
 
   const headerProp =[

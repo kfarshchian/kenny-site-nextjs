@@ -4,6 +4,11 @@ import Contactform from '../../components/ContactForm/ContactForm'
 import ParallaxComponent from '../../components/ParallaxComponent'
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 
+export const metadata = {
+  title: 'Types of Home Loans | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
+  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Types of Home Loans.',
+}
+
 function Loans() {
 
 // const parallaxProp =[

@@ -6,6 +6,11 @@ import ParallaxComponent from '../../components/ParallaxComponent'
 import VTimeline from '@/components/VTimeline'
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 
+export const metadata = {
+  title: 'Our Process | Utah Mortgage Lender and Reverse Mortgages | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
+  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process.',
+}
+
 function OurProcess() {
       
     const headerProp =[

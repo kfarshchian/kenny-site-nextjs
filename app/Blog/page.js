@@ -13,7 +13,10 @@ import {
 } from "@mui/material";
 import './blog.scss'
 
-
+export const metadata = {
+  title: 'Blog | Utah Mortgage Lender and Reverse Mortgages | Kenny Farshchian W/Primary Residential Mortgage, Inc. ',
+  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Blog',
+}
 
 function Austin() {
   
