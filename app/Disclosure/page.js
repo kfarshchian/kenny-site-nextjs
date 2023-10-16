@@ -4,6 +4,11 @@ import ParallaxComponent from '../../components/ParallaxComponent'
 import "./Disclosure.scss";
 import { Container } from "@mui/material";
 
+export const metadata = {
+  title: 'Disclosure & Information | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
+  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Disclosure & Information.',
+}
+
 function Disclosure() {
     const parallaxProp =[
         {headerImage: "/Disclosure.jpg"},
