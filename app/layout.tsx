@@ -6,6 +6,7 @@ import Footer from '@/components/Footer'
 import ThisScript from './ThisScript/ThisScript'
 import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] })
+import {GoogleAnalyticsTracking} from '../components/GoogleAnalyticsTracking/GoogleAnalyticsTracking'
 
 export const metadata: Metadata = {
   title: 'Loan officer Utah | Utah mortgage | Mortgage broker Utah | Reverse Mortgage Florida | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
@@ -19,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
+      <GoogleAnalyticsTracking/>
       <body>
       <Navbar />
       <main>
