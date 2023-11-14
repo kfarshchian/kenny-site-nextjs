@@ -8,7 +8,7 @@ export const metadata = {
   title:
     "Blog | Beginner Guide to Reverse Mortgages: Unlocking Your Home Potential | Utah Mortgage Lender and Reverse Mortgages |",
   description:
-    "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Does the Bank Own My Home with a Reverse Mortgage?",
+    "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Beginner Guide to Reverse Mortgages: Unlocking Your Home Potential!",
 };
 
 function beginnerGuide() {
