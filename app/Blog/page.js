@@ -166,33 +166,31 @@ function Austin() {
             </CardActions>
           </Card>
           {/* card 2 */}
-          {/* <Card sx={{ maxWidth: 345, minWidth:320 }}>
+          <Card sx={{ maxWidth: 345, minWidth:320 }}>
             <CardMedia
               sx={{ height: 140 }}
-              image='/where-to-apply.jpg'
+              image='/pastdue.jpg'
               title="green iguana"
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                where to apply for a reverse mortgage?
+              Beginner Guide's to Reverse Mortgages: Unlocking Your Home's Potential!
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                To apply for a reverse mortgage, you can follow these general
-                steps: Research and compare lenders: Start by researching
-                various lenders...
+              As homeowners approach retirement, the prospect of a reverse mortgage may spark curiosity and questions. This be...
               </Typography>
             </CardContent>
             <CardActions>
               <Button
-                title="reverse mortgage utah"
-                href="where-to-apply-for-a-mortgage"
+                title="Beginner Guide's to Reverse Mortgages: Unlocking Your Home's Potential!"
+                href="/Beginner-Guide-to-Reverse-Mortgage-Utah-Florida-Texas"
                 id="reverse-mortgage-utah-home-button-1"
                 size="small"
               >
                 Read it here
               </Button>
             </CardActions>
-          </Card> */}
+          </Card>
           {/* card 3 */}
           {/* <Card sx={{ maxWidth: 345, minWidth:320 }}>
             <CardMedia
