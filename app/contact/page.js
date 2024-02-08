@@ -110,6 +110,16 @@ function ContactUs() {
           Contact him today to discover the exceptional services he can provide
           for you.
         </p>
+        <div id="hours">
+        <h2 id="hoursTitle">Business Hours</h2>
+        <p id="hoursDay">Sunday Closed</p>
+        <p id="hoursDay">Monday 9AM - 5PM</p>
+        <p id="hoursDay">Tuesday 9AM - 5PM</p>
+        <p id="hoursDay">Wednesday 9AM - 5PM</p>
+        <p id="hoursDay">Thursday 9AM - 5PM</p>
+        <p id="hoursDay">Friday 9AM - 5PM</p>
+        <p id="hoursDay">Saturday Closed</p>
+        </div>
       </Container>
     </>
   );

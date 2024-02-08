@@ -90,3 +90,18 @@
 #H1-home{
     color: white;
 }
+#hours{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#hoursTitle{
+    font-size: 35px;
+    font-weight: bold;
+    color: #00A3E0;
+}
+#hoursDay{
+    font-size: 20px;
+}
