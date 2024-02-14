@@ -20,6 +20,7 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import HeaderPage from '../components/HeaderPage/HeaderPage'
+import Head from "next/head";
 
 export const metadata = {
   title: 'Loan officer Utah | Utah mortgage | Mortgage broker Utah | Reverse Mortgage Florida | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
@@ -37,6 +38,9 @@ const Home = () => {
   
   return (
     <>
+    <Head>
+    <meta name="robots" content="all" />
+    </Head>
     <HeaderPage headerProp={headerProp ?? []}/>
     
     <Container>
