@@ -13,13 +13,13 @@ function Reviews() {
 <Container>
    
     <Helmet>
-    <script
+    {/* <script
     id='ss-custom-reviews-widget-script'
     src='https://d1gxt2ovmgw1zu.cloudfront.net/custom_reviews_widget_script.js'
     ss-custom-reviews-widget-api-key='YVrdF2s34AXyXZbfXfRdmOTu9IzfQIMXshQUIlYJkAocl-kPn1ImZPMUgwdewc2aokKBBr9CZbyDWUw3'
     widget-key='SBfGZAbY7zQYRJdUvUcZBw'
     type='text/javascript'>
-    </script>
+    </script> */}
         </Helmet>
         <div id="ss-custom-reviews-widget-root" />
         </Container>

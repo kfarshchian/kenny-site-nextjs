@@ -616,7 +616,10 @@ const Home = () => {
         </Stack>
       </Container>
       {/* reviews experience */}
-      <Reviews />
+      {/* <Reviews /> */}
+      <Container>
+      <div id="ss-custom-reviews-widget-root" />
+      </Container>
       {/* faqs */}
       {/* map */}
       <Container>
