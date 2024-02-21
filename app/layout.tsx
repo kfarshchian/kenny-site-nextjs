@@ -24,11 +24,11 @@ export default function RootLayout({
       <meta name="robots" content="all" />
       <GoogleAnalyticsTracking/>
       <body>
-        <Analytics />
       <Navbar />
       <main>
       <ThisScript />
         {children}
+        <Analytics />
       </main>
       <Footer />
       </body>
