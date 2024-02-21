@@ -25,13 +25,11 @@ import Head from "next/head";
 export const metadata = {
   title: 'Loan officer Utah | Utah mortgage | Mortgage broker Utah | Reverse Mortgage Florida | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
   description: 'Best Reverse Mortgage expert in Utah, Florida, and Texas',
-  name: 'robots',
-  content: 'follow',
 }
 
 const Home = () => {
   const headerProp =[
-    {headerImage: "/3.jpg"},
+    {headerImage: "https://i.imgur.com/ADnwMSM.jpeg"},
     {headerTitle: "Your Utah Local Lender."},
     {pHeader: "As a Utah mortgage company, we provide personalized home financing with local expertise and competitive rates. From first-time buyers, Reverse Mortgages to refinancing, we offer quick approvals and guidance, ensuring your homeownership dreams come true."}
   ]
@@ -39,7 +37,7 @@ const Home = () => {
   return (
     <>
     <Head>
-    <meta name="robots" content="all" />
+    {/* <meta name="robots" content="all" /> */}
     </Head>
     <HeaderPage headerProp={headerProp ?? []}/>
     

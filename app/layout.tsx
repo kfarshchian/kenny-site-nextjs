@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   description: 'Best Reverse Mortgage expert in Utah, Florida, and Texas',
 }
 
+
 export default function RootLayout({
   children,
 }: {
@@ -20,13 +21,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta name="robots" content="all" />
       <GoogleAnalyticsTracking/>
       <body>
+        <Analytics />
       <Navbar />
       <main>
       <ThisScript />
         {children}
-        <Analytics />
       </main>
       <Footer />
       </body>
