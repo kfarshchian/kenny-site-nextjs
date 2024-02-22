@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeaderPage.scss";
 import { Stack } from "@mui/material";
+import Image from "next/image";
 
 function HeaderPage(props) {
 
@@ -25,7 +26,7 @@ function HeaderPage(props) {
             </p>
           </div>
           <div id="headerImage">
-            <img src={headerProp[0].headerImage} alt="keys" />
+            <Image src={headerProp[0].headerImage} alt="keys"  priority/>
           </div>
         </Stack>
       </div>

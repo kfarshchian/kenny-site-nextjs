@@ -8,19 +8,20 @@ import {
   Typography,
   CardContent,
   CardActions,
-  // Box
 } from "@mui/material";
 import './home.scss'
 import ContactForm from "@/components/ContactForm/ContactForm";
 import Slidein from '@/components/SlideIn/SlideIn'
 import VTimeline from '@/components/VTimeline'
-import Reviews from '@/components/Reviews/index'
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import HeaderPage from '../components/HeaderPage/HeaderPage'
 import Head from "next/head";
+import Image from "next/image";
+import ExperienceBanner from "../public/top.png"
+import HeaderImage from "../public/3.jpg"
 
 export const metadata = {
   title: 'Loan officer Utah | Utah mortgage | Mortgage broker Utah | Reverse Mortgage Florida | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
@@ -29,7 +30,7 @@ export const metadata = {
 
 const Home = () => {
   const headerProp =[
-    {headerImage: "https://i.imgur.com/ADnwMSM.jpeg"},
+    {headerImage: HeaderImage},
     {headerTitle: "Your Utah Local Lender."},
     {pHeader: "As a Utah mortgage company, we provide personalized home financing with local expertise and competitive rates. From first-time buyers, Reverse Mortgages to refinancing, we offer quick approvals and guidance, ensuring your homeownership dreams come true."}
   ]
@@ -43,7 +44,7 @@ const Home = () => {
     
     <Container>
     <div className="experience-badge">
-          <img src='/top.png' alt="Top performer 2023" />
+          <Image src={ExperienceBanner} alt="Top Utah Loan Officer performer 2024"/>
         </div>
     </Container>
     <Container>
@@ -616,7 +617,6 @@ const Home = () => {
         </Stack>
       </Container>
       {/* reviews experience */}
-      {/* <Reviews /> */}
       <Container>
       <div id="ss-custom-reviews-widget-root" />
       </Container>
