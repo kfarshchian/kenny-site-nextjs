@@ -1,10 +1,9 @@
 import React from "react";
-
-// import kenny from "../logos/kennyf.png";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import "./aboutus.scss";
 import { Container, Stack } from "@mui/material";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderImage from "/public/arch-utah-reverse-mortgage-utah.jpg"
 
 export const metadata = {
   title: 'About Us | Utah Mortgage Lender and Reverse Mortgages | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
@@ -13,17 +12,13 @@ export const metadata = {
 function aboutus() {
 
   const headerProp =[
-    {headerImage: "/arch-utah-reverse-mortgage-utah.jpg"},
+    {headerImage: HeaderImage},
     {headerTitle: "Utah Loan Officer and Utah Mortgage Lender."},
     {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
   ]
   return (
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
-    
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
       <Container maxWidth="md">
         <h2 id="reverse-mortgage-florida-aboutus-Container-h2">
           Kenny Farshchian

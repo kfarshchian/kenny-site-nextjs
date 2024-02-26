@@ -3,6 +3,7 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import "./beginnerguide.scss";
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
+import HeaderImage from "/public/pastdue.jpg"
 
 export const metadata = {
   title:
@@ -13,7 +14,7 @@ export const metadata = {
 
 function beginnerGuide() {
   const headerProp = [
-    { headerImage: "/pastdue.jpg" },
+    { headerImage: HeaderImage },
     {
       headerTitle:
         "Beginner Guide's to Reverse Mortgages: Unlocking Your Home's Potential!",
@@ -23,9 +24,6 @@ function beginnerGuide() {
   return (
     <>
       <HeaderPage headerProp={headerProp ?? []} />
-      {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
       <Container maxWidth="md">
         <h2 id="blogTitle">Introduction:</h2>
         <p id="reverse-mortgage-utah-blog-p">

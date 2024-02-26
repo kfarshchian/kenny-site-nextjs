@@ -3,6 +3,7 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './venice.scss'
+import HeaderImage from "/public/city-reverse-mortgage-florida.jpg"
 
 export const metadata = {
   title: 'Venice | Florida Mortgage Lender and Reverse Mortgages | Florida Mortgage Lender and Reverse Mortgages |',
@@ -10,21 +11,16 @@ export const metadata = {
 }
 
 function Venice() {
-    // const parallaxProp =[
-    //     {headerImage: "/city-reverse-mortgage-florida.jpg"},
-    //     {headerTitle: "Venice Reverse Mortgage Florida"}
-    //   ]
+
     const headerProp =[
-      {headerImage: "/city-reverse-mortgage-florida.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "Venice Florida mortgages and Reverse mortgages"},
       {pHeader: "Kenny excels in Venice, Florida, as a lender for both traditional and reverse mortgages. His local expertise, competitive rates, and dedicated client service make him a top-notch choice."}
     ]
   return (
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
+
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">

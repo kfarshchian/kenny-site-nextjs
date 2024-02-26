@@ -3,6 +3,7 @@ import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import "./saltlakecity.scss";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import headerImage from "/public/utah-mortgage-salt-lake-city.jpg"
 
 export const metadata = {
   title: 'Salt lake City | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
@@ -11,7 +12,7 @@ export const metadata = {
 
 function SaltLakeCity() {
   const headerProp = [
-    { headerImage: "/utah-mortgage-salt-lake-city.jpg" },
+    { headerImage: headerImage },
     { headerTitle: "Salt lake City mortgages and Reverse mortgages" },
     {
       pHeader:

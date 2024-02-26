@@ -1,8 +1,8 @@
 import './Loans.scss'
 import { Container, Button, Grid } from '@mui/material';
 import Contactform from '../../components/ContactForm/ContactForm'
-import ParallaxComponent from '../../components/ParallaxComponent'
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderImage from "/public/reverse-mortgage-florida-reverse-mortgage-texas.jpg"
 
 export const metadata = {
   title: 'Types of Home Loans | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
@@ -11,12 +11,9 @@ export const metadata = {
 
 function Loans() {
 
-// const parallaxProp =[
-//   {headerImage: "/reverse-mortgage-florida-reverse-mortgage-texas.png"},
-//   {headerTitle: "Types of Home Loans"}
-// ]
+
 const headerProp =[
-  {headerImage: "/reverse-mortgage-florida-reverse-mortgage-texas.jpg"},
+  {headerImage: HeaderImage},
   {headerTitle: "Types of Home Loans"},
   {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
 ]
@@ -24,9 +21,6 @@ const headerProp =[
     
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
       <Container>
         <h2 id='Reverse-Mortgage-Florida-Container-title'>Our Services</h2>
         <Button  href={'#Reverse-Mortgage-Florida-Container-button'} id='Reverse-Mortgage-Florida-Container-button'>Home Loans</Button> <Button href={'https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com'} id='Reverse-Mortgage-Florida-Container-button'>Refinance</Button> 

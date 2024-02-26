@@ -165,10 +165,10 @@ body {
 .profile_projects {
   @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mt-5;
 }
-#userwayAccessibilityIcon{
-  position: absolute;
-  top: 94%;
-  left: 99%;
+.userway_buttons_wrapper{
+    /* display:flex; */
+     top: 93% !important;
+     right: 0 !important;
  }
  .reverse-mortgage-utah-home-Container-stack-img1 {
   display: flex;

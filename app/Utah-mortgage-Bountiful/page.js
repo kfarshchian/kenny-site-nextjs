@@ -3,6 +3,7 @@ import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './bountiful.scss'
+import HeaderImage from "/public/bountiful-rates-reverse-mortgage-utah.jpg"
 
 export const metadata = {
   title: 'Bountiful | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
@@ -12,7 +13,7 @@ export const metadata = {
 function Bountiful() {
 
     const headerProp =[
-      {headerImage: "/bountiful-reverse-mortgage-utah.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "Bountiful Utah mortgages and Reverse mortgages"},
       {pHeader: "Kenny is an outstanding lender in Bountiful, Utah, known for his expertise in traditional and reverse mortgages. His local insights, competitive rates, and client-centric approach make him highly recommended."}
     ]
@@ -20,9 +21,7 @@ function Bountiful() {
   return (
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
+
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">

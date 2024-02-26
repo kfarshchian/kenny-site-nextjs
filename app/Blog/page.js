@@ -12,6 +12,7 @@ import {
   CardActions,
 } from "@mui/material";
 import './blog.scss'
+import HeaderImage from "/public/blog-reverse-mortgage-utah.jpg"
 
 export const metadata = {
   title: 'Blog | Utah Mortgage Lender and Reverse Mortgages | Kenny Farshchian W/Primary Residential Mortgage, Inc. ',
@@ -21,7 +22,7 @@ export const metadata = {
 function Austin() {
   
     const headerProp =[
-      {headerImage: "/blog-reverse-mortgage-utah.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "Securing Your Financial Future in mortgages and Reverse mortgages Blog"},
       {pHeader: ""}
     ]
@@ -29,9 +30,7 @@ function Austin() {
   return (
     <>
      <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
+
       <Container maxWidth="md">
         <Stack
           direction={{ xs: "column", sm: "row" }}

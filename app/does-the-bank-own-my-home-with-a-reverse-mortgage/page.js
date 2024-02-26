@@ -3,6 +3,7 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './bankOwn.scss'
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
+import HeaderImage from "/public/doesTheBankOwnMyMortgage.jpg"
 
 export const metadata = {
   title: 'Blog | Does the Bank Own My Home with a Reverse Mortgage? | Utah Mortgage Lender and Reverse Mortgages |',
@@ -13,16 +14,13 @@ export const metadata = {
 function Afford() {
 
       const headerProp =[
-        {headerImage: "/doesTheBankOwnMyMortgage.jpg"},
+        {headerImage: HeaderImage},
         {headerTitle: "Does the Bank Own My Home with a Reverse Mortgage?"},
         {pHeader: ""}
       ]
   return (
     <>
      <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
       <Container maxWidth="md">
         <h2 id="blogTitle">
         Does the Bank Own My Home with a Reverse Mortgage?

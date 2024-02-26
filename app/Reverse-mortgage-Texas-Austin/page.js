@@ -3,6 +3,7 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './austin.scss'
+import HeaderImage from "/public/austin-city-reverse-mortgage-texas.jpg"
 
 export const metadata = {
   title: 'Austin | Texas Mortgage Lender and Reverse Mortgages | Texas Mortgage Lender and Reverse Mortgages |',
@@ -12,7 +13,7 @@ export const metadata = {
 function Austin() {
 
       const headerProp =[
-        {headerImage: "/austin-city-reverse-mortgage-texas.jpg"},
+        {headerImage: HeaderImage},
         {headerTitle: "Austin Texas mortgages and Reverse mortgages"},
         {pHeader: "Kenny is a top lender in Austin, Texas, offering expertise in both traditional and reverse mortgages. His local knowledge, competitive rates, and client-centered service make him a trusted choice."}
       ]
@@ -20,9 +21,6 @@ function Austin() {
   return (
     <>
       <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">

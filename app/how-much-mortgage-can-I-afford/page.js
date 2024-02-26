@@ -3,6 +3,7 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './afford.scss'
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
+import HeaderImage from "/public/what-mortgage-afford.jpg"
 
 export const metadata = {
   title: 'Blog | What Mortgage Can I Afford? | Utah Mortgage Lender and Reverse Mortgages |',
@@ -13,16 +14,13 @@ export const metadata = {
 function Afford() {
 
       const headerProp =[
-        {headerImage: "/what-mortgage-afford.jpg"},
+        {headerImage: HeaderImage},
         {headerTitle: "What Mortgage Can I Afford?"},
         {pHeader: ""}
       ]
   return (
     <>
      <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
       <Container maxWidth="md">
         <p id="reverse-mortgage-utah-blog-p">
           Determining what mortgage you can afford involves considering various

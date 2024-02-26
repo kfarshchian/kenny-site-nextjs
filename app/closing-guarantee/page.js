@@ -1,34 +1,29 @@
-
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import { Container, Stack, Button } from "@mui/material";
-import './closing-guarantee.scss'
-import ParallaxComponent from '../../components/ParallaxComponent'
+import "./closing-guarantee.scss";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderImage from "/public/mortgage-broker-utah-approved.jpg";
 
 export const metadata = {
-  title: 'Loan Closing Guarantee | Utah Mortgage Lender and Reverse Mortgages | Kenny Farshchian W/Primary Residential Mortgage, Inc. ',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee.',
-}
+  title:
+    "Loan Closing Guarantee | Utah Mortgage Lender and Reverse Mortgages | Kenny Farshchian W/Primary Residential Mortgage, Inc. ",
+  description:
+    "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee.",
+};
 
 function ClosingGuarantee() {
-    // const parallaxProp =[
-    //     {headerImage: "/mortgage-broker-utah-approved.jpg"},
-    //     {headerTitle: "Loan Closing Guarantee"}
-    //   ]
-
-      const headerProp =[
-        {headerImage: "/mortgage-broker-utah-approved.jpg"},
-        {headerTitle: "Loan Closing Guarantee."},
-        {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
-      ]
+  const headerProp = [
+    { headerImage: HeaderImage },
+    { headerTitle: "Loan Closing Guarantee." },
+    {
+      pHeader:
+        "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers.",
+    },
+  ];
   return (
     <>
-    <HeaderPage headerProp={headerProp ?? []}/>
-
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
+      <HeaderPage headerProp={headerProp ?? []} />
       <Container maxWidth="md">
         <h2 id="mortgage-broker-utah-closing-guarantee-Container-h2">
           Our Commitment to You
@@ -50,20 +45,15 @@ function ClosingGuarantee() {
               put our money where our mouth is. You’ll close as expected. And if
               you don’t?
             </p>
-            {/* <ul id="mortgage-broker-utah-closing-guarantee-stack-ul"> */}
-              {/* <li id="mortgage-broker-utah-closing-guarantee-stack-li"> */}
-                <p>We’ll give $2,500 to you, and $2,500 to the seller.*</p>
-              {/* </li> */}
-              {/* <li id="mortgage-broker-utah-closing-guarantee-stack-li"> */}
-                <p>Make your offer stronger.</p>
-              {/* </li> */}
-              {/* <li id="mortgage-broker-utah-closing-guarantee-stack-li"> */}
-                <p>Make yourself more confident.</p>
-              {/* </li> */}
-              {/* <li id="mortgage-broker-utah-closing-guarantee-stack-li"> */}
-                <p>Get our Loan Closing Guarantee.</p>
-              {/* </li> */}
-            {/* </ul> */}
+
+            <p>We’ll give $2,500 to you, and $2,500 to the seller.*</p>
+
+            <p>Make your offer stronger.</p>
+
+            <p>Make yourself more confident.</p>
+
+            <p>Get our Loan Closing Guarantee.</p>
+
             <Button
               href={"#reverse-mortgage-florida-aboutus-closingGuarantee"}
               id="reverse-mortgage-florida-aboutus-button-1"
@@ -84,7 +74,7 @@ function ClosingGuarantee() {
           <div id="reverse-mortgage-florida-aboutus-stack-container">
             <img
               id="mortgage-broker-utah-closing-guarantee-stack-img-kenny"
-              src='/sign-paperword-reverse-mortgage-utah.jpg'
+              src="/sign-paperword-reverse-mortgage-utah.jpg"
               alt="reverse mortgage Utah Moving Boxes"
             />
           </div>
@@ -118,75 +108,54 @@ function ClosingGuarantee() {
         </h3>
         <p>To be eligible for this Guarantee:</p>
         <br></br>
-            
+
         <p>
-          {/* <ul id="reverse-mortgage-florida-aboutus-closingGuarantee-ul"> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              1. The Seller must be the record owner and seller of the real
-              property described in the purchase contract between Borrower and
-              Seller (the “Property”);
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              2. The Borrower has completed a new residential first-lien loan
-              application and has submitted the application directly to PRMI
-              office 919520 for the purpose of obtaining a mortgage loan from
-              PRMI office 919520;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              3. The Borrower and Seller have provided a fully-executed purchase
-              contract (“Contract”) which must include all pages, addenda, and
-              required signatures;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              4. the Borrower has submitted all necessary pre-approval documents
-              requested by PRMI office 919520 to determine Borrower’s
-              qualification for a loan, and has received (i) a Pre-Approval
-              letter from PRMI office 919520 prior to entering into the
-              Contract; and (ii) a Certificate of Loan Guarantee from PRMI
-              office 919520;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              5. All information provided by the Borrower, including information
-              on the loan application, must be accurate and must not contain
-              fraudulent information or material misrepresentations;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              6. The actual appraised value of the Property must be equal to or
-              greater than the purchase price in the Contract and must be
-              satisfactory to PRMI office 919520;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              7. The Borrower must satisfy all loan requirements and conditions
-              at least seven (7) days prior to the anticipated closing date;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              8. If the loan product is intended to be an FHA or VA loan, the
-              Property must qualify for FHA/VA financing; and
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              9. PRMI office 919520 must be able to obtain, in its sole
-              discretion, satisfactory title insurance coverage showing Borrower
-              as the insured owner of the Property and insuring the loan and not
-              containing any exceptions, exclusions or conditions that are not
-              acceptable to PRMI office 919520.
-            {/* </li> */}
-          {/* </ul> */}
+          1. The Seller must be the record owner and seller of the real property
+          described in the purchase contract between Borrower and Seller (the
+          “Property”);
+          <br></br>
+          <br></br>
+          2. The Borrower has completed a new residential first-lien loan
+          application and has submitted the application directly to PRMI office
+          919520 for the purpose of obtaining a mortgage loan from PRMI office
+          919520;
+          <br></br>
+          <br></br>
+          3. The Borrower and Seller have provided a fully-executed purchase
+          contract (“Contract”) which must include all pages, addenda, and
+          required signatures;
+          <br></br>
+          <br></br>
+          4. the Borrower has submitted all necessary pre-approval documents
+          requested by PRMI office 919520 to determine Borrower’s qualification
+          for a loan, and has received (i) a Pre-Approval letter from PRMI
+          office 919520 prior to entering into the Contract; and (ii) a
+          Certificate of Loan Guarantee from PRMI office 919520;
+          <br></br>
+          <br></br>
+          5. All information provided by the Borrower, including information on
+          the loan application, must be accurate and must not contain fraudulent
+          information or material misrepresentations;
+          <br></br>
+          <br></br>
+          6. The actual appraised value of the Property must be equal to or
+          greater than the purchase price in the Contract and must be
+          satisfactory to PRMI office 919520;
+          <br></br>
+          <br></br>
+          7. The Borrower must satisfy all loan requirements and conditions at
+          least seven (7) days prior to the anticipated closing date;
+          <br></br>
+          <br></br>
+          8. If the loan product is intended to be an FHA or VA loan, the
+          Property must qualify for FHA/VA financing; and
+          <br></br>
+          <br></br>
+          9. PRMI office 919520 must be able to obtain, in its sole discretion,
+          satisfactory title insurance coverage showing Borrower as the insured
+          owner of the Property and insuring the loan and not containing any
+          exceptions, exclusions or conditions that are not acceptable to PRMI
+          office 919520.
         </p>
 
         <h3 id="reverse-mortgage-florida-aboutus-closingGuarantee-eligibility">
@@ -197,23 +166,16 @@ function ClosingGuarantee() {
           following circumstances occur:
         </p>
         <br></br>
-            
+
         <p>
-          {/* <ul id="reverse-mortgage-florida-aboutus-closingGuarantee-ul"> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              1. the loan closing does not take place after PRMI office 919520
-              has determined that the Borrower satisfies its internal
-              underwriting requirements to be deemed a qualified borrower and a
-              Pre-Approval Letter has been provided to the Borrower by PRMI
-              office 919520; and
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              the loan closing does not occur solely due to error on the part of
-              PRMI office 919520.
-            {/* </li> */}
-          {/* </ul> */}
+          1. the loan closing does not take place after PRMI office 919520 has
+          determined that the Borrower satisfies its internal underwriting
+          requirements to be deemed a qualified borrower and a Pre-Approval
+          Letter has been provided to the Borrower by PRMI office 919520; and
+          <br></br>
+          <br></br>
+          the loan closing does not occur solely due to error on the part of
+          PRMI office 919520.
         </p>
 
         <h3 id="reverse-mortgage-florida-aboutus-closingGuarantee-eligibility">
@@ -221,127 +183,93 @@ function ClosingGuarantee() {
         </h3>
         <p>Any of the following will cancel the Guarantee:</p>
         <p>
-        <br></br>
-            
-          {/* <ul id="reverse-mortgage-florida-aboutus-closingGuarantee-ul"> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              1. changes in the loan amount, product, or terms that
-              unnecessarily extend the anticipated closing date;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              2. failure by either party to meet Contract terms and requirements
-              including delays caused by or related to Seller;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              3. delays due to force majeure events including weather or natural
-              disaster;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              4. delays caused by third parties other than PRMI office 919520
-              required service providers;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              5. delays due to Borrower’s failure to respond to PRMI office
-              919520 requests within two (2) business days;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              6. failure to make a claim under this Guarantee within 30 days of
-              meeting its Conditions;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              7. any actions taken by the Borrower that materially change the
-              Borrower’s creditworthiness or financial situation;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              8. any actions that make payment under the Guarantee legally
-              prohibited, including bankruptcy, regulatory changes, and the
-              like;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              9. PRMI office 919520 declines the loan after the loan has been
-              pre-approved due to actions by the Borrower;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              10. the Borrower voluntarily withdraws the loan application;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              11. the Seller cancels the Contract;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              12. after expiration of the closing date set forth in the purchase
-              contract, the Borrower has the right to receive and the Seller has
-              the obligation to refund the Borrower’s earnest money.
-            {/* </li> */}
-          {/* </ul> */}
+          <br></br>
+          1. changes in the loan amount, product, or terms that unnecessarily
+          extend the anticipated closing date;
+          <br></br>
+          <br></br>
+          2. failure by either party to meet Contract terms and requirements
+          including delays caused by or related to Seller;
+          <br></br>
+          <br></br>
+          3. delays due to force majeure events including weather or natural
+          disaster;
+          <br></br>
+          <br></br>
+          4. delays caused by third parties other than PRMI office 919520
+          required service providers;
+          <br></br>
+          <br></br>
+          5. delays due to Borrower’s failure to respond to PRMI office 919520
+          requests within two (2) business days;
+          <br></br>
+          <br></br>
+          6. failure to make a claim under this Guarantee within 30 days of
+          meeting its Conditions;
+          <br></br>
+          <br></br>
+          7. any actions taken by the Borrower that materially change the
+          Borrower’s creditworthiness or financial situation;
+          <br></br>
+          <br></br>
+          8. any actions that make payment under the Guarantee legally
+          prohibited, including bankruptcy, regulatory changes, and the like;
+          <br></br>
+          <br></br>
+          9. PRMI office 919520 declines the loan after the loan has been
+          pre-approved due to actions by the Borrower;
+          <br></br>
+          <br></br>
+          10. the Borrower voluntarily withdraws the loan application;
+          <br></br>
+          <br></br>
+          11. the Seller cancels the Contract;
+          <br></br>
+          <br></br>
+          12. after expiration of the closing date set forth in the purchase
+          contract, the Borrower has the right to receive and the Seller has the
+          obligation to refund the Borrower’s earnest money.
         </p>
 
         <h3 id="reverse-mortgage-florida-aboutus-closingGuarantee-eligibility">
           LOAN CLOSING GUARANTEE
         </h3>
-        <p>The Guarantee shall not apply in the following mortgage loan transactions:</p>
         <p>
-          {/* <ul id="reverse-mortgage-florida-aboutus-closingGuarantee-ul"> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-        
-            <br></br>
-              1. the mortgage loan is a refinance loan;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              2. the mortgage loan requires any subordination of a prior loan or lien;
-              <br></br>
-            <br></br>
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-              3. a loan applicant who has disputed credit accounts;
-            
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-            <br></br>
-            <br></br>
-              4. a loan involving property requiring repairs or re-inspection; or
-            {/* </li> */}
-            {/* <li id="reverse-mortgage-florida-aboutus-closingGuarantee-li"> */}
-            <br></br>
-            <br></br>
-              5. a loan involving property which is new construction, a co-op, a bank-owned property, or a home purchased through a short sale.
-              {/* </li> */}
-          {/* </ul> */}
+          The Guarantee shall not apply in the following mortgage loan
+          transactions:
+        </p>
+        <p>
+          <br></br>
+          1. the mortgage loan is a refinance loan;
+          <br></br>
+          <br></br>
+          2. the mortgage loan requires any subordination of a prior loan or
+          lien;
+          <br></br>
+          <br></br>
+          3. a loan applicant who has disputed credit accounts;
+          <br></br>
+          <br></br>
+          4. a loan involving property requiring repairs or re-inspection; or
+          <br></br>
+          <br></br>
+          5. a loan involving property which is new construction, a co-op, a
+          bank-owned property, or a home purchased through a short sale.
         </p>
 
         <h3 id="reverse-mortgage-florida-aboutus-closingGuarantee-eligibility">
           LOAN CLOSING GUARANTEE
         </h3>
-        <p>This Guarantee is governed by the laws of The Unites States of America without regard to conflict of laws principles.</p>
+        <p>
+          This Guarantee is governed by the laws of The Unites States of America
+          without regard to conflict of laws principles.
+        </p>
         <br></br>
-        <p>PRMI office 919520 reserves the right to amend, terminate, or withdraw this Loan Closing Guarantee at any time without prior notice.</p>
-
-
+        <p>
+          PRMI office 919520 reserves the right to amend, terminate, or withdraw
+          this Loan Closing Guarantee at any time without prior notice.
+        </p>
       </Container>
-
     </>
   );
 }

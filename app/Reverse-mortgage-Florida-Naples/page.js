@@ -3,6 +3,7 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './naples.scss'
+import HeaderImage from "/public/Naples-House-sign-reverse-mortgage-florida.jpg"
 
 export const metadata = {
   title: 'Naples | Florida Mortgage Lender and Reverse Mortgages | Florida Mortgage Lender and Reverse Mortgages |',
@@ -10,21 +11,15 @@ export const metadata = {
 }
 
 function Naples() {
-    // const parallaxProp =[
-    //     {headerImage: "/Naples-House-sign-reverse-mortgage-florida.jpg"},
-    //     {headerTitle: " Naples Reverse Mortgage Florida"}
-    //   ]
+
     const headerProp =[
-      {headerImage: "/Naples-House-sign-reverse-mortgage-florida.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "Naples Florida mortgages and Reverse mortgages"},
       {pHeader: "Kenny excels in Naples, Florida, as a lender for both traditional and reverse mortgages. His local expertise, competitive rates, and dedication to clients make him a top choice."}
     ]
   return (
     <>
      <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">

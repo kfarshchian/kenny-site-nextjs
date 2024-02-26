@@ -3,6 +3,7 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './dallas.scss'
+import HeaderImage from "/public/dallas-city-reverse-mortgage-texas.jpg"
 
 export const metadata = {
   title: 'Dallas | Texas Mortgage Lender and Reverse Mortgages | Texas Mortgage Lender and Reverse Mortgages |',
@@ -10,21 +11,16 @@ export const metadata = {
 }
 
 function Dallas() {
-    // const parallaxProp =[
-    //     {headerImage: "/dallas-city-reverse-mortgage-texas.jpg"},
-    //     {headerTitle: "Dallas Reverse Mortgage Texas"}
-    //   ]
+
     const headerProp =[
-      {headerImage: "/dallas-city-reverse-mortgage-texas.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "Dallas Texas mortgages and Reverse mortgages"},
       {pHeader: "Kenny is an outstanding lender in Dallas, Texas, excelling in both traditional and reverse mortgages. His local expertise, competitive rates, and dedication to clients make him a top choice."}
     ]
   return (
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
+
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">

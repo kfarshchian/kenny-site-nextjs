@@ -3,6 +3,7 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './palmbeach.scss'
+import HeaderImage from "/public/Palm-Beach-city-reverse-mortgage-florida.jpg"
 
 export const metadata = {
   title: 'Palm Beach | Florida Mortgage Lender and Reverse Mortgages | Florida Mortgage Lender and Reverse Mortgages |',
@@ -12,16 +13,13 @@ export const metadata = {
 function PalmBeach() {
 
     const headerProp =[
-      {headerImage: "/Palm-Beach-city-reverse-mortgage-florida.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "Palm Beach Florida mortgages and Reverse mortgages"},
       {pHeader: "Kenny stands out as a superb lender in Palm Beach, Florida. His local insights, competitive rates, and commitment to clients make him a trusted choice for traditional and reverse mortgages."}
     ]
   return (
     <>
      <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">

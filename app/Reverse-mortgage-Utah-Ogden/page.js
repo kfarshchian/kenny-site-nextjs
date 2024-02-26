@@ -3,6 +3,7 @@ import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './ogden.scss'
+import HeaderImage from "/public/ogden-home-reverse-mortgage-utah.jpg"
 
 export const metadata = {
   title: 'Ogden | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
@@ -12,16 +13,14 @@ export const metadata = {
 function Ogden() {
 
     const headerProp =[
-      {headerImage: "/ogden-home-reverse-mortgage-utah.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "Ogden Utah mortgages and Reverse mortgages"},
       {pHeader: "Kenny is an exceptional lender in Ogden, Utah, with expertise in traditional and reverse mortgages. His local knowledge, competitive rates, and client-focused approach make him a top choice."}
     ]
   return (
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
+
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">

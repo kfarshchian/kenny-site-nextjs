@@ -3,6 +3,7 @@ import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './westvalleycity.scss'
+import HeaderImage from "/public/west-valley-city-reverse--mortgage-utah.jpg"
 
 export const metadata = {
   title: 'West Valley City | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
@@ -10,21 +11,16 @@ export const metadata = {
 }
 
 function WestValleyCity() {
-    // const parallaxProp =[
-    //     {headerImage: "/west-valley-city-reverse--mortgage-utah.jpg"},
-    //     {headerTitle: " West Valley City Loan Officer Utah"}
-    //   ]
+
     const headerProp =[
-      {headerImage: "/west-valley-city-reverse--mortgage-utah.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "West Valley City Utah mortgages and Reverse mortgages"},
       {pHeader: "Kenny is an exceptional lender in West Valley City, Utah, known for expertise in both traditional and reverse mortgages. With competitive rates and a client-centered approach, he's a top choice."}
     ]
   return (
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
+
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">

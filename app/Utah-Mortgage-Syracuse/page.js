@@ -3,6 +3,7 @@ import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './syracuse.scss'
+import HeaderImage from "/public/syracuse-calc-reverse-mortgage-utah.jpg"
 
 export const metadata = {
   title: 'Syracuse | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
@@ -12,16 +13,14 @@ export const metadata = {
 function Syracuse() {
 
     const headerProp =[
-      {headerImage: "/syracuse-reverse-mortgage-utah.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "Syracuse Utah mortgages and Reverse mortgages"},
       {pHeader: "Kenny is a superb lender in Syracuse, Utah, excelling in both traditional and reverse mortgages. His local knowledge, competitive rates, and dedication to clients make him an exceptional choice."}
     ]
   return (
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
+
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">

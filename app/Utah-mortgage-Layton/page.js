@@ -3,6 +3,7 @@ import './layton.scss'
 import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderImage from "/public/Layton-reverse-mortgage-utah.jpg"
 
 
 export const metadata = {
@@ -12,21 +13,16 @@ export const metadata = {
  
 
 function Layton() {
-    // const parallaxProp =[
-    //     {headerImage: "/Layton-reverse-mortgage-utah.jpg"},
-    //     {headerTitle: "Layton Loan Officer Utah"}
-    //   ]
+
     const headerProp =[
-      {headerImage: "/Layton-reverse-mortgage-utah.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "Layton mortgages and Reverse mortgages"},
       {pHeader: "Kenny is an exceptional lender in Layton, Utah, with expertise in both mortgages and reverse mortgages. His local knowledge, competitive rates, and commitment to clients make him a top choice."}
     ]
   return (
     <>
      <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
+
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">

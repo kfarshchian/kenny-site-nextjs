@@ -22,6 +22,15 @@ import Head from "next/head";
 import Image from "next/image";
 import ExperienceBanner from "../public/top.png"
 import HeaderImage from "../public/3.jpg"
+import utahMoving from "../public/reverse-mortgage-utah-moving.jpg"
+import localLenderDocuments from "../public/reverse-mortgage-florida-signing.jpg"
+import localLenderHome from "../public/reverse-mortgage-florida-home.jpg"
+import UtahLocalLenderMap from "../public/kenny-map-reverse-mortgage-utah-2.png"
+import localLoanOfficer from "../public/reverse-mortgage-texas-home-calc.jpg"
+import LocalLenderSign from "../public/reverse-mortgage-texas-home-reading.jpg"
+import LocalLenderPapers from "../public/reverse-mortgage-texas-home-paper.jpg"
+import LocalLenderHouse from "../public/reverse-mortgage-texas-home-house.jpg"
+
 
 export const metadata = {
   title: 'Loan officer Utah | Utah mortgage | Mortgage broker Utah | Reverse Mortgage Florida | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
@@ -72,8 +81,10 @@ const Home = () => {
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
                 sx={{ height: 140 }}
+                component="img"
+                loading="lazy"
                 image='/reverse-mortgage-texas-painting-house-buying.jpg'
-                title="green iguana"
+                title="Local lender Mortgage"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -103,8 +114,11 @@ const Home = () => {
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
                 sx={{ height: 140 }}
-                image='/reverse-mortgage-florida-painting-house-refinance.jpg'
-                title="green iguana"
+                component="img"
+                loading="lazy"
+                image= "reverse-mortgage-florida-painting-house-refinance.jpg"
+                title="Local lender Refinance"
+                LocalLenderHouse
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -134,7 +148,7 @@ const Home = () => {
               <CardMedia
                 sx={{ height: 140 }}
                 image='/reverse-mortgage-utah-retirement.jpg'
-                title="green iguana"
+                title="Local lender Reverse Mortgage"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -189,7 +203,8 @@ const Home = () => {
       {/* image left info right */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          <img src='/reverse-mortgage-utah-moving.jpg' alt="reverse mortgage Utah Moving Boxes" />
+          {/* <img src='/reverse-mortgage-utah-moving.jpg' alt="reverse mortgage Utah Moving Boxes" /> */}
+          <Image src={utahMoving} alt="Local lender Utah moving boxes"/>
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -264,13 +279,15 @@ const Home = () => {
           <br></br>
         </div>
         <div className="image-container">
-          <img src='/reverse-mortgage-florida-signing.jpg' alt="reverse mortgage Utah Moving Boxes" />
+          {/* <img src='/reverse-mortgage-florida-signing.jpg' alt="reverse mortgage Utah Moving Boxes" /> */}
+          <Image src={localLenderDocuments} alt="Utah Local lender sign documents"/>
         </div>
       </div>
       {/* image left info right */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          <img src='/reverse-mortgage-florida-home.jpg' alt="reverse mortgage Utah Moving Boxes" />
+          {/* <img src='/reverse-mortgage-florida-home.jpg' alt="reverse mortgage Utah Moving Boxes" /> */}
+          <Image src={localLenderHome} alt="Utah Local lender home"/>
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -349,11 +366,7 @@ const Home = () => {
           <br></br>
           <br></br>
           <div id="reverse-mortgage-florida-home-map">
-            <img
-              id="reverse-mortgage-florida-home-map"
-              src='/kenny-map-reverse-mortgage-utah-2.png'
-              alt="reverse mortgage Utah Moving Boxes"
-            />
+            <Image src={UtahLocalLenderMap} alt="Top Utah Loan Officer performer 2024"/>
           </div>
           <div id="reverse-mortgage-texas-home-button-container">
             <Button id="reverse-mortgage-texas-home-button">
@@ -396,11 +409,12 @@ const Home = () => {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
+            {/* <img
               id="reverse-mortgage-texas-home-stack-img"
-              src='/reverse-mortgage-texas-home-calc.jpg'
+              // src='/reverse-mortgage-texas-home-calc.jpg'
               alt="reverse mortgage Utah Moving Boxes"
-            />
+            /> */}
+            <Image id="reverse-mortgage-texas-home-stack-img" src={localLoanOfficer} alt="Utah Local Loan Officer Calculations"/>
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
@@ -462,11 +476,13 @@ const Home = () => {
             </p>
           </div>
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
+            {/* <img
               id="reverse-mortgage-texas-home-stack-img"
               src='/reverse-mortgage-texas-home-reading.jpg'
               alt="reverse mortgage Utah Moving Boxes"
-            />
+            /> */}
+      <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderSign} alt="Utah Local Mortgage signing "/>
+
           </div>
         </Stack>
         <div id="reverse-mortgage-texas-home-p">
@@ -501,11 +517,12 @@ const Home = () => {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
+            {/* <img
               id="reverse-mortgage-texas-home-stack-img"
               src='/reverse-mortgage-texas-home-paper.jpg'
               alt="reverse mortgage Utah Moving Boxes"
-            />
+            /> */}
+            <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderPapers} alt="Utah Local Mortgage Documents "/>
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
@@ -598,11 +615,12 @@ const Home = () => {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
+            {/* <img
               id="reverse-mortgage-texas-home-stack-img"
               src='/reverse-mortgage-texas-home-house.jpg'
               alt="reverse mortgage Utah Moving Boxes"
-            />
+            /> */}
+            <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderHouse} alt="Utah Local Mortgage House "/>
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">

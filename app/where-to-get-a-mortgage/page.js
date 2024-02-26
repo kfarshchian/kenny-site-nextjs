@@ -3,6 +3,7 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './get.scss'
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
+import HeaderImage from "/public/where-to-get.jpg"
 
 export const metadata = {
   title: 'Blog | Where to get a Reverse Mortgage? | Utah Mortgage Lender and Reverse Mortgages |',
@@ -10,21 +11,16 @@ export const metadata = {
 }
 
 function GetMortgage() {
-    // const parallaxProp =[
-    //     {headerImage: "/where-to-get.jpg"},
-    //     {headerTitle: "Where to get a Reverse Mortgage?"}
-    //   ]
+
     const headerProp =[
-      {headerImage: "/where-to-get.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "Where to get a Reverse Mortgage?"},
       {pHeader: ""}
     ]
   return (
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
+
       <Container maxWidth="md">
         <p id="reverse-mortgage-utah-blog-p">
           As of my last update in September 2021, reverse mortgages are

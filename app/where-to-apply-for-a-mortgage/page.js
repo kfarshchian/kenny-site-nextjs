@@ -3,6 +3,7 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './apply.scss'
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
+import HeaderImage from "/public/where-to-apply.jpg"
 
 export const metadata = {
   title: 'Blog | Where to apply for a reverse mortgage? | Utah Mortgage Lender and Reverse Mortgages |',
@@ -12,16 +13,14 @@ export const metadata = {
 function Apply() {
 
       const headerProp =[
-        {headerImage: "/what-mortgage-afford.jpg"},
+        {headerImage: HeaderImage},
         {headerTitle: "Where to apply for a reverse mortgage?"},
         {pHeader: ""}
       ]
   return (
     <>
 <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
+
       <Container maxWidth="md">
         <p id="reverse-mortgage-utah-blog-p">
           To apply for a reverse mortgage, you can follow these general steps:

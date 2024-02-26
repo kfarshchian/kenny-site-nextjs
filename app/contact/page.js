@@ -6,6 +6,7 @@ import ForwardToInboxIcon from "@mui/icons-material/ForwardToInbox";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import './contact.scss'
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderImage from "/public/reverse-mortgage-florida-reverse-mortgage-texas-contact-us.jpg"
 
 export const metadata = {
   title: 'Contact Us | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
@@ -15,7 +16,7 @@ export const metadata = {
 function ContactUs() {
 
     const headerProp =[
-      {headerImage: "/reverse-mortgage-florida-reverse-mortgage-texas-contact-us.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "Contact Us With Any Mortgage Questions."},
       {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
     ]
@@ -24,9 +25,6 @@ function ContactUs() {
   return (
     <>
    <HeaderPage headerProp={headerProp ?? []}/>
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
     <Container>
         <p id="reverse-mortgage-texas-contact-us-Container-p">
           At Primary Residential Mortgage Inc., we extend a warm welcome to you.

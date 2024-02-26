@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import './OurProcess.scss'
-import ParallaxComponent from '../../components/ParallaxComponent'
 import VTimeline from '@/components/VTimeline'
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderImage from "/public/our-process-moving-reverse-mortgage-utah.jpg"
 
 export const metadata = {
   title: 'Our Process | Utah Mortgage Lender and Reverse Mortgages | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
@@ -14,17 +14,13 @@ export const metadata = {
 function OurProcess() {
       
     const headerProp =[
-      {headerImage: "/our-process-reverse-mortgage-utah.jpg"},
+      {headerImage: HeaderImage},
       {headerTitle: "Our Process The PRMI Home Process"},
       {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
     ]
   return (
     <>
     <HeaderPage headerProp={headerProp ?? []}/>
-
-    {/* <h1 id="H1-home">reverse mortgage Utah | mortgage broker Utah | reverse mortgage Texas |
-    reverse mortgage Florida | Utah mortgage | loan officer Utah
-    </h1> */}
       <Container maxWidth="md">
         {/* first section */}
 
