@@ -9,6 +9,8 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Map from "./Map";
 import "./footer.scss";
+import Image from "next/image";
+import footerLogo from "/public/smalllogokenny.png"
 
 const Footer = () => {
   return (
@@ -398,7 +400,7 @@ const Footer = () => {
             <MailOutlineIcon />
           </Link>
         </Stack>
-        <img id="smallLogo" src='/smalllogokenny.png' alt="SmallLogo" />
+        <Image id="smallLogo" src={footerLogo} alt="Utah Local Lender Mortgage Kenny Logo"/>
         <Typography variant="caption">
           © 2023 | Kenny Farshchian | Primary Residential Mortgage, Inc. All
           Rights Reserved.

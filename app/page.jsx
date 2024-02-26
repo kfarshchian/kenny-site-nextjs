@@ -80,7 +80,7 @@ const Home = () => {
             {/* card 1 */}
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
-                sx={{ height: 140 }}
+                sx={{ height: 140, width: 345 }}
                 component="img"
                 loading="lazy"
                 image='/reverse-mortgage-texas-painting-house-buying.jpg'
@@ -113,12 +113,11 @@ const Home = () => {
             {/* card 2 */}
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
-                sx={{ height: 140 }}
+                sx={{ height: 140, width: 345 }}
                 component="img"
                 loading="lazy"
                 image= "reverse-mortgage-florida-painting-house-refinance.jpg"
                 title="Local lender Refinance"
-                LocalLenderHouse
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -146,7 +145,7 @@ const Home = () => {
             {/* card 3 */}
             <Card sx={{ maxWidth: 345 }}>
               <CardMedia
-                sx={{ height: 140 }}
+                sx={{ height: 140, width: 345 }}
                 image='/reverse-mortgage-utah-retirement.jpg'
                 title="Local lender Reverse Mortgage"
               />

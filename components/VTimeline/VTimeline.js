@@ -17,7 +17,7 @@ import EmojiEventsOutlinedIcon from "@mui/icons-material/EmojiEventsOutlined";
     return (
       <>
       {/* line timeline */}
-      <Container Container maxWidth="md">
+      <Container  maxWidth="md">
         <div id="reverse-mortgage-florida-home-timeline">
           <h2>4 Step Process for Getting a Loan</h2>
         </div>
