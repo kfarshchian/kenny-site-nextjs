@@ -619,7 +619,7 @@ const Home = () => {
               src='/reverse-mortgage-texas-home-house.jpg'
               alt="reverse mortgage Utah Moving Boxes"
             /> */}
-            <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderHouse} alt="Utah Local Mortgage House "/>
+            {/* <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderHouse} alt="Utah Local Mortgage House "/> */}
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
