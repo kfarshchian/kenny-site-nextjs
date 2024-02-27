@@ -11,6 +11,9 @@ import Map from "./Map";
 import "./footer.scss";
 import Image from "next/image";
 import footerLogo from "/public/smalllogokenny.png"
+import prmiLogo from "/public/prmi1.png"
+import equalHousing from "/public/equalhousingopp.png"
+
 
 const Footer = () => {
   return (
@@ -427,8 +430,10 @@ const Footer = () => {
           }}
           spacing={{ xs: 1, sm: 2, md: 4 }}
         >
-          <img id="prmiLogo" src='/prmi1.png' alt="SmallLogo" />
-          <img id="equalLogo" src='/equalhousingopp.png' alt="SmallLogo" />
+          <Image id="prmiLogo" src={prmiLogo} alt="Utah Local Lender Mortgage PRMI Logo"/>
+          <Image id="equalLogo" src={equalHousing} alt="Utah Local Lender Mortgage Equal Housing Logo"/>
+          {/* <img id="prmiLogo" src='/prmi1.png' alt="SmallLogo" />
+          <img id="equalLogo" src='/equalhousingopp.png' alt="SmallLogo" /> */}
         </Stack>
       </Container>
     </div>
