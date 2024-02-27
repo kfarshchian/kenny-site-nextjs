@@ -379,7 +379,7 @@ const Home = () => {
       <VTimeline/>
       <Container maxWidth="md">
         {/* first section */}
-        <div id="reverse-mortgage-texas-home-h2">
+        {/* <div id="reverse-mortgage-texas-home-h2">
           <h2>
             Your Trusted Utah Loan Officer: Kenny Farshchian at Primary
             Residential Mortgage, Inc.
@@ -409,13 +409,13 @@ const Home = () => {
           }}
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
-          <div id="reverse-mortgage-texas-home-stack-container">
+          <div id="reverse-mortgage-texas-home-stack-container"> */}
             {/* <img
               id="reverse-mortgage-texas-home-stack-img"
               // src='/reverse-mortgage-texas-home-calc.jpg'
               alt="reverse mortgage Utah Moving Boxes"
             /> */}
-            <Image id="reverse-mortgage-texas-home-stack-img" src={localLoanOfficer} alt="Utah Local Loan Officer Calculations" loading="lazy"/>
+            {/* <Image id="reverse-mortgage-texas-home-stack-img" src={localLoanOfficer} alt="Utah Local Loan Officer Calculations" loading="lazy"/>
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
@@ -446,9 +446,9 @@ const Home = () => {
             homeownership journey and experience the outstanding service that
             has made him a trusted name in the industry.
           </p>
-        </div>
+        </div> */}
         {/* second section */}
-        <div id="reverse-mortgage-texas-home-h2">
+        {/* <div id="reverse-mortgage-texas-home-h2">
           <h2>
             Utah Mortgage Solutions: Your Trusted Loan Officer Utah, Mortgage
             Broker Utah, and Lender - Kenny Farshchian
@@ -476,17 +476,17 @@ const Home = () => {
               as the esteemed professional you should entrust.
             </p>
           </div>
-          <div id="reverse-mortgage-texas-home-stack-container">
+          <div id="reverse-mortgage-texas-home-stack-container"> */}
             {/* <img
               id="reverse-mortgage-texas-home-stack-img"
               src='/reverse-mortgage-texas-home-reading.jpg'
               alt="reverse mortgage Utah Moving Boxes"
             /> */}
-      <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderSign} alt="Utah Local Mortgage signing " loading="lazy"/>
+      {/* <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderSign} alt="Utah Local Mortgage signing " loading="lazy"/>
 
           </div>
-        </Stack>
-        <div id="reverse-mortgage-texas-home-p">
+        </Stack> */}
+        {/* <div id="reverse-mortgage-texas-home-p">
           <p>
             Realize the full potential of a <a href="/Utah-mortgage-Bountiful" type="page" id="pageLinksOnPage"> reverse mortgage in Utah</a> by
             partnering with a trusted housing lender. For residents of the
@@ -507,8 +507,8 @@ const Home = () => {
             housing lender, we collaborate closely with you, streamlining the
             approval process to provide a swift and efficient experience.
           </p>
-        </div>
-        <Stack
+        </div> */}
+        {/* <Stack
           direction={{ xs: "column", sm: "row" }}
           id="reverse-mortgage-texas-home-stack"
           sx={{
@@ -517,13 +517,13 @@ const Home = () => {
           }}
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
-          <div id="reverse-mortgage-texas-home-stack-container">
+          <div id="reverse-mortgage-texas-home-stack-container"> */}
             {/* <img
               id="reverse-mortgage-texas-home-stack-img"
               src='/reverse-mortgage-texas-home-paper.jpg'
               alt="reverse mortgage Utah Moving Boxes"
             /> */}
-            <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderPapers} alt="Utah Local Mortgage Documents " loading="lazy"/>
+            {/* <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderPapers} alt="Utah Local Mortgage Documents " loading="lazy"/>
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
@@ -540,8 +540,8 @@ const Home = () => {
               home you desire and deserve.
             </p>
           </div>
-        </Stack>
-        <div id="reverse-mortgage-texas-home-p">
+        </Stack> */}
+        {/* <div id="reverse-mortgage-texas-home-p">
           <p>
             VA home loans represent some of the most potent and adaptable
             lending options available today. As a direct endorsed VA-approved
@@ -567,7 +567,7 @@ const Home = () => {
         </div>
         <div id="reverse-mortgage-texas-home-button-container">
           <Button id="reverse-mortgage-texas-home-button">801-520-8475</Button>
-        </div>
+        </div> */}
       </Container>
       {/*  */}
       <Container maxWidth="md">
