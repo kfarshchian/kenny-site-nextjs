@@ -30,7 +30,7 @@ import localLoanOfficer from "../public/reverse-mortgage-texas-home-calc.jpg"
 import LocalLenderSign from "../public/reverse-mortgage-texas-home-reading.jpg"
 import LocalLenderPapers from "../public/reverse-mortgage-texas-home-paper.jpg"
 import LocalLenderHouse from "../public/reverse-mortgage-texas-home-house.jpg"
-
+import Reviews from "@/components/Reviews/Reviews"
 
 export const metadata = {
   title: 'Loan officer Utah | Utah mortgage | Mortgage broker Utah | Reverse Mortgage Florida | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
@@ -619,7 +619,7 @@ const Home = () => {
               src='/reverse-mortgage-texas-home-house.jpg'
               alt="reverse mortgage Utah Moving Boxes"
             /> */}
-            {/* <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderHouse} alt="Utah Local Mortgage House "/> */}
+            <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderHouse} alt="Utah Local Mortgage House "/>
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
@@ -635,7 +635,8 @@ const Home = () => {
       </Container>
       {/* reviews experience */}
       <Container>
-      <div id="ss-custom-reviews-widget-root" />
+      {/* <div id="ss-custom-reviews-widget-root" /> */}
+      <Reviews/>
       </Container>
       {/* faqs */}
       {/* map */}
