@@ -14,7 +14,6 @@ export const GoogleAnalyticsTracking = () => {
           gtag('config', 'G-JS8BE8RMX7');
         `}
       </Script>
-      <Script src="https://cdn.userway.org/widget.js" data-account="TFsl3YzRJU"></Script>
     </>
  );
 }

@@ -13,7 +13,7 @@ function ThisScript() {
       >
         {" "}
       </Script>
-      <script src="https://cdn.userway.org/widget.js" data-account="TFsl3YzRJU"></script>
+      <Script src="https://cdn.userway.org/widget.js" data-account="TFsl3YzRJU"></Script>
     </>
   );
 }
