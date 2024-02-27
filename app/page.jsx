@@ -53,7 +53,7 @@ const Home = () => {
     
     <Container>
     <div className="experience-badge">
-          <Image src={ExperienceBanner} alt="Top Utah Loan Officer performer 2024"/>
+          <Image src={ExperienceBanner} loading="lazy" alt="Top Utah Loan Officer performer 2024"/>
         </div>
     </Container>
     <Container>
@@ -203,7 +203,7 @@ const Home = () => {
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
           {/* <img src='/reverse-mortgage-utah-moving.jpg' alt="reverse mortgage Utah Moving Boxes" /> */}
-          <Image src={utahMoving} alt="Local lender Utah moving boxes"/>
+          <Image src={utahMoving} alt="Local lender Utah moving boxes" loading="lazy"/>
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -279,14 +279,14 @@ const Home = () => {
         </div>
         <div className="image-container">
           {/* <img src='/reverse-mortgage-florida-signing.jpg' alt="reverse mortgage Utah Moving Boxes" /> */}
-          <Image src={localLenderDocuments} alt="Utah Local lender sign documents"/>
+          <Image src={localLenderDocuments} alt="Utah Local lender sign documents" loading="lazy"/>
         </div>
       </div>
       {/* image left info right */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
           {/* <img src='/reverse-mortgage-florida-home.jpg' alt="reverse mortgage Utah Moving Boxes" /> */}
-          <Image src={localLenderHome} alt="Utah Local lender home"/>
+          <Image src={localLenderHome} alt="Utah Local lender home" loading="lazy"/>
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -365,7 +365,7 @@ const Home = () => {
           <br></br>
           <br></br>
           <div id="reverse-mortgage-florida-home-map">
-            <Image src={UtahLocalLenderMap} alt="Top Utah Loan Officer performer 2024"/>
+            <Image src={UtahLocalLenderMap} alt="Top Utah Loan Officer performer 2024" loading="lazy"/>
           </div>
           <div id="reverse-mortgage-texas-home-button-container">
             <Button id="reverse-mortgage-texas-home-button">
@@ -413,7 +413,7 @@ const Home = () => {
               // src='/reverse-mortgage-texas-home-calc.jpg'
               alt="reverse mortgage Utah Moving Boxes"
             /> */}
-            <Image id="reverse-mortgage-texas-home-stack-img" src={localLoanOfficer} alt="Utah Local Loan Officer Calculations"/>
+            <Image id="reverse-mortgage-texas-home-stack-img" src={localLoanOfficer} alt="Utah Local Loan Officer Calculations" loading="lazy"/>
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
@@ -480,7 +480,7 @@ const Home = () => {
               src='/reverse-mortgage-texas-home-reading.jpg'
               alt="reverse mortgage Utah Moving Boxes"
             /> */}
-      <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderSign} alt="Utah Local Mortgage signing "/>
+      <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderSign} alt="Utah Local Mortgage signing " loading="lazy"/>
 
           </div>
         </Stack>
@@ -521,7 +521,7 @@ const Home = () => {
               src='/reverse-mortgage-texas-home-paper.jpg'
               alt="reverse mortgage Utah Moving Boxes"
             /> */}
-            <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderPapers} alt="Utah Local Mortgage Documents "/>
+            <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderPapers} alt="Utah Local Mortgage Documents " loading="lazy"/>
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
@@ -619,7 +619,7 @@ const Home = () => {
               src='/reverse-mortgage-texas-home-house.jpg'
               alt="reverse mortgage Utah Moving Boxes"
             /> */}
-            <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderHouse} alt="Utah Local Mortgage House "/>
+            <Image id="reverse-mortgage-texas-home-stack-img" src={LocalLenderHouse} alt="Utah Local Mortgage House " loading="lazy"/>
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
