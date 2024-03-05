@@ -4,6 +4,9 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './bountiful.scss'
 import HeaderImage from "/public/bountiful-rates-reverse-mortgage-utah.jpg"
+import Image from "next/image";
+import signDocs from "../../public/syracuse-sign-reverse-mortgage-utah.jpg"
+import realEstateCalculations from "../../public/bountiful-rates-reverse-mortgage-utah.jpg"
 
 export const metadata = {
   title: 'Bountiful | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
@@ -95,7 +98,11 @@ function Bountiful() {
       {/* second section */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          <img src='/bountiful-sign-reverse-mortgage-utah.jpg' alt="reverse mortgage Utah Moving Boxes" />
+          <Image
+            src={signDocs}
+            loading="lazy"
+            alt="Local Lender Utah Sign Docs"
+          />
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -166,11 +173,11 @@ function Bountiful() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
-              id="reverse-mortgage-texas-home-stack-img"
-              src='/bountiful-rates-reverse-mortgage-utah.jpg'
-              alt="reverse mortgage Utah Moving Boxes"
-            />
+            <Image
+            src={realEstateCalculations}
+            loading="lazy"
+            alt="Local Lender Utah real State Calculations"
+          />
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">

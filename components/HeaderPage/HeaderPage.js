@@ -26,7 +26,7 @@ function HeaderPage(props) {
             </p>
           </div>
           <div id="headerImage">
-            <Image src={headerProp[0].headerImage} alt="keys"  priority/>
+            <Image src={headerProp[0].headerImage} alt="keys" rel="preload"  priority/>
           </div>
         </Stack>
       </div>

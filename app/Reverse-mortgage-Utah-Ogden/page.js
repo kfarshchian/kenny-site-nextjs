@@ -4,6 +4,9 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './ogden.scss'
 import HeaderImage from "/public/ogden-home-reverse-mortgage-utah.jpg"
+import Image from "next/image";
+import signDocs from "../../public/ogden-sign-reverse-mortgage-utah.jpg"
+import houseCalculations from "../../public/ogden-rate-arrow-reverse-mortgage-utah.jpg"
 
 export const metadata = {
   title: 'Ogden | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
@@ -99,7 +102,11 @@ function Ogden() {
       {/* second section */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          <img src='/ogden-sign-reverse-mortgage-utah.jpg' alt="reverse mortgage Utah Moving Boxes" />
+          <Image
+            src={signDocs}
+            loading="lazy"
+            alt="Local Lender Utah Sign Docs"
+            />
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -174,10 +181,10 @@ function Ogden() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
-              id="reverse-mortgage-texas-home-stack-img"
-              src='/ogden-rate-arrow-reverse-mortgage-utah.jpg'
-              alt="reverse mortgage Utah Moving Boxes"
+          <Image
+            src={houseCalculations}
+            loading="lazy"
+            alt="Local Lender Utah Sign Docs"
             />
           </div>
           <div>

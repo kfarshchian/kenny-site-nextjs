@@ -4,6 +4,9 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import "./saltlakecity.scss";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import headerImage from "/public/utah-mortgage-salt-lake-city.jpg"
+import Image from "next/image";
+import Moving from "../../public/reverse-mortgage-utah-moving.jpg"
+import keysCalculator from "../../public/project-reverse-mortgage-utah.jpg"
 
 export const metadata = {
   title: 'Salt lake City | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
@@ -104,9 +107,10 @@ function SaltLakeCity() {
       {/* second section */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          <img
-            src="/reverse-mortgage-utah-moving.jpg"
-            alt="reverse mortgage Utah Moving Boxes"
+          <Image
+            src={Moving}
+            loading="lazy"
+            alt="Local Lender Moving Boxes"
           />
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
@@ -193,11 +197,11 @@ function SaltLakeCity() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
-              id="reverse-mortgage-texas-home-stack-img"
-              src="/project-reverse-mortgage-utah.jpg"
-              alt="reverse mortgage Utah Moving Boxes"
-            />
+            <Image
+            src={keysCalculator}
+            loading="lazy"
+            alt="Local Lender Moving Boxes"
+          />
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">

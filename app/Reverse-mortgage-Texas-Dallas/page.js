@@ -4,6 +4,9 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './dallas.scss'
 import HeaderImage from "/public/dallas-city-reverse-mortgage-texas.jpg"
+import Image from "next/image";
+import signDocs from "../../public/dallas-sign-reverse-mortgage-texas.jpg"
+import houseCalculations from "../../public/dallas-rate-reverse-mortgage-texas.jpg"
 
 export const metadata = {
   title: 'Dallas | Texas Mortgage Lender and Reverse Mortgages | Texas Mortgage Lender and Reverse Mortgages |',
@@ -104,7 +107,11 @@ function Dallas() {
       {/* second section */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          <img src='/dallas-sign-reverse-mortgage-texas.jpg' alt="reverse mortgage Utah Moving Boxes" />
+          <Image
+            src={signDocs}
+            loading="lazy"
+            alt="Local Lender Utah Sign Docs"
+            />
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -182,10 +189,10 @@ function Dallas() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
-              id="reverse-mortgage-texas-home-stack-img"
-              src='/dallas-rate-reverse-mortgage-texas.jpg'
-              alt="reverse mortgage Utah Moving Boxes"
+            <Image
+            src={houseCalculations}
+            loading="lazy"
+            alt="Local Lender Utah Sign Docs"
             />
           </div>
           <div>

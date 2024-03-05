@@ -4,6 +4,9 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './naples.scss'
 import HeaderImage from "/public/Naples-House-sign-reverse-mortgage-florida.jpg"
+import Image from "next/image";
+import signDocs from "../../public/Naples-sign-reverse-mortgage-florida.jpg"
+import loanApplication from "../../public/Naples-approved-reverse-mortgage-florida.jpg"
 
 export const metadata = {
   title: 'Naples | Florida Mortgage Lender and Reverse Mortgages | Florida Mortgage Lender and Reverse Mortgages |',
@@ -98,7 +101,11 @@ function Naples() {
       {/* second section */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          <img src='/Naples-sign-reverse-mortgage-florida.jpg' alt="reverse mortgage Utah Moving Boxes" />
+          <Image
+            src={signDocs}
+            loading="lazy"
+            alt="Local Lender Utah Sign Docs"
+            />
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -169,10 +176,10 @@ function Naples() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
-              id="reverse-mortgage-texas-home-stack-img"
-              src='/Naples-approved-reverse-mortgage-florida.jpg'
-              alt="reverse mortgage Utah Moving Boxes"
+            <Image
+            src={loanApplication}
+            loading="lazy"
+            alt="Local Lender Utah Loan Application"
             />
           </div>
           <div>

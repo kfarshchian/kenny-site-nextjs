@@ -4,6 +4,10 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './westvalleycity.scss'
 import HeaderImage from "/public/west-valley-city-reverse--mortgage-utah.jpg"
+import Image from "next/image";
+import signDocs from "../../public/west-valley-city-sign-reverse-mortgage-utah.jpg"
+import houseRates from "../../public/west-valley-city-stats-reverse-mortgage-utah.jpg"
+
 
 export const metadata = {
   title: 'West Valley City | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
@@ -99,7 +103,11 @@ function WestValleyCity() {
       {/* second section */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          <img src='/west-valley-city-sign-reverse-mortgage-utah.jpg' alt="reverse mortgage Utah Moving Boxes" />
+          <Image
+            src={signDocs}
+            loading="lazy"
+            alt="Local Lender Utah Sign Docs"
+            />
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -173,10 +181,10 @@ function WestValleyCity() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
-              id="reverse-mortgage-texas-home-stack-img"
-              src='/west-valley-city-stats-reverse-mortgage-utah.jpg'
-              alt="reverse mortgage Utah Moving Boxes"
+            <Image
+            src={houseRates}
+            loading="lazy"
+            alt="Local Lender Utah Mortgage Rates"
             />
           </div>
           <div>

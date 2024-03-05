@@ -4,6 +4,9 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './venice.scss'
 import HeaderImage from "/public/city-reverse-mortgage-florida.jpg"
+import Image from "next/image";
+import signDocs from "../../public/venice-sign-reverse-mortgage-florida.jpg"
+import loanApplication from "../../public/applications-city-reverse-mortgage-florida.jpg"
 
 export const metadata = {
   title: 'Venice | Florida Mortgage Lender and Reverse Mortgages | Florida Mortgage Lender and Reverse Mortgages |',
@@ -94,7 +97,11 @@ function Venice() {
       {/* second section */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          <img src='/venice-sign-reverse-mortgage-florida.jpg' alt="reverse mortgage Utah Moving Boxes" />
+          <Image
+            src={signDocs}
+            loading="lazy"
+            alt="Local Lender Utah Sign Docs"
+            />
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -170,10 +177,10 @@ function Venice() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
-              id="reverse-mortgage-texas-home-stack-img"
-              src='/applications-city-reverse-mortgage-florida.jpg'
-              alt="reverse mortgage Utah Moving Boxes"
+            <Image
+            src={loanApplication}
+            loading="lazy"
+            alt="Local Lender Utah Loan Application"
             />
           </div>
           <div>

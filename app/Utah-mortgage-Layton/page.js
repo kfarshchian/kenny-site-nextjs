@@ -4,7 +4,9 @@ import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import HeaderImage from "/public/Layton-reverse-mortgage-utah.jpg"
-
+import Image from "next/image";
+import signDocs from "../../public/Layton-sign-reverse-mortgage-utah.jpg"
+import interestPC from "../../public/stats-layton-reverse-mortage-utah.jpg"
 
 export const metadata = {
   title: 'Layton | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
@@ -99,7 +101,11 @@ function Layton() {
       {/* second section */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          <img src='/Layton-sign-reverse-mortgage-utah.jpg' alt="reverse mortgage Utah Moving Boxes" />
+          <Image
+            src={signDocs}
+            loading="lazy"
+            alt="Local Lender Utah Sign Docs"
+          />
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -170,11 +176,11 @@ function Layton() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
-              id="reverse-mortgage-texas-home-stack-img"
-              src='/stats-layton-reverse-mortage-utah.jpg'
-              alt="reverse mortgage Utah Moving Boxes"
-            />
+            <Image
+            src={interestPC}
+            loading="lazy"
+            alt="Local Lender Utah interest Rate"
+          />
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
