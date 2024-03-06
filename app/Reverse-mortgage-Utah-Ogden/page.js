@@ -182,6 +182,7 @@ function Ogden() {
         >
           <div id="reverse-mortgage-texas-home-stack-container">
           <Image
+          id="reverse-mortgage-texas-home-stack-img"
             src={houseCalculations}
             loading="lazy"
             alt="Local Lender Utah Sign Docs"

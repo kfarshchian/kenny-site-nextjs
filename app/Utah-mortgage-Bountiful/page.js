@@ -174,6 +174,7 @@ function Bountiful() {
         >
           <div id="reverse-mortgage-texas-home-stack-container">
             <Image
+             id="reverse-mortgage-texas-home-stack-img"
             src={realEstateCalculations}
             loading="lazy"
             alt="Local Lender Utah real State Calculations"

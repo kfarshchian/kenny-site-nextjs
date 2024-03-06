@@ -177,6 +177,7 @@ function Layton() {
         >
           <div id="reverse-mortgage-texas-home-stack-container">
             <Image
+              id="reverse-mortgage-texas-home-stack-img"
             src={interestPC}
             loading="lazy"
             alt="Local Lender Utah interest Rate"

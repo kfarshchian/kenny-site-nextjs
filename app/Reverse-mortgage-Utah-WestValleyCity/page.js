@@ -182,6 +182,7 @@ function WestValleyCity() {
         >
           <div id="reverse-mortgage-texas-home-stack-container">
             <Image
+            id="reverse-mortgage-texas-home-stack-img"
             src={houseRates}
             loading="lazy"
             alt="Local Lender Utah Mortgage Rates"

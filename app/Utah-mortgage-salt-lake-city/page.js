@@ -198,6 +198,7 @@ function SaltLakeCity() {
         >
           <div id="reverse-mortgage-texas-home-stack-container">
             <Image
+            id="reverse-mortgage-texas-home-stack-img"
             src={keysCalculator}
             loading="lazy"
             alt="Local Lender Moving Boxes"

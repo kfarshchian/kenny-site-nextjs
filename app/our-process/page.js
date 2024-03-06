@@ -5,6 +5,9 @@ import './OurProcess.scss'
 import VTimeline from '@/components/VTimeline'
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import HeaderImage from "/public/our-process-moving-reverse-mortgage-utah.jpg"
+import Image from "next/image";
+import movingBox from "../../public/our-process-moving-reverse-mortgage-utah.jpg"
+import houseCalculations from "../../public/austin-coins-reverse-mortgage-texas.jpg"
 
 export const metadata = {
   title: 'Our Process | Utah Mortgage Lender and Reverse Mortgages | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
@@ -82,7 +85,11 @@ function OurProcess() {
       {/* second section */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          <img src='/our-process-moving-reverse-mortgage-utah.jpg' alt="reverse mortgage Utah Moving Boxes" />
+          <Image
+            src={movingBox}
+            loading="lazy"
+            alt="Local Lender Utah Moving Boxes"
+            />
         </div>
         <div id="reverse-mortgage-utah-home-text-1" className="text-container">
           <h2
@@ -147,10 +154,10 @@ function OurProcess() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            <img
-              id="reverse-mortgage-texas-home-stack-img"
-              src='/austin-coins-reverse-mortgage-texas.jpg'
-              alt="reverse mortgage Utah Moving Boxes"
+            <Image
+            src={houseCalculations}
+            loading="lazy"
+            alt="Local Lender Utah Mortgage Value"
             />
           </div>
           <div>

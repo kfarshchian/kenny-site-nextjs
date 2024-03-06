@@ -178,6 +178,7 @@ function Venice() {
         >
           <div id="reverse-mortgage-texas-home-stack-container">
             <Image
+             id="reverse-mortgage-texas-home-stack-img"
             src={loanApplication}
             loading="lazy"
             alt="Local Lender Utah Loan Application"

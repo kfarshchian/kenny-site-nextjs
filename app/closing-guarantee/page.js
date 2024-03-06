@@ -4,6 +4,8 @@ import { Container, Stack, Button } from "@mui/material";
 import "./closing-guarantee.scss";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import HeaderImage from "/public/mortgage-broker-utah-approved.jpg";
+import Image from "next/image";
+import signDocs from "../../public/sign-paperword-reverse-mortgage-utah.jpg"
 
 export const metadata = {
   title:
@@ -72,10 +74,11 @@ function ClosingGuarantee() {
             </Button>
           </div>
           <div id="reverse-mortgage-florida-aboutus-stack-container">
-            <img
-              id="mortgage-broker-utah-closing-guarantee-stack-img-kenny"
-              src="/sign-paperword-reverse-mortgage-utah.jpg"
-              alt="reverse mortgage Utah Moving Boxes"
+            <Image
+            id="mortgage-broker-utah-closing-guarantee-stack-img-kenny"
+            src={signDocs}
+            loading="lazy"
+            alt="Local Lender Utah Sign Docs"
             />
           </div>
         </Stack>
