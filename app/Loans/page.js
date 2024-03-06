@@ -2,7 +2,7 @@ import './Loans.scss'
 import { Container, Button, Grid } from '@mui/material';
 import Contactform from '../../components/ContactForm/ContactForm'
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
-import HeaderImage from "/public/reverse-mortgage-florida-reverse-mortgage-texas.jpg"
+import HeaderImage from "/public/reverse-mortgage-florida-reverse-mortgage-texas2.png"
 
 export const metadata = {
   title: 'Types of Home Loans | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',

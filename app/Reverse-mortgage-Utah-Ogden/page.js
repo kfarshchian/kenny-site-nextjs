@@ -3,7 +3,7 @@ import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './ogden.scss'
-import HeaderImage from "/public/ogden-home-reverse-mortgage-utah.jpg"
+import HeaderImage from "/public/ogden-home-reverse-mortgage-utah2.png"
 import Image from "next/image";
 import signDocs from "../../public/ogden-sign-reverse-mortgage-utah.jpg"
 import houseCalculations from "../../public/ogden-rate-arrow-reverse-mortgage-utah.jpg"

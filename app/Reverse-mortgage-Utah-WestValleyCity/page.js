@@ -3,7 +3,7 @@ import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import './westvalleycity.scss'
-import HeaderImage from "/public/west-valley-city-reverse--mortgage-utah.jpg"
+import HeaderImage from "/public/west-valley-city-reverse--mortgage-utah-2.png"
 import Image from "next/image";
 import signDocs from "../../public/west-valley-city-sign-reverse-mortgage-utah.jpg"
 import houseRates from "../../public/west-valley-city-stats-reverse-mortgage-utah.jpg"
@@ -23,8 +23,9 @@ function WestValleyCity() {
     ]
   return (
     <>
+  {/* <div id="westValleyHeader"> */}
     <HeaderPage headerProp={headerProp ?? []}/>
-
+    {/* </div> */}
       <Container maxWidth="md">
         {/* first section */}
         <p id="reverse-mortgage-texas-contact-us-Container-p">

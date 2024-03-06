@@ -24,7 +24,7 @@ import ExperienceBanner from "../public/top.png";
 import HeaderImage from "../public/3.jpg";
 import utahMoving from "../public/reverse-mortgage-utah-moving.jpg";
 import localLenderDocuments from "../public/reverse-mortgage-florida-signing.jpg";
-import localLenderHome from "../public/reverse-mortgage-florida-home.jpg";
+import localLenderHome from "../public/reverse-mortgage-florida-home2.png";
 import UtahLocalLenderMap from "../public/kenny-map-reverse-mortgage-utah-2.png";
 import localLoanOfficer from "../public/reverse-mortgage-texas-home-calc.jpg";
 import LocalLenderSign from "../public/reverse-mortgage-texas-home-reading.jpg";
@@ -308,7 +308,6 @@ const Home = () => {
           <br></br>
         </div>
         <div className="image-container">
-          {/* <img src='/reverse-mortgage-florida-signing.jpg' alt="reverse mortgage Utah Moving Boxes" /> */}
           <Image
             src={localLenderDocuments}
             alt="Utah Local lender sign documents"
@@ -319,7 +318,6 @@ const Home = () => {
       {/* image left info right */}
       <div className="reverse-mortgage-utah-home-Container-stack-img1">
         <div className="image-container">
-          {/* <img src='/reverse-mortgage-florida-home.jpg' alt="reverse mortgage Utah Moving Boxes" /> */}
           <Image
             src={localLenderHome}
             alt="Utah Local lender home"
@@ -397,7 +395,7 @@ const Home = () => {
       >
         <div id="reverse-mortgage-florida-home-map-container">
           <br></br>
-          <p>
+          <p id="UtahLocalLenderP" >
             As direct{" "}
             <a
               href="/Reverse-mortgage-Texas-Houston"

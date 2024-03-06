@@ -3,10 +3,10 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './venice.scss'
-import HeaderImage from "/public/city-reverse-mortgage-florida.jpg"
+import HeaderImage from "/public/city-reverse-mortgage-florida2.png"
 import Image from "next/image";
 import signDocs from "../../public/venice-sign-reverse-mortgage-florida.jpg"
-import loanApplication from "../../public/applications-city-reverse-mortgage-florida.jpg"
+import loanApplication from "../../public/applications-city-reverse-mortgage-florida2.png"
 
 export const metadata = {
   title: 'Venice | Florida Mortgage Lender and Reverse Mortgages | Florida Mortgage Lender and Reverse Mortgages |',

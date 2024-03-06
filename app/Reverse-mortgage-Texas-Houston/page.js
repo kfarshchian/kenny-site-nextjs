@@ -3,7 +3,7 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './houston.scss'
-import HeaderImage from "/public/houston-house-reverse-mortgage-texas.jpg"
+import HeaderImage from "/public/houston-house-reverse-mortgage-texas2.png"
 import Image from "next/image";
 import signDocs from "../../public/houston-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/houston-rate-reverse-mortgage-texas.jpg"
