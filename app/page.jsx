@@ -786,14 +786,14 @@ const Home = () => {
       {/* faqs */}
       {/* map */}
       <Container>
-        <div id="businessMap">
+        {/* <div id="businessMap">
           <iframe
             src="https://storage.googleapis.com/maps-solutions-mxte8fbx33/locator-plus/gds0/locator-plus.html"
             width="100%"
             height="500px"
             loading="lazy"
           ></iframe>
-        </div>
+        </div> */}
         <Button
           title="Google Business Profile"
           href={"https://maps.app.goo.gl/V4ppb3N9THFg1HU29"}
