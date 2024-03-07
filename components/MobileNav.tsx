@@ -58,9 +58,9 @@ const MobileNav = () => {
                   </li>
               <ul className="pb-2 text-xl text-black py-2 md:px-2 text-center border-b-2 md:border-b-0   border-black-900   md:hover:bg-transparent">
                     <li className="dropdown">
-                      <a>
+                      <p>
                         About Us <ArrowDropDownIcon />
-                      </a>
+                      </p>
                       <ul className="dropdown-content">
                         <li>
                           <Link onClick={() => setNavbar(!navbar)} href="/aboutus">About Us</Link>
@@ -88,10 +88,10 @@ const MobileNav = () => {
                   {/* Utah */}
                   <ul className="pb-2 text-xl text-black py-2 md:px-2 text-center border-b-2 md:border-b-0   border-black-900   md:hover:bg-transparent">
                     <li className="dropdown">
-                      <a>
+                      <p>
                         Utah
                         <ArrowDropDownIcon />
-                      </a>
+                      </p>
                       <ul className="dropdown-content">
                         <li>
                           <a onClick={() => setNavbar(!navbar)} href="/Utah-mortgage-salt-lake-city">
@@ -121,10 +121,10 @@ const MobileNav = () => {
                   {/* florida */}
                   <ul className="pb-2 text-xl text-black py-2 px-2 text-center  border-b-2 md:border-b-0   border-black-900  md:hover:bg-transparent">
                     <li className="dropdown">
-                      <a>
+                      <p>
                         Florida
                         <ArrowDropDownIcon />
-                      </a>
+                      </p>
                       <ul className="dropdown-content">
                         <li>
                           <a onClick={() => setNavbar(!navbar)} href="/Reverse-mortgage-Florida-Venice">Venice</a>
@@ -145,10 +145,10 @@ const MobileNav = () => {
                     <li className="dropdown">
                       <ul>
                         <li className="dropdown">
-                          <a>
+                          <p>
                             Texas
                             <ArrowDropDownIcon />
-                          </a>
+                          </p>
                           <ul className="dropdown-content">
                             <li>
                               <a href="/Reverse-mortgage-Texas-Austin">

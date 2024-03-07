@@ -115,7 +115,7 @@ const Home = () => {
                   size="small"
                   mailto="kfarshchian@gmail.com"
                 >
-                  Learn More
+                  Home Purchasing
                 </Button>
         </div>
     </div>
@@ -131,7 +131,7 @@ const Home = () => {
         </div>
         <div className="card-body">
         <Typography gutterBottom variant="h5" component="div">
-        Refinancing
+        Home Refinancing
                 </Typography>
         <Typography variant="body2" color="text.secondary">
         Refinancing a home with a great loan officer can lead to
@@ -147,7 +147,7 @@ const Home = () => {
                   size="small"
                   mailto="kfarshchian@gmail.com"
                 >
-                  Learn More
+                  Home Refinancing
                 </Button>
         </div>
     </div>
@@ -180,7 +180,7 @@ const Home = () => {
                   size="small"
                   mailto="kfarshchian@gmail.com"
                 >
-                  Learn More
+                  Reverse Mortgage
                 </Button>
         </div>
     </div>

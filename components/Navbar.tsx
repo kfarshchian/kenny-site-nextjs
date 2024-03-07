@@ -53,9 +53,9 @@ const Navbar = () => {
                   </li>
                   <ul className="pb-2 text-xl text-black py-2 md:px-2 text-center border-b-2 md:border-b-0   border-black-900   md:hover:bg-transparent">
                     <li className="dropdown">
-                      <a>
+                      <p>
                         About Us <ArrowDropDownIcon />
-                      </a>
+                      </p>
                       <ul className="dropdown-content">
                         <li>
                           <Link href="/aboutus">About Us</Link>
@@ -82,10 +82,10 @@ const Navbar = () => {
                   </ul>
                   <ul className="pb-2 text-xl text-black py-2 px-2 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-black-900  md:hover:bg-transparent">
                     <li className="dropdown">
-                      <a>
+                      <p>
                         Utah
                         <ArrowDropDownIcon />
-                      </a>
+                      </p>
                       <ul className="dropdown-content">
                         <li>
                           <a href="/Utah-mortgage-salt-lake-city">
@@ -114,10 +114,10 @@ const Navbar = () => {
                   </ul>
                   <ul className="pb-2 text-xl text-black py-2 px-2 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-black-900  md:hover:bg-transparent">
                     <li className="dropdown">
-                      <a>
+                      <p>
                         Florida
                         <ArrowDropDownIcon />
-                      </a>
+                      </p>
                       <ul className="dropdown-content">
                         <li>
                           <a href="/Reverse-mortgage-Florida-Venice">Venice</a>
@@ -137,10 +137,10 @@ const Navbar = () => {
                     <li className="dropdown">
                       <ul>
                         <li className="dropdown">
-                          <a>
+                          <p>
                             Texas
                             <ArrowDropDownIcon />
-                          </a>
+                          </p>
                           <ul className="dropdown-content">
                             <li>
                               <a href="/Reverse-mortgage-Texas-Austin">
