@@ -30,9 +30,9 @@ import localLoanOfficer from "../public/reverse-mortgage-texas-home-calc.jpg";
 import LocalLenderSign from "../public/reverse-mortgage-texas-home-reading.jpg";
 import LocalLenderPapers from "../public/reverse-mortgage-texas-home-paper.jpg";
 import LocalLenderHouse from "../public/reverse-mortgage-texas-home-house.jpg";
-import homePurchase from "../public/reverse-mortgage-texas-painting-house-buying2.png";
-import homeRefinance from "../public/reverse-mortgage-florida-painting-house-refinance2.png"
-import reverseMortgage from "../public/reverse-mortgage-utah-retirement2.png"
+import homePurchase from "../public/reverse-mortgage-texas-painting-house-buying3.png";
+import homeRefinance from "../public/reverse-mortgage-florida-painting-house-refinance3.png"
+import reverseMortgage from "../public/reverse-mortgage-utah-retirement3.png"
 
 export const metadata = {
   title:
