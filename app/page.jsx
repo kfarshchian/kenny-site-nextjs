@@ -21,7 +21,7 @@ import HeaderPage from "../components/HeaderPage/HeaderPage";
 import Head from "next/head";
 import Image from "next/image";
 import ExperienceBanner from "../public/top.png";
-import HeaderImage from "../public/3.jpg";
+import HeaderImage from "../public/Local-Lender-Utah.png";
 import utahMoving from "../public/reverse-mortgage-utah-moving.jpg";
 import localLenderDocuments from "../public/reverse-mortgage-florida-signing.jpg";
 import localLenderHome from "../public/reverse-mortgage-florida-home2.png";
@@ -30,7 +30,9 @@ import localLoanOfficer from "../public/reverse-mortgage-texas-home-calc.jpg";
 import LocalLenderSign from "../public/reverse-mortgage-texas-home-reading.jpg";
 import LocalLenderPapers from "../public/reverse-mortgage-texas-home-paper.jpg";
 import LocalLenderHouse from "../public/reverse-mortgage-texas-home-house.jpg";
-import homePurchase from "../public/reverse-mortgage-texas-painting-house-buying.jpg";
+import homePurchase from "../public/reverse-mortgage-texas-painting-house-buying2.png";
+import homeRefinance from "../public/reverse-mortgage-florida-painting-house-refinance2.png"
+import reverseMortgage from "../public/reverse-mortgage-utah-retirement2.png"
 
 export const metadata = {
   title:
@@ -84,28 +86,26 @@ const Home = () => {
               alignItems: "center",
             }}
             spacing={{ xs: 1, sm: 2, md: 2 }}
-          >
+            >
             {/* card 1 */}
-            <Card sx={{ maxWidth: 345 }}>
-              <CardMedia
-                sx={{ height: 140, width: 345 }}
-                component="img"
-                loading="lazy"
-                image="https://i.imgur.com/ZmADa5p.jpg"
-                src={homePurchase}
-                title="Local lender Mortgage"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+             <div class="card">
+        <div class="card-header">
+        <Image
+            id="cardImage"
+            src={homePurchase}
+            alt="Purchase"
+            loading="lazy"
+          />
+        </div>
+        <div class="card-body">
+        <Typography gutterBottom variant="h5" component="div">
                   Home Purchasing
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="text.secondary">
                   Having a great loan officer during the home-buying process
                   ensures expert guidance and favorable loan terms for a
                   stress-free experience.
                 </Typography>
-              </CardContent>
-              <CardActions>
                 <Button
                   title="reverse mortgage utah"
                   href={
@@ -117,28 +117,27 @@ const Home = () => {
                 >
                   Learn More
                 </Button>
-              </CardActions>
-            </Card>
+        </div>
+    </div>
             {/* card 2 */}
-            <Card sx={{ maxWidth: 345 }}>
-              <CardMedia
-                sx={{ height: 140, width: 345 }}
-                component="img"
-                loading="lazy"
-                image="https://i.imgur.com/XWIqLcM.jpg"
-                title="Local lender Refinance"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Refinancing
+            <div class="card">
+        <div class="card-header">
+        <Image
+            id="cardImage"
+            src={homeRefinance}
+            alt="Local lender Utah Refinance"
+            loading="lazy"
+          />
+        </div>
+        <div class="card-body">
+        <Typography gutterBottom variant="h5" component="div">
+        Refinancing
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Refinancing a home with a great loan officer can lead to
+        <Typography variant="body2" color="text.secondary">
+        Refinancing a home with a great loan officer can lead to
                   reduced monthly payments, and potential savings in the long
                   run.
                 </Typography>
-              </CardContent>
-              <CardActions>
                 <Button
                   title="reverse mortgage utah"
                   href={
@@ -146,30 +145,32 @@ const Home = () => {
                   }
                   id="reverse-mortgage-utah-home-button-1"
                   size="small"
+                  mailto="kfarshchian@gmail.com"
                 >
                   Learn More
                 </Button>
-              </CardActions>
-            </Card>
+        </div>
+    </div>
+           
             {/* card 3 */}
-            <Card sx={{ maxWidth: 345 }}>
-              <CardMedia
-                sx={{ height: 140, width: 345 }}
-                image="https://i.imgur.com/owJsGXy.jpg"
-                title="Local lender Reverse Mortgage"
-                loading="lazy"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Reverse Mortgage
+            <div class="card">
+        <div class="card-header">
+        <Image
+            id="cardImage"
+            src={reverseMortgage}
+            alt="Local lender Utah Reverse Mortgage"
+            loading="lazy"
+          />
+        </div>
+        <div class="card-body">
+        <Typography gutterBottom variant="h5" component="div">
+        Reverse Mortgage
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  A great loan officer is essential for a reverse mortgage,
+        <Typography variant="body2" color="text.secondary">
+        A great loan officer is essential for a reverse mortgage,
                   ensuring thorough guidance, protection, and optimal financial
                   outcomes.
                 </Typography>
-              </CardContent>
-              <CardActions>
                 <Button
                   title="reverse mortgage utah"
                   href={
@@ -177,11 +178,12 @@ const Home = () => {
                   }
                   id="reverse-mortgage-utah-home-button-1"
                   size="small"
+                  mailto="kfarshchian@gmail.com"
                 >
                   Learn More
                 </Button>
-              </CardActions>
-            </Card>
+        </div>
+    </div>
           </Stack>
           <Button
             title="reverse mortgage utah"

@@ -238,6 +238,29 @@ align-items: center;
 #UtahLocalLenderP{
   padding-top: 20px;
 }
+// cards
+#cardImage{
+  height: 225px;
+  overflow: hidden;
+}
+.card {
+  width: 345px;
+  height: 425px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  color: #fff;
+  text-align: center;
+}
+
+.card-body {
+  padding: 5px;
+}
+
 @media (max-width: 768px) {
     .reverse-mortgage-utah-home-Container-stack-img1  {
       flex-direction: column;
