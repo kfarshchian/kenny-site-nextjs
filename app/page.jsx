@@ -88,8 +88,8 @@ const Home = () => {
             spacing={{ xs: 1, sm: 2, md: 2 }}
             >
             {/* card 1 */}
-             <div class="card">
-        <div class="card-header">
+             <div className="card">
+        <div className="card-header">
         <Image
             id="cardImage"
             src={homePurchase}
@@ -97,7 +97,7 @@ const Home = () => {
             loading="lazy"
           />
         </div>
-        <div class="card-body">
+        <div className="card-body">
         <Typography gutterBottom variant="h5" component="div">
                   Home Purchasing
                 </Typography>
@@ -120,8 +120,8 @@ const Home = () => {
         </div>
     </div>
             {/* card 2 */}
-            <div class="card">
-        <div class="card-header">
+            <div className="card">
+        <div className="card-header">
         <Image
             id="cardImage"
             src={homeRefinance}
@@ -129,7 +129,7 @@ const Home = () => {
             loading="lazy"
           />
         </div>
-        <div class="card-body">
+        <div className="card-body">
         <Typography gutterBottom variant="h5" component="div">
         Refinancing
                 </Typography>
@@ -153,8 +153,8 @@ const Home = () => {
     </div>
            
             {/* card 3 */}
-            <div class="card">
-        <div class="card-header">
+            <div className="card">
+        <div className="card-header">
         <Image
             id="cardImage"
             src={reverseMortgage}
@@ -162,7 +162,7 @@ const Home = () => {
             loading="lazy"
           />
         </div>
-        <div class="card-body">
+        <div className="card-body">
         <Typography gutterBottom variant="h5" component="div">
         Reverse Mortgage
                 </Typography>
