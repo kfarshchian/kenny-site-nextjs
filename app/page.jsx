@@ -3,11 +3,7 @@ import {
   Container,
   Button,
   Stack,
-  Card,
-  CardMedia,
   Typography,
-  CardContent,
-  CardActions,
 } from "@mui/material";
 import "./home.scss";
 import ContactForm from "@/components/ContactForm/ContactForm";
