@@ -20,6 +20,7 @@
     "@types/react-dom": "18.2.7",
     "@types/react-helmet": "^6.1.6",
     "@vercel/analytics": "^1.2.2",
+    "@vercel/speed-insights": "^1.0.10",
     "autoprefixer": "10.4.14",
     "leaflet-defaulticon-compatibility": "^0.1.2",
     "next": "13.4.12",
