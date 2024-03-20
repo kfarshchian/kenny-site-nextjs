@@ -18,16 +18,16 @@ const Navbar = () => {
             <div>
               <div id="logoContainer" className="flex items-center justify-between py-3 md:block">
                 {/* LOGO */}
-                <Link href="/" >
+                <Link href="/" target="_blank">
                   <Image
-                  id="kennyLogo"
+                    id="kennyLogo"
                     src= {LocalLender}
                     priority
                     alt="Kenny Farshchian Logo PRMI"
                   />
                 </Link>
                 {/* prmi logo */}
-                <Link href="https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com" >
+                <Link target="_blank" href="https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com" >
                   <Image
                     id="prmiBlackLogo"
                     src= {prmiBlack}
@@ -164,6 +164,7 @@ const Navbar = () => {
                   </ul>
                   <li className="pb-2 text-xl text-black py-2 px-2 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-black-900 md:hover:bg-transparent">
                     <Link
+                    target="_blank"
                       className="mortgage-company-utah-apply-today"
                       href="https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com"
                     >

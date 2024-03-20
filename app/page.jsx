@@ -104,6 +104,7 @@ const Home = () => {
                 </Typography>
                 <Button
                   title="reverse mortgage utah"
+                  target="_blank"
                   href={
                     "https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com"
                   }
@@ -136,6 +137,7 @@ const Home = () => {
                 </Typography>
                 <Button
                   title="reverse mortgage utah"
+                  target="_blank"
                   href={
                     "https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com"
                   }
@@ -169,6 +171,7 @@ const Home = () => {
                 </Typography>
                 <Button
                   title="reverse mortgage utah"
+                  target="_blank"
                   href={
                     "https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com"
                   }
@@ -792,6 +795,7 @@ const Home = () => {
         </div> */}
         <Button
           title="Google Business Profile"
+          target="_blank"
           href={"https://maps.app.goo.gl/V4ppb3N9THFg1HU29"}
           id="local-lender-utah-button"
           size="small"

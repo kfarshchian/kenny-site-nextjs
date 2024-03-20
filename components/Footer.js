@@ -316,6 +316,7 @@ const Footer = () => {
             </Link>
             <Link
               id="reverse-mortgage-florida-footer"
+              target="_blank"
               href="https://www.primeres.com/terms-of-use"
               sx={{
                 color: "black",
@@ -407,7 +408,7 @@ const Footer = () => {
         <Typography variant="caption">
           © 2023 | Kenny Farshchian | Primary Residential Mortgage, Inc. All
           Rights Reserved.
-          | <a id="reverse-mortgage-florida-privacy-policy" href='https://www.primeres.com/privacy-policy'> Privacy Policy</a>
+          | <a id="reverse-mortgage-florida-privacy-policy" target="_blank" href='https://www.primeres.com/privacy-policy'> Privacy Policy</a>
         </Typography>
         <Typography variant="caption" sx={{ textAlign: "center" }}>
           by Primary Residential Mortgage, Inc. NMLS#: 919520 Utah DRE Mortgage
