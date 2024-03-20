@@ -305,6 +305,7 @@ const Footer = () => {
             </Link>
             <Link
               id="reverse-mortgage-florida-footer"
+              target="_blank"
               href="https://www.primeres.com/consumer-voice"
               sx={{
                 color: "black",

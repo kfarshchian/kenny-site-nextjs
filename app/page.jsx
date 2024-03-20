@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Button,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Container, Button, Stack, Typography } from "@mui/material";
 import "./home.scss";
 import ContactForm from "@/components/ContactForm/ContactForm";
 import Slidein from "@/components/SlideIn/SlideIn";
@@ -27,8 +22,8 @@ import LocalLenderSign from "../public/reverse-mortgage-texas-home-reading.jpg";
 import LocalLenderPapers from "../public/reverse-mortgage-texas-home-paper.jpg";
 import LocalLenderHouse from "../public/reverse-mortgage-texas-home-house.jpg";
 import homePurchase from "../public/reverse-mortgage-texas-painting-house-buying3.png";
-import homeRefinance from "../public/reverse-mortgage-florida-painting-house-refinance3.png"
-import reverseMortgage from "../public/reverse-mortgage-utah-retirement3.png"
+import homeRefinance from "../public/reverse-mortgage-florida-painting-house-refinance3.png";
+import reverseMortgage from "../public/reverse-mortgage-utah-retirement3.png";
 
 export const metadata = {
   title:
@@ -50,6 +45,10 @@ const Home = () => {
     <>
       <Head>
         <meta name="robots" content="all" />
+        <link
+          rel="canonical"
+          href="https://www.mortgagekenny.com"
+        />
       </Head>
       <HeaderPage headerProp={headerProp ?? []} />
 
@@ -82,22 +81,22 @@ const Home = () => {
               alignItems: "center",
             }}
             spacing={{ xs: 1, sm: 2, md: 2 }}
-            >
+          >
             {/* card 1 */}
-             <div className="card">
-        <div className="card-header">
-        <Image
-            id="cardImage"
-            src={homePurchase}
-            alt="Purchase"
-            loading="lazy"
-          />
-        </div>
-        <div className="card-body">
-        <Typography gutterBottom variant="h5" component="div">
+            <div className="card">
+              <div className="card-header">
+                <Image
+                  id="cardImage"
+                  src={homePurchase}
+                  alt="Purchase"
+                  loading="lazy"
+                />
+              </div>
+              <div className="card-body">
+                <Typography gutterBottom variant="h5" component="div">
                   Home Purchasing
                 </Typography>
-        <Typography variant="body2" color="text.secondary">
+                <Typography variant="body2" color="text.secondary">
                   Having a great loan officer during the home-buying process
                   ensures expert guidance and favorable loan terms for a
                   stress-free experience.
@@ -114,24 +113,24 @@ const Home = () => {
                 >
                   Home Purchasing
                 </Button>
-        </div>
-    </div>
+              </div>
+            </div>
             {/* card 2 */}
             <div className="card">
-        <div className="card-header">
-        <Image
-            id="cardImage"
-            src={homeRefinance}
-            alt="Local lender Utah Refinance"
-            loading="lazy"
-          />
-        </div>
-        <div className="card-body">
-        <Typography gutterBottom variant="h5" component="div">
-        Home Refinancing
+              <div className="card-header">
+                <Image
+                  id="cardImage"
+                  src={homeRefinance}
+                  alt="Local lender Utah Refinance"
+                  loading="lazy"
+                />
+              </div>
+              <div className="card-body">
+                <Typography gutterBottom variant="h5" component="div">
+                  Home Refinancing
                 </Typography>
-        <Typography variant="body2" color="text.secondary">
-        Refinancing a home with a great loan officer can lead to
+                <Typography variant="body2" color="text.secondary">
+                  Refinancing a home with a great loan officer can lead to
                   reduced monthly payments, and potential savings in the long
                   run.
                 </Typography>
@@ -147,25 +146,25 @@ const Home = () => {
                 >
                   Home Refinancing
                 </Button>
-        </div>
-    </div>
-           
+              </div>
+            </div>
+
             {/* card 3 */}
             <div className="card">
-        <div className="card-header">
-        <Image
-            id="cardImage"
-            src={reverseMortgage}
-            alt="Local lender Utah Reverse Mortgage"
-            loading="lazy"
-          />
-        </div>
-        <div className="card-body">
-        <Typography gutterBottom variant="h5" component="div">
-        Reverse Mortgage
+              <div className="card-header">
+                <Image
+                  id="cardImage"
+                  src={reverseMortgage}
+                  alt="Local lender Utah Reverse Mortgage"
+                  loading="lazy"
+                />
+              </div>
+              <div className="card-body">
+                <Typography gutterBottom variant="h5" component="div">
+                  Reverse Mortgage
                 </Typography>
-        <Typography variant="body2" color="text.secondary">
-        A great loan officer is essential for a reverse mortgage,
+                <Typography variant="body2" color="text.secondary">
+                  A great loan officer is essential for a reverse mortgage,
                   ensuring thorough guidance, protection, and optimal financial
                   outcomes.
                 </Typography>
@@ -181,11 +180,12 @@ const Home = () => {
                 >
                   Reverse Mortgage
                 </Button>
-        </div>
-    </div>
+              </div>
+            </div>
           </Stack>
           <Button
             title="reverse mortgage utah"
+            target="_blank"
             href={
               "https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com"
             }
@@ -396,7 +396,7 @@ const Home = () => {
       >
         <div id="reverse-mortgage-florida-home-map-container">
           <br></br>
-          <p id="UtahLocalLenderP" >
+          <p id="UtahLocalLenderP">
             As direct{" "}
             <a
               href="/Reverse-mortgage-Texas-Houston"
