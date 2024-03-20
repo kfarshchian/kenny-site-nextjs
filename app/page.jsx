@@ -39,7 +39,7 @@ export const metadata = {
 const Home = () => {
   const headerProp = [
     { headerImage: HeaderImage },
-    { headerTitle: "Your Utah Local Lender." },
+    { headerTitle: "Your Utah Local Home Lender." },
     {
       pHeader:
         "As a Utah mortgage company, we provide personalized home financing with local expertise and competitive rates. From first-time buyers, Reverse Mortgages to refinancing, we offer quick approvals and guidance, ensuring your homeownership dreams come true.",
