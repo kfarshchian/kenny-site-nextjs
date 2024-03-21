@@ -5,7 +5,7 @@ import "./Disclosure.scss";
 import { Container } from "@mui/material";
 
 export const metadata = {
-  title: 'Utah Mortgage Expert | Kenny Farshchian',
+  title: 'Top Utah Mortgage Expert | Kenny Farshchian - PRMI',
   description: 'Get expert advice and competitive rates from Kenny Farshchian, the top Utah mortgage lender. Trust transparency and a seamless lending process.',
 }
 

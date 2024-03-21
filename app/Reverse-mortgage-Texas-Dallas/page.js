@@ -9,7 +9,7 @@ import signDocs from "../../public/dallas-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/dallas-rate-reverse-mortgage-texas.jpg"
 
 export const metadata = {
-  title: 'Dallas Mortgage Expert | Kenny Farshchian',
+  title: 'Utah, Texas, and Florida Mortgage Expert - Kenny Farshchian',
   description: 'Trust Kenny Farshchian for competitive rates and seamless lending in Dallas. Your path to homeownership starts here. Request a free consultation today.',
 }
 

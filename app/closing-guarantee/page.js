@@ -9,7 +9,7 @@ import signDocs from "../../public/sign-paperword-reverse-mortgage-utah.jpg"
 
 export const metadata = {
   title:
-    "Trust Kenny Farshchian for competitive rates and excellent service on your Utah mortgage. Request a consultation now for a loan closing guarantee.",
+    "Utah Mortgage Expert - Kenny Farshchian",
   description:
     "Competitive rates, excellent service. Trust Kenny Farshchian for your Utah mortgage needs. Request a consultation now.",
 };

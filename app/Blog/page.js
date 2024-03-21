@@ -15,7 +15,7 @@ import './blog.scss'
 import HeaderImage from "/public/blog-reverse-mortgage-utah.jpg"
 
 export const metadata = {
-  title: 'Utah mortgage and reverse mortgage expert Kenny Farshchian at PRMI. Competitive rates and excellent service. Request a consultation now.',
+  title: 'Utah Mortgage Expert - Kenny Farshchian PRMI',
   description: 'Expert advice on Utah mortgages and reverse mortgages from Kenny Farshchian at PRMI. Get competitive rates and excellent service. Request a consultation now.',
 }
 

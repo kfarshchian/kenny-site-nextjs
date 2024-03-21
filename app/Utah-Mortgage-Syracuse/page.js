@@ -9,7 +9,7 @@ import signDocs from "../../public/bountiful-sign-reverse-mortgage-utah.jpg"
 import houseCalculations from "../../public/syracuse-calc-reverse-mortgage-utah.jpg"
 
 export const metadata = {
-  title: 'Syracuse Utah Mortgages | Kenny Farshchian',
+  title: 'Syracuse Utah Mortgages | Kenny Farshchian - Best Mortgage Expert',
   description: 'Get competitive rates, excellent service, and a seamless lending process with Kenny Farshchian in Syracuse. Trust the top Utah mortgage expert.',
 }
 

@@ -9,7 +9,7 @@ import signDocs from "../../public/austin-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/austin-coins-reverse-mortgage-texas.jpg"
 
 export const metadata = {
-  title: 'Get expert mortgage and reverse mortgage advice from Kenny Farshchian in Utah. Request a free consultation today!',
+  title: 'Expert Mortgage Advice in Utah, Texas, Florida - Kenny Farshchian',
   description: 'Top mortgage and reverse mortgage expert in Austin, Texas. Request a free consultation today!',
 }
 
