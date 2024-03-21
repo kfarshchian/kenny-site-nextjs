@@ -18,9 +18,9 @@ import localLenderDocuments from "../public/reverse-mortgage-florida-signing.jpg
 import localLenderHome from "../public/reverse-mortgage-florida-home2.png";
 import UtahLocalLenderMap from "../public/kenny-map-reverse-mortgage-utah-2.png";
 import localLoanOfficer from "../public/reverse-mortgage-texas-home-calc.jpg";
-import LocalLenderSign from "../public/reverse-mortgage-texas-home-reading.jpg";
-import LocalLenderPapers from "../public/reverse-mortgage-texas-home-paper.jpg";
-import LocalLenderHouse from "../public/reverse-mortgage-texas-home-house.jpg";
+// import LocalLenderSign from "../public/reverse-mortgage-texas-home-reading.jpg";
+// import LocalLenderPapers from "../public/reverse-mortgage-texas-home-paper.jpg";
+// import LocalLenderHouse from "../public/reverse-mortgage-texas-home-house.jpg";
 import homePurchase from "../public/reverse-mortgage-texas-painting-house-buying3.png";
 import homeRefinance from "../public/reverse-mortgage-florida-painting-house-refinance3.png";
 import reverseMortgage from "../public/reverse-mortgage-utah-retirement3.png";
@@ -28,10 +28,14 @@ import reverseMortgage from "../public/reverse-mortgage-utah-retirement3.png";
 export const metadata = {
   title: "Utah Mortgage Expert - Kenny Farshchian | PRMI",
   description: "Connect with Kenny Farshchian, Utah's premier mortgage and reverse mortgage expert at Primary Residential Mortgage, Inc. for all your home financing needs.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com',
+  },
   openGraph: {
     url: "https://www.mortgagekenny.com/",
     title: "Utah Mortgage Expert - Kenny Farshchian | PRMI",
     type: "website",
+    description: "Connect with Kenny Farshchian, Utah's premier mortgage and reverse mortgage expert at Primary Residential Mortgage, Inc. for all your home financing needs.",
     images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
     twitter: {
       title: "Utah Mortgage Expert - Kenny Farshchian | PRMI",
