@@ -45,6 +45,7 @@ const Home = () => {
     <>
       <Head>
         <meta name="robots" content="all" />
+        <meta property="og:type" content="website"/>
         <link
           rel="canonical"
           href="https://www.mortgagekenny.com"
