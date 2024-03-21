@@ -9,8 +9,8 @@ import signDocs from "../../public/ogden-sign-reverse-mortgage-utah.jpg"
 import houseCalculations from "../../public/ogden-rate-arrow-reverse-mortgage-utah.jpg"
 
 export const metadata = {
-  title: 'Ogden | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Ogden.',
+  title: 'Ogden Mortgage Lender | Utah Reverse Mortgages - Kenny Farshchian',
+  description: 'Competitive rates and expert service with Kenny Farshchian at Primary Residential Mortgage, Inc. Your trusted mortgage expert in Ogden, Utah.',
 }
 
 function Ogden() {

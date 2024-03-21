@@ -7,9 +7,9 @@ import HeaderImage from "/public/pastdue.jpg"
 
 export const metadata = {
   title:
-    "Blog | Beginner Guide to Reverse Mortgages: Unlocking Your Home Potential | Utah Mortgage Lender and Reverse Mortgages |",
+    "Reverse Mortgages Guide | Unlock Your Home's Potential",
   description:
-    "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Beginner Guide to Reverse Mortgages: Unlocking Your Home Potential!",
+    "Learn from the expert in Utah. Understand how reverse mortgages work and explore your options. Unlock your home's potential today!",
 };
 
 function beginnerGuide() {

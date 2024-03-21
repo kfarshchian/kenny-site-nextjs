@@ -6,8 +6,8 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/doesTheBankOwnMyMortgage.jpg"
 
 export const metadata = {
-  title: 'Blog | Does the Bank Own My Home with a Reverse Mortgage? | Utah Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Does the Bank Own My Home with a Reverse Mortgage?',
+  title: 'Reverse Mortgage Ownership - Utah Lender',
+  description: 'Discover if the bank owns your home with a reverse mortgage. Get expert advice from Utah Mortgage Lender, Kenny Farshchian.',
 }
 
 

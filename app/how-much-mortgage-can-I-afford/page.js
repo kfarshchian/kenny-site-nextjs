@@ -6,8 +6,8 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/what-mortgage-afford.jpg"
 
 export const metadata = {
-  title: 'Blog | What Mortgage Can I Afford? | Utah Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. What Mortgage Can I Afford?',
+  title: 'What Mortgage Can I Afford? - Kenny Farshchian',
+  description: 'Get expert advice on mortgages in Utah, Florida, and Texas. Request a free consultation today.',
 }
 
 

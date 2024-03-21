@@ -9,9 +9,9 @@ import signDocs from "../../public/sign-paperword-reverse-mortgage-utah.jpg"
 
 export const metadata = {
   title:
-    "Loan Closing Guarantee | Utah Mortgage Lender and Reverse Mortgages | Kenny Farshchian W/Primary Residential Mortgage, Inc. ",
+    "Utah Mortgage Lender - Loan Closing Guarantee",
   description:
-    "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee.",
+    "Competitive rates, excellent service. Trust Kenny Farshchian for your Utah mortgage needs. Request a consultation now.",
 };
 
 function ClosingGuarantee() {

@@ -10,8 +10,8 @@ import movingBox from "../../public/our-process-moving-reverse-mortgage-utah.jpg
 import houseCalculations from "../../public/austin-coins-reverse-mortgage-texas.jpg"
 
 export const metadata = {
-  title: 'Our Process | Utah Mortgage Lender and Reverse Mortgages | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process.',
+  title: 'Utah Mortgage Lender - Kenny Farshchian W/PRMI',
+  description: 'Competitive rates and seamless process. Trust the best in Utah.',
 }
 
 function OurProcess() {

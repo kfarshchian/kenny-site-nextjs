@@ -9,8 +9,8 @@ import signDocs from "../../public/bountiful-sign-reverse-mortgage-utah.jpg"
 import houseCalculations from "../../public/syracuse-calc-reverse-mortgage-utah.jpg"
 
 export const metadata = {
-  title: 'Syracuse | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Syracuse.',
+  title: 'Syracuse Utah Mortgages | Kenny Farshchian',
+  description: 'Get competitive rates, excellent service, and a seamless lending process with Kenny Farshchian in Syracuse. Trust the top Utah mortgage expert.',
 }
 
 function Syracuse() {

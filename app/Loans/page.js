@@ -5,8 +5,8 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import HeaderImage from "/public/reverse-mortgage-florida-reverse-mortgage-texas2.png"
 
 export const metadata = {
-  title: 'Types of Home Loans | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Types of Home Loans.',
+  title: 'Utah Mortgage Lender - Home Loans & Reverse Mortgages',
+  description: 'Competitive rates, expert guidance. Request a free consultation today.',
 }
 
 function Loans() {

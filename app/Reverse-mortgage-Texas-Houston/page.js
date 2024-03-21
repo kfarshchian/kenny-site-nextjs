@@ -9,8 +9,8 @@ import signDocs from "../../public/houston-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/houston-rate-reverse-mortgage-texas.jpg"
 
 export const metadata = {
-  title: 'Houston | Texas Mortgage Lender and Reverse Mortgages | Texas Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Houston.',
+  title: 'Texas Mortgage Lender - Houston Home Loans',
+  description: 'Competitive rates and excellent service. Trust Kenny Farshchian for your home loan needs. Request a consultation!',
 }
 
 function Houston() {

@@ -6,8 +6,8 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/where-to-apply.jpg"
 
 export const metadata = {
-  title: 'Blog | Where to apply for a reverse mortgage? | Utah Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Where to apply for a reverse mortgage?',
+  title: 'Reverse Mortgage Application in Utah, FL & TX | Kenny Farshchian',
+  description: 'Best rates, seamless process, free consultation. Apply for a reverse mortgage in Utah with Kenny Farshchian at Primary Residential Mortgage, Inc.',
 }
 
 function Apply() {

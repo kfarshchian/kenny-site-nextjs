@@ -6,8 +6,8 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/where-to-get.jpg"
 
 export const metadata = {
-  title: 'Blog | Where to get a Reverse Mortgage? | Utah Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Where to get a Reverse Mortgage?',
+  title: 'Top Reverse Mortgage Lender - Kenny Farshchian',
+  description: 'Get expert advice and competitive rates on reverse mortgages in Utah, Florida, and Texas. Request a free consultation with Kenny Farshchian today.',
 }
 
 function GetMortgage() {

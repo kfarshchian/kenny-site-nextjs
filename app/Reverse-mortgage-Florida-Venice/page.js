@@ -9,8 +9,8 @@ import signDocs from "../../public/venice-sign-reverse-mortgage-florida.jpg"
 import loanApplication from "../../public/applications-city-reverse-mortgage-florida2.png"
 
 export const metadata = {
-  title: 'Venice | Florida Mortgage Lender and Reverse Mortgages | Florida Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Venice.',
+  title: 'Best Florida Mortgage and Reverse Mortgage Lender in Venice, FL',
+  description: 'Trust the expertise of Kenny Farshchian with PRMI for competitive rates and seamless lending process in Venice, Florida. Request a free consultation today.',
 }
 
 function Venice() {

@@ -9,8 +9,8 @@ import signDocs from "../../public/dallas-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/dallas-rate-reverse-mortgage-texas.jpg"
 
 export const metadata = {
-  title: 'Dallas | Texas Mortgage Lender and Reverse Mortgages | Texas Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Dallas.',
+  title: 'Dallas Mortgage Expert | Kenny Farshchian',
+  description: 'Trust Kenny Farshchian for competitive rates and seamless lending in Dallas. Your path to homeownership starts here. Request a free consultation today.',
 }
 
 function Dallas() {

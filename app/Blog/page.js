@@ -15,8 +15,8 @@ import './blog.scss'
 import HeaderImage from "/public/blog-reverse-mortgage-utah.jpg"
 
 export const metadata = {
-  title: 'Blog | Utah Mortgage Lender and Reverse Mortgages | Kenny Farshchian W/Primary Residential Mortgage, Inc. ',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Blog',
+  title: 'Utah Mortgage Lender Blog | Kenny Farshchian - PRMI',
+  description: 'Expert advice on Utah mortgages and reverse mortgages from Kenny Farshchian at PRMI. Get competitive rates and excellent service. Request a consultation now.',
 }
 
 function Austin() {

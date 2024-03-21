@@ -27,8 +27,8 @@ import reverseMortgage from "../public/reverse-mortgage-utah-retirement3.png";
 
 export const metadata = {
   title:
-    "Loan officer Utah | Utah mortgage | Mortgage broker Utah | Reverse Mortgage Florida | Kenny Farshchian W/Primary Residential Mortgage, Inc.",
-  description: "Best Reverse Mortgage expert in Utah, Florida, and Texas",
+    "Utah Mortgage Expert - Kenny Farshchian | PRMI",
+  description: "Connect with Kenny Farshchian, Utah's premier mortgage and reverse mortgage expert at Primary Residential Mortgage, Inc. for all your home financing needs.",
 };
 
 const Home = () => {

@@ -10,8 +10,8 @@ import houseRates from "../../public/west-valley-city-stats-reverse-mortgage-uta
 
 
 export const metadata = {
-  title: 'West Valley City | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. West Valley City.',
+  title: 'Utah Mortgage Lender in West Valley City - Kenny Farshchian',
+  description: 'Get competitive rates and excellent service with Kenny Farshchian in West Valley City. Expert in mortgages and reverse mortgages.',
 }
 
 function WestValleyCity() {

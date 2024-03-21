@@ -5,8 +5,8 @@ import "./Disclosure.scss";
 import { Container } from "@mui/material";
 
 export const metadata = {
-  title: 'Disclosure & Information | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Disclosure & Information.',
+  title: 'Utah Mortgage Expert | Kenny Farshchian',
+  description: 'Get expert advice and competitive rates from Kenny Farshchian, the top Utah mortgage lender. Trust transparency and a seamless lending process.',
 }
 
 function Disclosure() {

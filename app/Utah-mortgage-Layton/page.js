@@ -9,8 +9,8 @@ import signDocs from "../../public/Layton-sign-reverse-mortgage-utah.jpg"
 import interestPC from "../../public/stats-layton-reverse-mortage-utah.jpg"
 
 export const metadata = {
-  title: 'Layton | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Layton.',
+  title: 'Layton Mortgage Lender - Top Utah Loan Officer - Kenny Farshchian',
+  description: 'Top-rated Layton mortgage lender for competitive rates and excellent service. Contact Kenny Farshchian for a free consultation.',
 }
  
 

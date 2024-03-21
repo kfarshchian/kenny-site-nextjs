@@ -9,8 +9,8 @@ import signDocs from "../../public/austin-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/austin-coins-reverse-mortgage-texas.jpg"
 
 export const metadata = {
-  title: 'Austin | Texas Mortgage Lender and Reverse Mortgages | Texas Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Austin.',
+  title: 'Best Austin Texas Mortgage Lender | Kenny Farshchian | PRMI',
+  description: 'Top mortgage and reverse mortgage expert in Austin, Texas. Request a free consultation today!',
 }
 
 function Austin() {

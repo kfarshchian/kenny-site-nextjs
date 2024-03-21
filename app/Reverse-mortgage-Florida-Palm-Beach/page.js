@@ -9,8 +9,8 @@ import signDocs from "../../public/palm-beach-sign-paperword-reverse-mortgage-ut
 import loanApplication from "../../public/palm-beach-approved-reverse-mortgage-florida.jpg"
 
 export const metadata = {
-  title: 'Palm Beach | Florida Mortgage Lender and Reverse Mortgages | Florida Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Palm Beach.',
+  title: 'Best Florida Mortgage Lender - Palm Beach - Kenny Farshchian',
+  description: 'Trust Kenny Farshchian, the top mortgage expert in Palm Beach, for competitive rates and seamless lending process. Request a free consultation now.',
 }
 
 function PalmBeach() {

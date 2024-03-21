@@ -9,8 +9,8 @@ import signDocs from "../../public/syracuse-sign-reverse-mortgage-utah.jpg"
 import realEstateCalculations from "../../public/bountiful-rates-reverse-mortgage-utah.jpg"
 
 export const metadata = {
-  title: 'Bountiful | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Bountiful.',
+  title: 'Bountiful UT Mortgage Lender - Expert Service & Rates',
+  description: 'Trust the best Utah mortgage lender in Bountiful for competitive rates and seamless lending process. Request a free consultation today.',
 }
 
 function Bountiful() {

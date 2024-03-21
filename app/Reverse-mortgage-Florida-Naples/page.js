@@ -9,8 +9,8 @@ import signDocs from "../../public/Naples-sign-reverse-mortgage-florida.jpg"
 import loanApplication from "../../public/Naples-approved-reverse-mortgage-florida.jpg"
 
 export const metadata = {
-  title: 'Naples | Florida Mortgage Lender and Reverse Mortgages | Florida Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Naples.',
+  title: 'Naples Mortgage Expert - Kenny Farshchian',
+  description: 'Competitive rates, excellent service, seamless process. Request a free consultation now.',
 }
 
 function Naples() {

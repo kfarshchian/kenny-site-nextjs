@@ -9,8 +9,8 @@ import Moving from "../../public/reverse-mortgage-utah-moving.jpg"
 import keysCalculator from "../../public/project-reverse-mortgage-utah.jpg"
 
 export const metadata = {
-  title: 'Salt lake City | Utah Mortgage Lender and Reverse Mortgages | Utah Mortgage Lender and Reverse Mortgages |',
-  description: 'We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers Our Process Loan Closing Guarantee. Salt lake City.',
+  title: 'Salt Lake City Mortgage Lender | Kenny Farshchian',
+  description: 'Secure competitive rates and expert service with Utahs best mortgage lender. Trust Kenny Farshchian for a seamless lending process in Salt Lake City.',
 }
 
 function SaltLakeCity() {
