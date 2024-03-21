@@ -30,8 +30,7 @@ export const metadata = {
     "Utah Mortgage Expert - Kenny Farshchian | PRMI",
   description: "Connect with Kenny Farshchian, Utah's premier mortgage and reverse mortgage expert at Primary Residential Mortgage, Inc. for all your home financing needs.",
   openGraph: {
-    title: 'og:type',
-    description: 'website',
+    type: 'website',
   }
 };
 
