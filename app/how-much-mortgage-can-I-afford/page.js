@@ -6,7 +6,7 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/what-mortgage-afford.jpg"
 
 export const metadata = {
-  title: 'What Mortgage Can I Afford? - Kenny Farshchian',
+  title: 'Receive expert advice on mortgages in Utah, Florida, and Texas. Get a free consultation with Kenny Farshchian at Primary Residential Mortgage, Inc.',
   description: 'Get expert advice on mortgages in Utah, Florida, and Texas. Request a free consultation today.',
 }
 

@@ -5,7 +5,7 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import HeaderImage from "/public/reverse-mortgage-florida-reverse-mortgage-texas2.png"
 
 export const metadata = {
-  title: 'Utah Mortgage Lender - Home Loans & Reverse Mortgages',
+  title: 'Get competitive rates and expert guidance on home loans and reverse mortgages in Utah from Kenny Farshchian. Request a free consultation today.',
   description: 'Competitive rates, expert guidance. Request a free consultation today.',
 }
 

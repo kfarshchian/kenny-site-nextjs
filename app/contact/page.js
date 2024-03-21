@@ -9,7 +9,7 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import HeaderImage from "/public/reverse-mortgage-florida-reverse-mortgage-texas-contact-us.jpg"
 
 export const metadata = {
-  title: 'Contact Us | Utah Mortgage Lender and Reverse Mortgages |',
+  title: 'Contact Kenny Farshchian for expertise, transparency, and a seamless lending process in Utah. Get competitive rates and excellent customer service.',
   description: 'Get competitive rates and excellent customer service with Utahs top mortgage expert. Contact us for expertise, transparency, and a seamless lending process.',
 }
 

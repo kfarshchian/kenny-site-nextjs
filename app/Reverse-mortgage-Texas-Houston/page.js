@@ -9,7 +9,7 @@ import signDocs from "../../public/houston-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/houston-rate-reverse-mortgage-texas.jpg"
 
 export const metadata = {
-  title: 'Texas Mortgage Lender - Houston Home Loans',
+  title: 'Trust Kenny Farshchian for competitive rates and expert service on your Utah home loan needs. Request a consultation today!',
   description: 'Competitive rates and excellent service. Trust Kenny Farshchian for your home loan needs. Request a consultation!',
 }
 

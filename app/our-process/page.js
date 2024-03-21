@@ -10,7 +10,7 @@ import movingBox from "../../public/our-process-moving-reverse-mortgage-utah.jpg
 import houseCalculations from "../../public/austin-coins-reverse-mortgage-texas.jpg"
 
 export const metadata = {
-  title: 'Utah Mortgage Lender - Kenny Farshchian W/PRMI',
+  title: 'Trust the best Utah mortgage lender for competitive rates and a seamless process. Contact Kenny Farshchian with PRMI for all your mortgage needs.',
   description: 'Competitive rates and seamless process. Trust the best in Utah.',
 }
 

@@ -6,7 +6,7 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/doesTheBankOwnMyMortgage.jpg"
 
 export const metadata = {
-  title: 'Reverse Mortgage Ownership - Utah Lender',
+  title: 'Discover if your home is truly owned by the bank with a reverse mortgage. Get guidance from Utahs top expert.',
   description: 'Discover if the bank owns your home with a reverse mortgage. Get expert advice from Utah Mortgage Lender, Kenny Farshchian.',
 }
 
