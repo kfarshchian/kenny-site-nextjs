@@ -9,13 +9,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 const inter = Inter({ subsets: ['latin'] })
 import {GoogleAnalyticsTracking} from '../components/GoogleAnalyticsTracking/GoogleAnalyticsTracking'
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://www.mortgagekenny.com'),
-  alternates: {
-    canonical: '/',
-  },
-}
-
 export default function RootLayout({
   children,
 }: {
