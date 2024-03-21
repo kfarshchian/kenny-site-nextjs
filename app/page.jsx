@@ -28,17 +28,14 @@ import reverseMortgage from "../public/reverse-mortgage-utah-retirement3.png";
 export const metadata = {
   title: "Utah Mortgage Expert - Kenny Farshchian | PRMI",
   description: "Connect with Kenny Farshchian, Utah's premier mortgage and reverse mortgage expert at Primary Residential Mortgage, Inc. for all your home financing needs.",
-  url: 'www.mortgagekenny.com',
-  type: 'website',
   openGraph: {
-    url: 'www.mortgagekenny.com',
-    title: 'Utah Mortgage Expert - Kenny Farshchian | PRMI',
-    type: 'website',
+    url: "https://www.mortgagekenny.com/",
+    title: "Utah Mortgage Expert - Kenny Farshchian | PRMI",
+    type: "website",
     images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
     twitter: {
-      card: "summary_large_image",
       title: "Utah Mortgage Expert - Kenny Farshchian | PRMI",
-      description: "Connect with Utah's premier mortgage expert Kenny Farshchian at Primary Residential Mortgage, Inc. for all your home financing needs.",
+      description: "Connect with Kenny Farshchian, Utah's premier mortgage and reverse mortgage expert at Primary Residential Mortgage, Inc. for all your home financing needs.",
       images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
     },
   }
@@ -565,7 +562,7 @@ const Home = () => {
           </p>
         </div>
         {/* second section */}
-        <div id="reverse-mortgage-texas-home-h2">
+        {/* <div id="reverse-mortgage-texas-home-h2">
           <h2>
             Utah Mortgage Solutions: Your Trusted Loan Officer Utah, Mortgage
             Broker Utah, and Lender - Kenny Farshchian
@@ -602,11 +599,6 @@ const Home = () => {
             </p>
           </div>
           <div id="reverse-mortgage-texas-home-stack-container">
-            {/* <img
-              id="reverse-mortgage-texas-home-stack-img"
-              src='/reverse-mortgage-texas-home-reading.jpg'
-              alt="reverse mortgage Utah Moving Boxes"
-            /> */}
             <Image
               id="reverse-mortgage-texas-home-stack-img"
               src={LocalLenderSign}
@@ -651,11 +643,6 @@ const Home = () => {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            {/* <img
-              id="reverse-mortgage-texas-home-stack-img"
-              src='/reverse-mortgage-texas-home-paper.jpg'
-              alt="reverse mortgage Utah Moving Boxes"
-            /> */}
             <Image
               id="reverse-mortgage-texas-home-stack-img"
               src={LocalLenderPapers}
@@ -712,7 +699,6 @@ const Home = () => {
           <Button id="reverse-mortgage-texas-home-button">801-520-8475</Button>
         </div>
       </Container>
-      {/*  */}
       <Container maxWidth="md">
         <div id="reverse-mortgage-texas-home-h2">
           <h2>
@@ -752,13 +738,13 @@ const Home = () => {
             can find a trusted loan officer or mortgage broker in Utah who will
             guide you through the loan process and help you secure the best Utah
             mortgage for your needs.
-          </p>
-          <div id="reverse-mortgage-texas-home-h2">
+          </p> */}
+          {/* <div id="reverse-mortgage-texas-home-h2">
             <h2>Our Approach</h2>
           </div>
-        </div>
+        </div> */}
 
-        <Stack
+        {/* <Stack
           direction={{ xs: "column", sm: "row" }}
           id="reverse-mortgage-texas-home-stack"
           sx={{
@@ -768,11 +754,6 @@ const Home = () => {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="reverse-mortgage-texas-home-stack-container">
-            {/* <img
-              id="reverse-mortgage-texas-home-stack-img"
-              src='/reverse-mortgage-texas-home-house.jpg'
-              alt="reverse mortgage Utah Moving Boxes"
-            /> */}
             <Image
               id="reverse-mortgage-texas-home-stack-img"
               src={LocalLenderHouse}
@@ -790,7 +771,7 @@ const Home = () => {
               experience.
             </p>
           </div>
-        </Stack>
+        </Stack> */}
       </Container>
       {/* reviews experience */}
       <Container>

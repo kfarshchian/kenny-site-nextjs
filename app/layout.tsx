@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar'
 import './globals.css'
-import type { Metadata } from 'next'
+import type { Metadata, metadatea } from 'next'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
 import ThisScript from './ThisScript/ThisScript'
@@ -10,10 +10,11 @@ const inter = Inter({ subsets: ['latin'] })
 import {GoogleAnalyticsTracking} from '../components/GoogleAnalyticsTracking/GoogleAnalyticsTracking'
 
 export const metadata: Metadata = {
-  title: 'Loan officer Utah | Utah mortgage | Mortgage broker Utah | Reverse Mortgage Florida | Kenny Farshchian W/Primary Residential Mortgage, Inc.',
-  description: 'Best Reverse Mortgage expert in Utah, Florida, and Texas',
+  metadataBase: new URL('https://www.mortgagekenny.com'),
+  alternates: {
+    canonical: '/',
+  },
 }
-
 
 export default function RootLayout({
   children,
