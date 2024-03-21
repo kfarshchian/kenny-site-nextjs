@@ -29,6 +29,10 @@ export const metadata = {
   title:
     "Utah Mortgage Expert - Kenny Farshchian | PRMI",
   description: "Connect with Kenny Farshchian, Utah's premier mortgage and reverse mortgage expert at Primary Residential Mortgage, Inc. for all your home financing needs.",
+  openGraph: {
+    title: 'og:type',
+    description: 'website',
+  }
 };
 
 const Home = () => {
@@ -45,11 +49,11 @@ const Home = () => {
     <>
       <Head>
         <meta name="robots" content="all" />
-        <meta property="og:type" content="website"/>
         <link
           rel="canonical"
           href="https://www.mortgagekenny.com"
         />
+        
       </Head>
       <HeaderPage headerProp={headerProp ?? []} />
 
