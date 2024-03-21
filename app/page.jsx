@@ -31,6 +31,7 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.mortgagekenny.com',
   },
+  type: "website",
   openGraph: {
     url: "https://www.mortgagekenny.com/",
     title: "Utah Mortgage Expert - Kenny Farshchian | PRMI",
