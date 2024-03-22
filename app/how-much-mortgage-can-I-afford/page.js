@@ -6,8 +6,8 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/what-mortgage-afford.jpg"
 
 export const metadata = {
-  title: 'Receive expert advice on mortgages in Utah, Florida, and Texas. Get a free consultation with Kenny Farshchian at Primary Residential Mortgage, Inc.',
-  description: 'Get expert advice on mortgages in Utah, Florida, and Texas. Request a free consultation today.',
+  title: 'Receive expert advice on mortgages in Utah, Florida, and Texas.',
+  description: 'Explore tailored mortgage advice for Utah, Florida, and Texas with Kenny Farshchian at Primary Residential Mortgage, Inc. Take the first step towards informed homeownership—request your complimentary consultation now!',
 }
 
 

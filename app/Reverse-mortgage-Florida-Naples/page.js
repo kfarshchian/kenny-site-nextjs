@@ -10,7 +10,7 @@ import loanApplication from "../../public/Naples-approved-reverse-mortgage-flori
 
 export const metadata = {
   title: 'Naples Mortgage Expert - Kenny Farshchian',
-  description: 'Competitive rates, excellent service, seamless process. Request a free consultation now.',
+  description: 'Naples Mortgage Expert Kenny Farshchian offers competitive rates, excellent service, and a seamless process for your mortgage needs. Request a free consultation today to experience personalized guidance and expert assistance in navigating the complexities of home financing.',
 }
 
 function Naples() {

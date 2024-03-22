@@ -10,7 +10,7 @@ import houseCalculations from "../../public/austin-coins-reverse-mortgage-texas.
 
 export const metadata = {
   title: 'Expert Mortgage Advice in Utah, Texas, Florida - Kenny Farshchian',
-  description: 'Top mortgage and reverse mortgage expert in Austin, Texas. Request a free consultation today!',
+  description: 'Discover unparalleled expertise in mortgages and reverse mortgages in Austin, Texas, with Kenny Farshchian, the leading authority in the field. Request your complimentary consultation today to access expert advice tailored to your needs. Kenny Farshchian also provides top-tier mortgage guidance in Utah and Florida, ensuring you receive the best solutions for your homeownership journey.',
 }
 
 function Austin() {

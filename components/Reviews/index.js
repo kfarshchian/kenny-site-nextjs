@@ -1,7 +1,7 @@
-import dynamic from 'next/dynamic'
+// import dynamic from 'next/dynamic'
 
-const Reviews = dynamic(() => import('./Reviews.js'), {
-    ssr: false
-})
+// const Reviews = dynamic(() => import('./Reviews.js'), {
+//     ssr: false
+// })
 
-export default Reviews
+// export default Reviews

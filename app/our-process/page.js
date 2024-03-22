@@ -11,7 +11,7 @@ import houseCalculations from "../../public/austin-coins-reverse-mortgage-texas.
 
 export const metadata = {
   title: 'Mortgage Expert - PRMI Utah',
-  description: 'Competitive rates and seamless process. Trust the best in Utah.',
+  description: 'Experience competitive rates and a seamless mortgage process with PRMI Utah, your trusted experts in the field. Trust in our commitment to excellence as we guide you through your home financing journey. Choose PRMI Utah for unparalleled service and expertise in the mortgage industry.',
 }
 
 function OurProcess() {
