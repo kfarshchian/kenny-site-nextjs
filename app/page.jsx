@@ -9,7 +9,6 @@ import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import HeaderPage from "../components/HeaderPage/HeaderPage";
-import Head from "next/head";
 import Image from "next/image";
 import ExperienceBanner from "../public/top.png";
 import HeaderImage from "../public/Local-Lender-Utah.png";
@@ -31,7 +30,14 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.mortgagekenny.com',
   },
-  type: "website",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
   openGraph: {
     url: "https://www.mortgagekenny.com/",
     title: "Utah Mortgage Expert - Kenny Farshchian | PRMI",
@@ -58,14 +64,6 @@ const Home = () => {
 
   return (
     <>
-      <Head>
-        <meta name="robots" content="all" />
-        <link
-          rel="canonical"
-          href="https://www.mortgagekenny.com"
-        />
-        
-      </Head>
       <HeaderPage headerProp={headerProp ?? []} />
 
       <Container>
