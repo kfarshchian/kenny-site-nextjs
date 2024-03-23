@@ -87,6 +87,7 @@ function ClosingGuarantee() {
             <br></br>
             <Button
               title="reverse mortgage utah"
+              target="_blank"
               href={
                 "https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com"
               }
