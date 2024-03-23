@@ -8,11 +8,35 @@ import Image from "next/image";
 import signDocs from "../../public/Layton-sign-reverse-mortgage-utah.jpg"
 import interestPC from "../../public/stats-layton-reverse-mortage-utah.jpg"
 
+
 export const metadata = {
-  title: 'Top Layton Mortgage Lender - Utah Loan Officer - Kenny Farshchian',
-  description: 'Top-rated Layton mortgage lender for competitive rates and excellent service. Contact Kenny Farshchian for a free consultation.',
-}
- 
+  title: "Top Layton Mortgage Lender - Utah Loan Officer - Kenny Farshchian",
+  description: "Top-rated Layton mortgage lender for competitive rates and excellent service. Contact Kenny Farshchian for a free consultation.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Utah-mortgage-Layton',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Utah-mortgage-Layton",
+    title: "Top Layton Mortgage Lender - Utah Loan Officer - Kenny Farshchian",
+    type: "website",
+    description: "Top-rated Layton mortgage lender for competitive rates and excellent service. Contact Kenny Farshchian for a free consultation.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Top Layton Mortgage Lender - Utah Loan Officer - Kenny Farshchian",
+      description: "Top-rated Layton mortgage lender for competitive rates and excellent service. Contact Kenny Farshchian for a free consultation.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 
 function Layton() {
 

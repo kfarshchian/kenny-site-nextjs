@@ -8,11 +8,35 @@ import Image from "next/image";
 import signDocs from "../../public/ogden-sign-reverse-mortgage-utah.jpg"
 import houseCalculations from "../../public/ogden-rate-arrow-reverse-mortgage-utah.jpg"
 
-export const metadata = {
-  title: 'Ogden Mortgage Lender - Reverse Mortgages Utah | Kenny Farshchian',
-  description: 'Competitive rates and expert service with Kenny Farshchian at Primary Residential Mortgage, Inc. Your trusted mortgage expert in Ogden, Utah.',
-}
 
+export const metadata = {
+  title: "Ogden Mortgage Lender - Reverse Mortgages Utah | Kenny Farshchian",
+  description: "Competitive rates and expert service with Kenny Farshchian at Primary Residential Mortgage, Inc. Your trusted mortgage expert in Ogden, Utah.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Reverse-mortgage-Utah-Ogden',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Reverse-mortgage-Utah-Ogden",
+    title: "Ogden Mortgage Lender - Reverse Mortgages Utah | Kenny Farshchian",
+    type: "website",
+    description: "Competitive rates and expert service with Kenny Farshchian at Primary Residential Mortgage, Inc. Your trusted mortgage expert in Ogden, Utah.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Ogden Mortgage Lender - Reverse Mortgages Utah | Kenny Farshchian",
+      description: "Competitive rates and expert service with Kenny Farshchian at Primary Residential Mortgage, Inc. Your trusted mortgage expert in Ogden, Utah.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function Ogden() {
 
     const headerProp =[

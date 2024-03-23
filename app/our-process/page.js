@@ -9,10 +9,35 @@ import Image from "next/image";
 import movingBox from "../../public/our-process-moving-reverse-mortgage-utah.jpg"
 import houseCalculations from "../../public/austin-coins-reverse-mortgage-texas.jpg"
 
+
 export const metadata = {
-  title: 'Mortgage Expert - PRMI Utah',
-  description: 'Experience competitive rates and a seamless mortgage process with PRMI Utah, your trusted experts in the field. Trust in our commitment to excellence as we guide you through your home financing journey. Choose PRMI Utah for unparalleled service and expertise in the mortgage industry.',
-}
+  title: "Mortgage Expert - PRMI Utah",
+  description: "Trust PRMI Utah for competitive rates & seamless mortgage process. Experience excellence as we guide you through home financing. Choose PRMI Utah today!",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/our-process',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/our-process",
+    title: "Mortgage Expert - PRMI Utah",
+    type: "website",
+    description: "Trust PRMI Utah for competitive rates & seamless mortgage process. Experience excellence as we guide you through home financing. Choose PRMI Utah today!",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Mortgage Expert - PRMI Utah",
+      description: "Trust PRMI Utah for competitive rates & seamless mortgage process. Experience excellence as we guide you through home financing. Choose PRMI Utah today!",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 
 function OurProcess() {
       

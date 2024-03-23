@@ -9,10 +9,33 @@ import signDocs from "../../public/bountiful-sign-reverse-mortgage-utah.jpg"
 import houseCalculations from "../../public/syracuse-calc-reverse-mortgage-utah.jpg"
 
 export const metadata = {
-  title: 'Syracuse Utah Mortgages | Kenny Farshchian - Best Mortgage Expert',
-  description: 'Get competitive rates, excellent service, and a seamless lending process with Kenny Farshchian in Syracuse. Trust the top Utah mortgage expert.',
-}
-
+  title: "Syracuse Utah Mortgages | Kenny Farshchian - Best Mortgage Expert",
+  description: "Get competitive rates, excellent service, and a seamless lending process with Kenny Farshchian in Syracuse. Trust the top Utah mortgage expert.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Utah-Mortgage-Syracuse',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Utah-Mortgage-Syracuse",
+    title: "Syracuse Utah Mortgages | Kenny Farshchian - Best Mortgage Expert",
+    type: "website",
+    description: "Get competitive rates, excellent service, and a seamless lending process with Kenny Farshchian in Syracuse. Trust the top Utah mortgage expert.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Syracuse Utah Mortgages | Kenny Farshchian - Best Mortgage Expert",
+      description: "Get competitive rates, excellent service, and a seamless lending process with Kenny Farshchian in Syracuse. Trust the top Utah mortgage expert.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function Syracuse() {
 
     const headerProp =[

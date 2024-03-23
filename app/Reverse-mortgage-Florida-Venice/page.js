@@ -8,11 +8,35 @@ import Image from "next/image";
 import signDocs from "../../public/venice-sign-reverse-mortgage-florida.jpg"
 import loanApplication from "../../public/applications-city-reverse-mortgage-florida2.png"
 
-export const metadata = {
-  title: 'Best Florida Mortgage and Reverse Mortgage Lender in Venice, FL',
-  description: 'Trust the expertise of Kenny Farshchian with PRMI for competitive rates and seamless lending process in Venice, Florida. Request a free consultation today.',
-}
 
+export const metadata = {
+  title: "Best Florida Mortgage and Reverse Mortgage Lender in Venice, FL",
+  description: "Trust the expertise of Kenny Farshchian with PRMI for competitive rates and seamless lending process in Venice, Florida. Request a free consultation today.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Reverse-mortgage-Florida-Venice',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Reverse-mortgage-Florida-Venice",
+    title: "Best Florida Mortgage and Reverse Mortgage Lender in Venice, FL",
+    type: "website",
+    description: "Trust the expertise of Kenny Farshchian with PRMI for competitive rates and seamless lending process in Venice, Florida. Request a free consultation today.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Best Florida Mortgage and Reverse Mortgage Lender in Venice, FL",
+      description: "Trust the expertise of Kenny Farshchian with PRMI for competitive rates and seamless lending process in Venice, Florida. Request a free consultation today.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function Venice() {
 
     const headerProp =[

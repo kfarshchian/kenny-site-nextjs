@@ -8,11 +8,35 @@ import Image from "next/image";
 import signDocs from "../../public/dallas-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/dallas-rate-reverse-mortgage-texas.jpg"
 
-export const metadata = {
-  title: 'Utah, Texas, and Florida Mortgage Expert - Kenny Farshchian',
-  description: 'Trust Kenny Farshchian for competitive rates and seamless lending in Dallas. Your path to homeownership starts here. Request a free consultation today.',
-}
 
+export const metadata = {
+  title: "Utah, Texas, and Florida Mortgage Expert - Kenny Farshchian",
+  description: "Trust Kenny Farshchian for competitive rates and seamless lending in Dallas. Your path to homeownership starts here. Request a free consultation today.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Reverse-mortgage-Texas-Dallas',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Reverse-mortgage-Texas-Dallas",
+    title: "Utah, Texas, and Florida Mortgage Expert - Kenny Farshchian",
+    type: "website",
+    description: "Trust Kenny Farshchian for competitive rates and seamless lending in Dallas. Your path to homeownership starts here. Request a free consultation today.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Utah, Texas, and Florida Mortgage Expert - Kenny Farshchian",
+      description: "Trust Kenny Farshchian for competitive rates and seamless lending in Dallas. Your path to homeownership starts here. Request a free consultation today.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function Dallas() {
 
     const headerProp =[

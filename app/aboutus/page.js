@@ -6,12 +6,33 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import HeaderImage from "/public/arch-utah-reverse-mortgage-utah.jpg"
 
 export const metadata = {
-  title: 'Best Utah Mortgage Lender & Reverse Mortgages | Kenny Farshchian',
-  description: 'Get competitive rates, exceptional service, and expert advice from Kenny Farshchian at Primary Residential Mortgage, Inc. Trust the best in Utah.',
+  title: "Best Utah Mortgage Lender & Reverse Mortgages | Kenny Farshchian",
+  description: "Get competitive rates, exceptional service, and expert advice from Kenny Farshchian at Primary Residential Mortgage, Inc. Trust the best in Utah.",
   alternates: {
     canonical: 'https://www.mortgagekenny.com/aboutus',
   },
-}
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "www.mortgagekenny.com/aboutus",
+    title: "Best Utah Mortgage Lender & Reverse Mortgages | Kenny Farshchian",
+    type: "website",
+    description: "Get competitive rates, exceptional service, and expert advice from Kenny Farshchian at Primary Residential Mortgage, Inc. Trust the best in Utah.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Best Utah Mortgage Lender & Reverse Mortgages | Kenny Farshchian",
+      description: "Connect with Kenny Farshchian, Utah's premier mortgage and reverse mortgage expert at Primary Residential Mortgage, Inc. for all your home financing needs.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function aboutus() {
 
   const headerProp =[

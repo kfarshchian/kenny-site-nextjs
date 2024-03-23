@@ -15,9 +15,33 @@ import './blog.scss'
 import HeaderImage from "/public/blog-reverse-mortgage-utah.jpg"
 
 export const metadata = {
-  title: 'Utah Mortgage Expert - Kenny Farshchian PRMI',
-  description: 'Expert advice on Utah mortgages and reverse mortgages from Kenny Farshchian at PRMI. Get competitive rates and excellent service. Request a consultation now.',
-}
+  title: "Utah Mortgage Expert - Kenny Farshchian PRMI",
+  description: "Expert advice on Utah mortgages and reverse mortgages from Kenny Farshchian at PRMI. Get competitive rates and excellent service. Request a consultation now.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/blog',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/blog",
+    title: "Utah Mortgage Expert - Kenny Farshchian PRMI",
+    type: "website",
+    description: "Expert advice on Utah mortgages and reverse mortgages from Kenny Farshchian at PRMI. Get competitive rates and excellent service. Request a consultation now.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Utah Mortgage Expert - Kenny Farshchian PRMI",
+      description: "Expert advice on Utah mortgages and reverse mortgages from Kenny Farshchian at PRMI. Get competitive rates and excellent service. Request a consultation now.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 
 function Austin() {
   

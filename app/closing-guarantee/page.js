@@ -8,10 +8,32 @@ import Image from "next/image";
 import signDocs from "../../public/sign-paperword-reverse-mortgage-utah.jpg"
 
 export const metadata = {
-  title:
-    "Utah Mortgage Expert - Kenny Farshchian",
-  description:
-    "Competitive rates, excellent service. Trust Kenny Farshchian for your Utah mortgage needs. Request a consultation now.",
+  title: "Utah Mortgage Expert - Kenny Farshchian",
+  description: "Competitive rates, excellent service. Trust Kenny Farshchian for your Utah mortgage needs. Request a consultation now.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/closing-guarantee',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/closing-guarantee",
+    title: "Utah Mortgage Expert - Kenny Farshchian",
+    type: "website",
+    description: "Competitive rates, excellent service. Trust Kenny Farshchian for your Utah mortgage needs. Request a consultation now.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Utah Mortgage Expert - Kenny Farshchian",
+      description: "Competitive rates, excellent service. Trust Kenny Farshchian for your Utah mortgage needs. Request a consultation now.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
 };
 
 function ClosingGuarantee() {

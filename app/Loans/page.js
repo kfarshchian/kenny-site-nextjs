@@ -5,9 +5,33 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import HeaderImage from "/public/reverse-mortgage-florida-reverse-mortgage-texas2.png"
 
 export const metadata = {
-  title: 'Home Loans & Reverse Mortgages in Utah - Kenny Farshchian',
-  description: 'Unlock competitive rates and expert guidance for your home loans and reverse mortgages in Utah with Kenny Farshchian. Take the first step toward securing your financial future by requesting a free consultation today. Benefit from personalized advice tailored to your needs, ensuring a seamless and successful homeownership journey.',
-}
+  title: "Home Loans & Reverse Mortgages in Utah - Kenny Farshchian",
+  description: "Unlock competitive rates and expert guidance for home loans and reverse mortgages in Utah with Kenny Farshchian. Request a free consultation today!",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Loans',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Loans",
+    title: "Home Loans & Reverse Mortgages in Utah - Kenny Farshchian",
+    type: "website",
+    description: "Unlock competitive rates and expert guidance for home loans and reverse mortgages in Utah with Kenny Farshchian. Request a free consultation today!",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Home Loans & Reverse Mortgages in Utah - Kenny Farshchian",
+      description: "Unlock competitive rates and expert guidance for home loans and reverse mortgages in Utah with Kenny Farshchian. Request a free consultation today!",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 
 function Loans() {
 

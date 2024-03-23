@@ -5,11 +5,35 @@ import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/where-to-get.jpg"
 
-export const metadata = {
-  title: 'Top Reverse Mortgage Lender - Kenny Farshchian',
-  description: 'Get expert advice and competitive rates on reverse mortgages in Utah, Florida, and Texas. Request a free consultation with Kenny Farshchian today.',
-}
 
+export const metadata = {
+  title: "Top Reverse Mortgage Lender - Kenny Farshchian",
+  description: "Get expert advice and competitive rates on reverse mortgages in Utah, Florida, and Texas. Request a free consultation with Kenny Farshchian today.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/where-to-get-a-mortgage',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/where-to-get-a-mortgage",
+    title: "Top Reverse Mortgage Lender - Kenny Farshchian",
+    type: "website",
+    description: "Get expert advice and competitive rates on reverse mortgages in Utah, Florida, and Texas. Request a free consultation with Kenny Farshchian today.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Top Reverse Mortgage Lender - Kenny Farshchian",
+      description: "Get expert advice and competitive rates on reverse mortgages in Utah, Florida, and Texas. Request a free consultation with Kenny Farshchian today.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function GetMortgage() {
 
     const headerProp =[

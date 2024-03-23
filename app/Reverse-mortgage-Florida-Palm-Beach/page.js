@@ -8,11 +8,35 @@ import Image from "next/image";
 import signDocs from "../../public/palm-beach-sign-paperword-reverse-mortgage-utah.jpg.jpg"
 import loanApplication from "../../public/palm-beach-approved-reverse-mortgage-florida.jpg"
 
-export const metadata = {
-  title: 'Best Florida Mortgage Lender - Palm Beach - Kenny Farshchian',
-  description: 'Trust Kenny Farshchian, the top mortgage expert in Palm Beach, for competitive rates and seamless lending process. Request a free consultation now.',
-}
 
+export const metadata = {
+  title: "Best Florida Mortgage Lender - Palm Beach - Kenny Farshchian",
+  description: "Trust Kenny Farshchian, the top mortgage expert in Palm Beach, for competitive rates and seamless lending process. Request a free consultation now.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Reverse-mortgage-Florida-Palm-Beach',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Reverse-mortgage-Florida-Palm-Beach",
+    title: "Best Florida Mortgage Lender - Palm Beach - Kenny Farshchian",
+    type: "website",
+    description: "Trust Kenny Farshchian, the top mortgage expert in Palm Beach, for competitive rates and seamless lending process. Request a free consultation now.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Best Florida Mortgage Lender - Palm Beach - Kenny Farshchian",
+      description: "Trust Kenny Farshchian, the top mortgage expert in Palm Beach, for competitive rates and seamless lending process. Request a free consultation now.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function PalmBeach() {
 
     const headerProp =[

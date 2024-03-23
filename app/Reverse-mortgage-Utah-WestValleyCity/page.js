@@ -9,11 +9,35 @@ import signDocs from "../../public/west-valley-city-sign-reverse-mortgage-utah.j
 import houseRates from "../../public/west-valley-city-stats-reverse-mortgage-utah.jpg"
 
 
-export const metadata = {
-  title: 'Utah Mortgage Lender in West Valley City - Kenny Farshchian',
-  description: 'Get competitive rates and excellent service with Kenny Farshchian in West Valley City. Expert in mortgages and reverse mortgages.',
-}
 
+export const metadata = {
+  title: "Utah Mortgage Lender in West Valley City - Kenny Farshchian",
+  description: "Get competitive rates and excellent service with Kenny Farshchian in West Valley City. Expert in mortgages and reverse mortgages.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Reverse-mortgage-Utah-WestValleyCity',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Reverse-mortgage-Utah-WestValleyCity",
+    title: "Utah Mortgage Lender in West Valley City - Kenny Farshchian",
+    type: "website",
+    description: "Get competitive rates and excellent service with Kenny Farshchian in West Valley City. Expert in mortgages and reverse mortgages.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Utah Mortgage Lender in West Valley City - Kenny Farshchian",
+      description: "Get competitive rates and excellent service with Kenny Farshchian in West Valley City. Expert in mortgages and reverse mortgages.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function WestValleyCity() {
 
     const headerProp =[

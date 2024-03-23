@@ -8,11 +8,35 @@ import Image from "next/image";
 import signDocs from "../../public/Naples-sign-reverse-mortgage-florida.jpg"
 import loanApplication from "../../public/Naples-approved-reverse-mortgage-florida.jpg"
 
-export const metadata = {
-  title: 'Naples Mortgage Expert - Kenny Farshchian',
-  description: 'Naples Mortgage Expert Kenny Farshchian offers competitive rates, excellent service, and a seamless process for your mortgage needs. Request a free consultation today to experience personalized guidance and expert assistance in navigating the complexities of home financing.',
-}
 
+export const metadata = {
+  title: "Naples Mortgage Expert - Kenny Farshchian",
+  description: "For Naples mortgages, trust Kenny Farshchian: competitive rates, top service, seamless process. Request a free consultation for expert assistance today!",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Reverse-mortgage-Florida-Naples',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Reverse-mortgage-Florida-Naples",
+    title: "Naples Mortgage Expert - Kenny Farshchian",
+    type: "website",
+    description: "For Naples mortgages, trust Kenny Farshchian: competitive rates, top service, seamless process. Request a free consultation for expert assistance today!",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Naples Mortgage Expert - Kenny Farshchian",
+      description: "For Naples mortgages, trust Kenny Farshchian: competitive rates, top service, seamless process. Request a free consultation for expert assistance today!",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function Naples() {
 
     const headerProp =[

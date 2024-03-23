@@ -8,11 +8,35 @@ import Image from "next/image";
 import Moving from "../../public/reverse-mortgage-utah-moving.jpg"
 import keysCalculator from "../../public/project-reverse-mortgage-utah.jpg"
 
-export const metadata = {
-  title: 'Salt Lake City Mortgage Lender | Kenny Farshchian',
-  description: 'Secure competitive rates and expert service with Utahs best mortgage lender. Trust Kenny Farshchian for a seamless lending process in Salt Lake City.',
-}
 
+export const metadata = {
+  title: "Salt Lake City Mortgage Lender | Kenny Farshchian",
+  description: "Secure competitive rates and expert service with Utahs best mortgage lender. Trust Kenny Farshchian for a seamless lending process in Salt Lake City.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Utah-mortgage-salt-lake-city',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Utah-mortgage-salt-lake-city",
+    title: "Salt Lake City Mortgage Lender | Kenny Farshchian",
+    type: "website",
+    description: "Secure competitive rates and expert service with Utahs best mortgage lender. Trust Kenny Farshchian for a seamless lending process in Salt Lake City.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Salt Lake City Mortgage Lender | Kenny Farshchian",
+      description: "Secure competitive rates and expert service with Utahs best mortgage lender. Trust Kenny Farshchian for a seamless lending process in Salt Lake City.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function SaltLakeCity() {
   const headerProp = [
     { headerImage: headerImage },

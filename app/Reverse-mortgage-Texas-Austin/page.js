@@ -8,11 +8,35 @@ import Image from "next/image";
 import signDocs from "../../public/austin-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/austin-coins-reverse-mortgage-texas.jpg"
 
-export const metadata = {
-  title: 'Expert Mortgage Advice in Utah, Texas, Florida - Kenny Farshchian',
-  description: 'Discover unparalleled expertise in mortgages and reverse mortgages in Austin, Texas, with Kenny Farshchian, the leading authority in the field. Request your complimentary consultation today to access expert advice tailored to your needs. Kenny Farshchian also provides top-tier mortgage guidance in Utah and Florida, ensuring you receive the best solutions for your homeownership journey.',
-}
 
+export const metadata = {
+  title: "Expert Mortgage Advice in Utah, Texas, Florida - Kenny Farshchian",
+  description: "Access top-tier mortgage expertise in Austin, Texas, with Kenny Farshchian. Request your complimentary consultation today for tailored advice.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Reverse-mortgage-Texas-Austin',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Reverse-mortgage-Texas-Austin",
+    title: "Expert Mortgage Advice in Utah, Texas, Florida - Kenny Farshchian",
+    type: "website",
+    description: "Access top-tier mortgage expertise in Austin, Texas, with Kenny Farshchian. Request your complimentary consultation today for tailored advice.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Expert Mortgage Advice in Utah, Texas, Florida - Kenny Farshchian",
+      description: "Access top-tier mortgage expertise in Austin, Texas, with Kenny Farshchian. Request your complimentary consultation today for tailored advice.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function Austin() {
 
       const headerProp =[

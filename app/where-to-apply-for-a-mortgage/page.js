@@ -5,11 +5,35 @@ import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/where-to-apply.jpg"
 
-export const metadata = {
-  title: 'Reverse Mortgage Application in Utah, FL & TX | Kenny Farshchian',
-  description: 'Best rates, seamless process, free consultation. Apply for a reverse mortgage in Utah with Kenny Farshchian at Primary Residential Mortgage, Inc.',
-}
 
+export const metadata = {
+  title: "Reverse Mortgage Application in Utah, FL & TX | Kenny Farshchian",
+  description: "Best rates, seamless process, free consultation. Apply for a reverse mortgage in Utah with Kenny Farshchian at Primary Residential Mortgage, Inc.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/where-to-apply-for-a-mortgage',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/where-to-apply-for-a-mortgage",
+    title: "Reverse Mortgage Application in Utah, FL & TX | Kenny Farshchian",
+    type: "website",
+    description: "Best rates, seamless process, free consultation. Apply for a reverse mortgage in Utah with Kenny Farshchian at Primary Residential Mortgage, Inc.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Reverse Mortgage Application in Utah, FL & TX | Kenny Farshchian",
+      description: "Best rates, seamless process, free consultation. Apply for a reverse mortgage in Utah with Kenny Farshchian at Primary Residential Mortgage, Inc.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function Apply() {
 
       const headerProp =[

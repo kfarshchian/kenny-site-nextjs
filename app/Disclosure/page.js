@@ -5,9 +5,33 @@ import "./Disclosure.scss";
 import { Container } from "@mui/material";
 
 export const metadata = {
-  title: 'Top Utah Mortgage Expert | Kenny Farshchian - PRMI',
-  description: 'Get expert advice and competitive rates from Kenny Farshchian, the top Utah mortgage lender. Trust transparency and a seamless lending process.',
-}
+  title: "Top Utah Mortgage Expert | Kenny Farshchian - PRMI",
+  description: "Get expert advice and competitive rates from Kenny Farshchian, the top Utah mortgage lender. Trust transparency and a seamless lending process.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Disclosure',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Disclosure",
+    title: "Top Utah Mortgage Expert | Kenny Farshchian - PRMI",
+    type: "website",
+    description: "Get expert advice and competitive rates from Kenny Farshchian, the top Utah mortgage lender. Trust transparency and a seamless lending process.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Top Utah Mortgage Expert | Kenny Farshchian - PRMI",
+      description: "Get expert advice and competitive rates from Kenny Farshchian, the top Utah mortgage lender. Trust transparency and a seamless lending process.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 
 function Disclosure() {
     const parallaxProp =[

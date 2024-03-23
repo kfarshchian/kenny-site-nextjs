@@ -8,11 +8,35 @@ import Image from "next/image";
 import signDocs from "../../public/syracuse-sign-reverse-mortgage-utah.jpg"
 import realEstateCalculations from "../../public/bountiful-rates-reverse-mortgage-utah.jpg"
 
-export const metadata = {
-  title: 'Bountiful UT Mortgage Lender - Expert Service & Rates',
-  description: 'Trust the best Utah mortgage lender in Bountiful for competitive rates and seamless lending process. Request a free consultation today.',
-}
 
+export const metadata = {
+  title: "Bountiful UT Mortgage Lender - Expert Service & Rates",
+  description: "Trust the best Utah mortgage lender in Bountiful for competitive rates and seamless lending process. Request a free consultation today.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Utah-mortgage-Bountiful',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Utah-mortgage-Bountiful",
+    title: "Bountiful UT Mortgage Lender - Expert Service & Rates",
+    type: "website",
+    description: "Trust the best Utah mortgage lender in Bountiful for competitive rates and seamless lending process. Request a free consultation today.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Bountiful UT Mortgage Lender - Expert Service & Rates",
+      description: "Trust the best Utah mortgage lender in Bountiful for competitive rates and seamless lending process. Request a free consultation today.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function Bountiful() {
 
     const headerProp =[

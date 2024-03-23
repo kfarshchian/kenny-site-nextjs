@@ -9,9 +9,33 @@ import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import HeaderImage from "/public/reverse-mortgage-florida-reverse-mortgage-texas-contact-us.jpg"
 
 export const metadata = {
-  title: 'Best Mortgage Expert in Utah - Kenny Farshchian',
-  description: 'Get competitive rates and excellent customer service with Utahs top mortgage expert. Contact us for expertise, transparency, and a seamless lending process.',
-}
+  title: "Best Mortgage Expert in Utah - Kenny Farshchian",
+  description: "Get competitive rates and excellent customer service with Utahs top mortgage expert. Contact us for expertise, transparency, and a seamless lending process.",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/contact',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/contact",
+    title: "Best Mortgage Expert in Utah - Kenny Farshchian",
+    type: "website",
+    description: "Get competitive rates and excellent customer service with Utahs top mortgage expert. Contact us for expertise, transparency, and a seamless lending process.",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Best Mortgage Expert in Utah - Kenny Farshchian",
+      description: "Get competitive rates and excellent customer service with Utahs top mortgage expert. Contact us for expertise, transparency, and a seamless lending process.",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 
 function ContactUs() {
 

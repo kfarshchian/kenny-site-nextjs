@@ -8,11 +8,35 @@ import Image from "next/image";
 import signDocs from "../../public/houston-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/houston-rate-reverse-mortgage-texas.jpg"
 
-export const metadata = {
-  title: 'Expert Texas, Florida, and Utah Home Loans - Consult Today!',
-  description: 'Competitive rates and excellent service. Trust Kenny Farshchian for your home loan needs. Request a consultation!',
-}
 
+export const metadata = {
+  title: "Expert Texas, Florida, and Utah Home Loans - Consult Today!",
+  description: "Competitive rates and excellent service. Trust Kenny Farshchian for your home loan needs. Request a consultation!",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Reverse-mortgage-Texas-Houston',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Reverse-mortgage-Texas-Houston",
+    title: "Expert Texas, Florida, and Utah Home Loans - Consult Today!",
+    type: "website",
+    description: "Competitive rates and excellent service. Trust Kenny Farshchian for your home loan needs. Request a consultation!",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Expert Texas, Florida, and Utah Home Loans - Consult Today!",
+      description: "Competitive rates and excellent service. Trust Kenny Farshchian for your home loan needs. Request a consultation!",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 function Houston() {
 
     const headerProp =[

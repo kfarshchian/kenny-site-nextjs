@@ -5,11 +5,35 @@ import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/what-mortgage-afford.jpg"
 
-export const metadata = {
-  title: 'Receive expert advice on mortgages in Utah, Florida, and Texas.',
-  description: 'Explore tailored mortgage advice for Utah, Florida, and Texas with Kenny Farshchian at Primary Residential Mortgage, Inc. Take the first step towards informed homeownership—request your complimentary consultation now!',
-}
 
+export const metadata = {
+  title: "Receive expert advice on mortgages in Utah, Florida, and Texas.",
+  description: "Discover personalized mortgage guidance for Utah, Florida, and Texas with Kenny Farshchian at Primary Residential Mortgage, Inc. Request your free consultation today!",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/",
+    title: "Receive expert advice on mortgages in Utah, Florida, and Texas.",
+    type: "website",
+    description: "Discover personalized mortgage guidance for Utah, Florida, and Texas with Kenny Farshchian at Primary Residential Mortgage, Inc. Request your free consultation today!",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Receive expert advice on mortgages in Utah, Florida, and Texas.",
+      description: "Discover personalized mortgage guidance for Utah, Florida, and Texas with Kenny Farshchian at Primary Residential Mortgage, Inc. Request your free consultation today!",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
+};
 
 function Afford() {
 

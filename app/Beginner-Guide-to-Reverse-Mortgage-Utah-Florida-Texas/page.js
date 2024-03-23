@@ -6,10 +6,32 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/pastdue.jpg"
 
 export const metadata = {
-  title:
-    "Reverse Mortgages Guide | Unlock Your Home's Potential",
-  description:
-    "Learn from the expert in Utah. Understand how reverse mortgages work and explore your options. Unlock your home's potential today!",
+  title: "Reverse Mortgages Guide | Unlock Your Home's Potential",
+  description: "Learn from the expert in Utah. Understand how reverse mortgages work and explore your options. Unlock your home's potential today!",
+  alternates: {
+    canonical: 'https://www.mortgagekenny.com/Beginner-Guide-to-Reverse-Mortgage-Utah-Florida-Texas',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+    },
+  openGraph: {
+    url: "https://www.mortgagekenny.com/Beginner-Guide-to-Reverse-Mortgage-Utah-Florida-Texas",
+    title: "Reverse Mortgages Guide | Unlock Your Home's Potential",
+    type: "website",
+    description: "Learn from the expert in Utah. Understand how reverse mortgages work and explore your options. Unlock your home's potential today!",
+    images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    twitter: {
+      card: "summary_large_image",
+      title: "Utah Mortgage Expert - Kenny Farshchian | PRMI",
+      description: "Learn from the expert in Utah. Understand how reverse mortgages work and explore your options. Unlock your home's potential today!",
+      images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
+    },
+  }
 };
 
 function beginnerGuide() {
