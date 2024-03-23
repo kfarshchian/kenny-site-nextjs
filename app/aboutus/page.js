@@ -20,7 +20,7 @@ export const metadata = {
     },
     },
   openGraph: {
-    url: "www.mortgagekenny.com/aboutus",
+    url: "https://www.mortgagekenny.com/aboutus",
     title: "Best Utah Mortgage Lender & Reverse Mortgages | Kenny Farshchian",
     type: "website",
     description: "Get competitive rates, exceptional service, and expert advice from Kenny Farshchian at Primary Residential Mortgage, Inc. Trust the best in Utah.",
