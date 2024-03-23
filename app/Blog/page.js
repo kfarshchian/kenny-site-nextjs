@@ -18,7 +18,7 @@ export const metadata = {
   title: "Utah Mortgage Expert - Kenny Farshchian PRMI",
   description: "Expert advice on Utah mortgages and reverse mortgages from Kenny Farshchian at PRMI. Get competitive rates and excellent service. Request a consultation now.",
   alternates: {
-    canonical: 'https://www.mortgagekenny.com/blog',
+    canonical: 'https://www.mortgagekenny.com/Blog',
   },
   robots: {
     index: true,
@@ -29,7 +29,7 @@ export const metadata = {
     },
     },
   openGraph: {
-    url: "https://www.mortgagekenny.com/blog",
+    url: "https://www.mortgagekenny.com/Blog",
     title: "Utah Mortgage Expert - Kenny Farshchian PRMI",
     type: "website",
     description: "Expert advice on Utah mortgages and reverse mortgages from Kenny Farshchian at PRMI. Get competitive rates and excellent service. Request a consultation now.",
