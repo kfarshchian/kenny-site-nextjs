@@ -7,7 +7,7 @@ import HeaderImage from "/public/doesTheBankOwnMyMortgage.jpg"
 
 
 export const metadata = {
-  title: "Discover if your home is truly owned by the bank with a reverse mortgage.",
+  title: "Reverse Mortgage Ownership Explained by Utah Expert",
   description: "Gain clarity on your home ownership with Kenny Farshchian, Utahs top mortgage lender. Trust his expertise for peace of mind in navigating mortgage complexities.",
   alternates: {
     canonical: 'https://www.mortgagekenny.com/does-the-bank-own-my-home-with-a-reverse-mortgage',
@@ -22,13 +22,13 @@ export const metadata = {
     },
   openGraph: {
     url: "https://www.mortgagekenny.com/does-the-bank-own-my-home-with-a-reverse-mortgage",
-    title: "Discover if your home is truly owned by the bank with a reverse mortgage.",
+    title: "Reverse Mortgage Ownership Explained by Utah Expert",
     type: "website",
     description: "Gain clarity on your home ownership with Kenny Farshchian, Utahs top mortgage lender. Trust his expertise for peace of mind in navigating mortgage complexities.",
     images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
     twitter: {
       card: "summary_large_image",
-      title: "Discover if your home is truly owned by the bank with a reverse mortgage.",
+      title: "Reverse Mortgage Ownership Explained by Utah Expert",
       description: "Gain clarity on your home ownership with Kenny Farshchian, Utahs top mortgage lender. Trust his expertise for peace of mind in navigating mortgage complexities.",
       images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
     },

@@ -8,9 +8,9 @@ import HeaderImage from "/public/what-mortgage-afford.jpg"
 
 export const metadata = {
   title: "Receive expert advice on mortgages in Utah, Florida, and Texas.",
-  description: "Discover personalized mortgage guidance for Utah, Florida, and Texas with Kenny Farshchian at Primary Residential Mortgage, Inc. Request your free consultation today!",
+  description: "Discover personalized mortgage guidance for Utah, Florida, and Texas with Kenny Farshchian at Primary Residential Mortgage, Inc. Get A free consultation today!",
   alternates: {
-    canonical: 'https://www.mortgagekenny.com',
+    canonical: 'https://www.mortgagekenny.com/how-much-mortgage-can-I-afford',
   },
   robots: {
     index: true,
@@ -21,15 +21,15 @@ export const metadata = {
     },
     },
   openGraph: {
-    url: "https://www.mortgagekenny.com/",
+    url: "https://www.mortgagekenny.com/how-much-mortgage-can-I-afford",
     title: "Receive expert advice on mortgages in Utah, Florida, and Texas.",
     type: "website",
-    description: "Discover personalized mortgage guidance for Utah, Florida, and Texas with Kenny Farshchian at Primary Residential Mortgage, Inc. Request your free consultation today!",
+    description: "Discover personalized mortgage guidance for Utah, Florida, and Texas with Kenny Farshchian at Primary Residential Mortgage, Inc. Get A free consultation today!",
     images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
     twitter: {
       card: "summary_large_image",
       title: "Receive expert advice on mortgages in Utah, Florida, and Texas.",
-      description: "Discover personalized mortgage guidance for Utah, Florida, and Texas with Kenny Farshchian at Primary Residential Mortgage, Inc. Request your free consultation today!",
+      description: "Discover personalized mortgage guidance for Utah, Florida, and Texas with Kenny Farshchian at Primary Residential Mortgage, Inc. Get A free consultation today!",
       images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
     },
   }
