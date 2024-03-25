@@ -85,7 +85,7 @@ function Bountiful() {
               spacing={{ xs: 1, sm: 1, md: 6 }}
             >
               <p id="salt-lake-city-p">
-                As a trusted and licensed <a href="/Reverse-mortgage-Utah-WestValleyCity" type="page" id="pageLinksOnPage"> Utah Loan Officer</a> in Bountiful, Kenny
+                As a trusted and licensed <a href="/Reverse-mortgage-Utah-WestValleyCity"  title="Reverse Mortgage West Valley City Utah" type="page" id="pageLinksOnPage"> Utah Loan Officer</a> in Bountiful, Kenny
                 Farshchian and PRMI have been assisting individuals in financing
                 their homes for over a decade. Kenny possesses extensive
                 knowledge of the local real estate market and is adept at
@@ -94,7 +94,7 @@ function Bountiful() {
                 terms on your behalf.
               </p>
               <p id="salt-lake-city-p">
-              <a href="/aboutus" type="page" id="pageLinksOnPage"> PRMI</a> takes immense pride in being a licensed mortgage company
+              <a href="/aboutus" title="About Us" type="page" id="pageLinksOnPage"> PRMI</a> takes immense pride in being a licensed mortgage company
                 that Bountiful clients can rely on to simplify the financing
                 process. We have successfully helped countless individuals in
                 Bountiful and surrounding communities achieve their dreams of
@@ -114,7 +114,7 @@ function Bountiful() {
         <p id="salt-lake-city-p">
           With a proven track record of efficiently processing, underwriting,
           closing, and funding mortgage loans, you can trust us to deliver a
-          seamless and expedited experience. <a href="/contact" type="page" id="pageLinksOnPage"> Contact us today</a> and let us help
+          seamless and expedited experience. <a href="/contact" title="Contact" type="page" id="pageLinksOnPage"> Contact us today</a> and let us help
           turn your homeownership dreams into reality with utmost
           professionalism and expertise!
         </p>
@@ -151,7 +151,7 @@ function Bountiful() {
           <p>
             Specializing in VA home loans and offering a range of other loan
             products, including FHA home loans, we proudly serve those who have
-            served our country. As an approved and trusted <a href="/Utah-mortgage-Layton" type="page" id="pageLinksOnPage"> mortgage broker in
+            served our country. As an approved and trusted <a href="/Utah-mortgage-Layton" title="Utah Mortgage Layton" type="page" id="pageLinksOnPage"> mortgage broker in
             Bountiful</a>, we have the confidence and expertise to meet your unique
             financing needs. With Kenny Farshchian, our knowledgeable and
             experienced mortgage broker, leading the way, you can trust that
@@ -181,7 +181,7 @@ function Bountiful() {
         <div id="reverse-mortgage-texas-home-p">
           <p>
             If you're contemplating buying a home in Bountiful, or anywhere in
-            Utah, Kenny Farshchian at <a href="/" type="page" id="pageLinksOnPage"> Primary Residential Mortgage Inc.</a> is the
+            Utah, Kenny Farshchian at <a href="/" title="Utah Mortgage Kenny Farshchian" type="page" id="pageLinksOnPage"> Primary Residential Mortgage Inc.</a> is the
             professional you'll want by your side. As a skilled mortgage broker,
             Kenny and his team are experts at finding the ideal mortgage
             products to suit their clients' individual needs.
@@ -232,7 +232,7 @@ function Bountiful() {
             As the seasoned mortgage broker Bountiful clients trust for an
             effortless process, we go the extra mile by providing remote
             mortgage services, allowing you to obtain the financing you need
-            without physical presence. <a href="/contact" type="page" id="pageLinksOnPage"> Contact us today</a> to swiftly approve your
+            without physical presence. <a href="/contact" title="Contact" type="page" id="pageLinksOnPage"> Contact us today</a> to swiftly approve your
             exclusive Bountiful UT VA home loan, as we tirelessly work to secure
             optimal rates and deliver exceptional service.
           </p>

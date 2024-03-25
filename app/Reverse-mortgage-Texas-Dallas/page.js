@@ -91,7 +91,7 @@ function Dallas() {
               spacing={{ xs: 1, sm: 1, md: 6 }}
             >
               <p id="salt-lake-city-p">
-                In Dallas, Texas, you'll find <a href="/aboutus" type="page" id="pageLinksOnPage">Kenny Farshchian</a> and his team,
+                In Dallas, Texas, you'll find <a href="/aboutus" title="About Us" type="page" id="pageLinksOnPage">Kenny Farshchian</a> and his team,
                 boasting years of experience in the mortgage industry, making
                 them true experts in finding the right loan for you while
                 ensuring a smooth process. As licensed lenders, trusted in

@@ -89,7 +89,7 @@ function Naples() {
             >
               <p id="salt-lake-city-p">
                 We pride ourselves on our hassle-free pre-approval process and
-                our ability to close most loans in 23-24 days. As the <a href="/aboutus" type="page" id="pageLinksOnPage"> trusted
+                our ability to close most loans in 23-24 days. As the <a href="/aboutus" title="About Us" type="page" id="pageLinksOnPage"> trusted
                 loan officer in Naples</a>, FL, residents have come to rely on Kenny
                 Farshchian and his team. They will work tirelessly to get you
                 the best possible terms on your loan.
@@ -117,7 +117,7 @@ function Naples() {
           Kenny Farshchian and his team at Primary Residential Mortgage Inc are
           some of the best loan officers Naples has to offer. They have helped
           many homeowners in the community get the financing they need to
-          purchase their dream home. <a href="/contact" type="page" id="pageLinksOnPage"> Contact Kenny</a> and the team today to get
+          purchase their dream home. <a href="/contact" title="Contact" type="page" id="pageLinksOnPage"> Contact Kenny</a> and the team today to get
           started!
         </p>
       </Container>
@@ -144,7 +144,7 @@ function Naples() {
             has the knowledge and experience to help you get the ideal financing
             for your needs. Kenny has years of hands-on experience as a loan
             officer , knows the ins and outs of the local mortgage industry, and
-            he is the most recommended <a href="/Utah-mortgage-salt-lake-city" type="page" id="pageLinksOnPage"> Naples loan officer!</a> As a local loan
+            he is the most recommended <a href="/Utah-mortgage-salt-lake-city" title="Utah Mortgage Salt Lake City" type="page" id="pageLinksOnPage"> Naples loan officer!</a> As a local loan
             officer, he knows the area well and can help you find the right
             property for your unique lifestyle needs and budget.
           </p>
@@ -162,7 +162,7 @@ function Naples() {
           <br></br>
           <p>
             Don't waste your time with other loan officers; Kenny Farshchian at
-            Primary Residential Mortgage Inc. is the best <a href="/Reverse-mortgage-Texas-Dallas" type="page" id="pageLinksOnPage">Naples loan officer</a>
+            Primary Residential Mortgage Inc. is the best <a href="/Reverse-mortgage-Texas-Dallas" title="Dallas Texes Mortgage Expert" type="page" id="pageLinksOnPage">Naples loan officer</a>
             you can trust to get the job done right. Contact the most dedicated
             loan officer Naples clients could ask for today to get started on
             your loan application.
@@ -209,7 +209,7 @@ function Naples() {
           </div>
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
-              Kenny Farshchian and his team of customer-oriented Naples, <a href="/Utah-mortgage-salt-lake-city" type="page" id="pageLinksOnPage"> Florida
+              Kenny Farshchian and his team of customer-oriented Naples, <a href="/Utah-mortgage-salt-lake-city" title="Utah Mortgage Salt Lake City" type="page" id="pageLinksOnPage"> Florida
               mortgage loan officers</a> are dedicated to assisting clients in
               finding the ideal home loan. At Primary Residential Mortgage Inc.,
               we'll help you get pre-qualified for a loan, giving you a clear
@@ -221,7 +221,7 @@ function Naples() {
           <p>
             With access to a diverse group of lenders, we can secure the best
             possible interest rates and terms to suit your unique situation. As
-            a full-service <a href="/Reverse-mortgage-Texas-Dallas" type="page" id="pageLinksOnPage"> mortgage loan officer</a> recommended by Naples, FL
+            a full-service <a href="/Reverse-mortgage-Texas-Dallas" title="Dallas Texas Mortgage" type="page" id="pageLinksOnPage"> mortgage loan officer</a> recommended by Naples, FL
             homeowners, we strive to make the process easy and straightforward
             for you.
           </p>
@@ -232,7 +232,7 @@ function Naples() {
             most reputable in the business. With their extensive experience in
             mortgage lending in Florida, you can trust that you're in capable
             hands with us. If you're seeking a loan officer in Naples, Florida,
-            that prioritizes your needs, <a href="/contact" type="page" id="pageLinksOnPage"> reach out to Kenny Farshchian today!</a>
+            that prioritizes your needs, <a href="/contact" title="Contact" type="page" id="pageLinksOnPage"> reach out to Kenny Farshchian today!</a>
           </p>
         </div>
       </Container>

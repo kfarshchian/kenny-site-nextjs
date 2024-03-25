@@ -102,7 +102,7 @@ function Houston() {
                 When seeking a mortgage in Houston, Texas, you need someone who
                 understands the area and can find the best financing options for
                 you. That's where Kenny Farshchian and his team of experienced
-                <a href="/aboutus" type="page" id="pageLinksOnPage"> PRMI professionals</a> come in. We are committed to meeting all your
+                <a href="/aboutus" title="About Us" type="page" id="pageLinksOnPage"> PRMI professionals</a> come in. We are committed to meeting all your
                 mortgage needs and finding the perfect solution for your
                 specific circumstances.
               </p>
@@ -117,7 +117,7 @@ function Houston() {
           reason - his expertise, experience, and dedication to his clients'
           best interests. Rest assured, he will guide you through the entire
           process from start to finish, ensuring you get the best possible deal.
-          <a href="/contact" type="page" id="pageLinksOnPage"> Contact us today</a> and experience why we are the most ideal provider for
+          <a href="/contact" title="Contact" type="page" id="pageLinksOnPage"> Contact us today</a> and experience why we are the most ideal provider for
           first-time buyer home loans in Houston, TX. Our track record speaks
           for itself!
         </p>
@@ -143,7 +143,7 @@ function Houston() {
           <p>
             In Houston, Texas, you'll find the best loan officer in the business
             – Kenny Farshchian. With a team of experienced professionals at
-            Primary Residential Mortgage Inc., we are your go-to <a href="/Reverse-mortgage-Texas-Dallas" type="page" id="pageLinksOnPage">mortgage
+            Primary Residential Mortgage Inc., we are your go-to <a href="/Reverse-mortgage-Texas-Dallas" title="Reverse Mortgage Dallas Texas" type="page" id="pageLinksOnPage">mortgage
             lenders</a>! We know that your home is one of your most significant
             investments, and we're here to ensure you secure the best mortgage
             terms for your financing or refinancing needs.
@@ -162,7 +162,7 @@ function Houston() {
           <p>
             Having served the Houston, TX community for over 10 years, Kenny
             Farshchian has built a reputation as a trusted name in the industry.
-            As one of the top <a href="/Utah-mortgage-salt-lake-city" type="page" id="pageLinksOnPage"> mortgage lenders</a>, we take pride in delivering
+            As one of the top <a href="/Utah-mortgage-salt-lake-city" title="Utah Mortgage Salt Lake City" type="page" id="pageLinksOnPage"> mortgage lenders</a>, we take pride in delivering
             personalized solutions to match your financial goals. You can rely
             on us for competitive rates and favorable terms on all our mortgage
             products.
@@ -232,7 +232,7 @@ function Houston() {
             With access to a diverse group of lenders, Kenny and his team can
             secure the best possible interest rates and terms that align
             perfectly with your specific situation. We take pride in being a
-            full-service <a href="/Reverse-mortgage-Texas-Dallas" type="page" id="pageLinksOnPage">mortgage loan officer</a> team recommended by homeowners
+            full-service <a href="/Reverse-mortgage-Texas-Dallas" title="Reverse Mortgage Dallas Texas" type="page" id="pageLinksOnPage">mortgage loan officer</a> team recommended by homeowners
             throughout Houston, TX, making the entire process easy and
             straightforward for you.
           </p>
@@ -241,7 +241,7 @@ function Houston() {
           <p>
             Our exceptional reputation in the Texas mortgage lending industry
             speaks for itself, and you can trust that you're in capable hands
-            with us. If you're on the lookout for a <a href="/Utah-mortgage-salt-lake-city" type="page" id="pageLinksOnPage"> loan officer in Houston</a>,
+            with us. If you're on the lookout for a <a href="/Utah-mortgage-salt-lake-city" title="Utah Mortgage Salt Lake City" type="page" id="pageLinksOnPage"> loan officer in Houston</a>,
             Texas, who genuinely prioritizes your needs, don't hesitate to reach
             out to Kenny Farshchian today! Let's work together to secure your
             dream home in the vibrant city of Houston

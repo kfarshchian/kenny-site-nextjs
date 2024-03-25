@@ -95,7 +95,7 @@ function PalmBeach() {
                 terms that precisely match all your needs.
               </p>
               <p id="salt-lake-city-p">
-                As one of the top <a href="/aboutus" type="page" id="pageLinksOnPage"> Palm Beach home mortgage companies</a>, Kenny
+                As one of the top <a href="/aboutus" title="About Us" type="page" id="pageLinksOnPage"> Palm Beach home mortgage companies</a>, Kenny
                 Farshchian and his team are dedicated to securing the best
                 possible financing for your home. With their vast experience and
                 knowledge of the market, they excel at getting you the most
@@ -120,7 +120,7 @@ function PalmBeach() {
           experts can also guide you through mortgage refinancing. If you're
           looking to save money or manage debt more effectively, Kenny
           Farshchian's best-in-class Palm Beach mortgage refinance agents are
-          here to ensure that refinancing is the right decision for you. <a href="/contact" type="page" id="pageLinksOnPage"> Contact
+          here to ensure that refinancing is the right decision for you. <a href="/contact" title="Contact" type="page" id="pageLinksOnPage"> Contact
           Kenny Farshchian</a> and his team today to explore our comprehensive range
           of loan products available to you!
         </p>
@@ -146,7 +146,7 @@ function PalmBeach() {
           <p>
             At Primary Residential Mortgage, Kenny Farshchian and his team have
             been named as one of the best Palm Beach refinance companies because
-            they know the ins and outs of the <a href="/Reverse-mortgage-Florida-Naples" type="page" id="pageLinksOnPage"> local mortgage market</a>, and can
+            they know the ins and outs of the <a href="/Reverse-mortgage-Florida-Naples" title="Naples Florida Mortgage" type="page" id="pageLinksOnPage"> local mortgage market</a>, and can
             help secure a loan that meets their clients' needs and budget. They
             serve up wide-ranging mortgage products, including conventional,
             FHA, VA, and USDA loans.
@@ -224,7 +224,7 @@ function PalmBeach() {
           <div>
             <p id="reverse-mortgage-texas-home-stack-p">
               Kenny Farshchian and his team of customer-oriented Palm Beach,
-              <a href="/Reverse-mortgage-Texas-Dallas" type="page" id="pageLinksOnPage"> Florida mortgage loan officers</a> are dedicated to assisting clients
+              <a href="/Reverse-mortgage-Texas-Dallas" title="Dallas Texas Mortgage" type="page" id="pageLinksOnPage"> Florida mortgage loan officers</a> are dedicated to assisting clients
               in finding the ideal home loan. At Primary Residential Mortgage
               Inc., we'll help you get pre-qualified for a loan, giving you a
               clear understanding of how much you can afford for your new home.

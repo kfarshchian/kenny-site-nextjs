@@ -93,7 +93,7 @@ function SaltLakeCity() {
                 could ask for, for 10 years. We understand the significance of a
                 home investment to you and its impact on your life, which is why
                 our team of experienced mortgage professionals, led by{" "}
-                <a href="/aboutus" type="page" id="pageLinksOnPage">
+                <a href="/aboutus" title="About Us" type="page" id="pageLinksOnPage">
                   Kenny Farshchian
                 </a>
                 , will spare no effort to find an excellent loan program and
@@ -121,7 +121,7 @@ function SaltLakeCity() {
           start to closing. However, at Primary Residential Mortgage, we take
           pride in being the dedicated mortgage lenders Salt Lake City clients
           trust to secure the loans they need in a timely manner.{" "}
-          <a href="/contact" type="page" id="pageLinksOnPage">
+          <a href="/contact" title="Contact" type="page" id="pageLinksOnPage">
             Give us a call{" "}
           </a>
           today if you're ready to get started, and we'll be delighted to help
@@ -176,7 +176,7 @@ function SaltLakeCity() {
             tailored to the individual needs of each client. He takes the time
             to understand his clients' financial goals, preferences, and
             circumstances, allowing him to offer{" "}
-            <a href="/contact" type="page" id="pageLinksOnPage">
+            <a href="/contact" title="Contact" type="page" id="pageLinksOnPage">
               tailored solutions
             </a>{" "}
             that align perfectly with their requirements. By offering this level
@@ -198,7 +198,7 @@ function SaltLakeCity() {
         <div id="reverse-mortgage-texas-home-p">
           <p>
             When it comes to finding the best loan officer in{" "}
-            <a href="/Utah-mortgage-Layton" type="page" id="pageLinksOnPage">
+            <a href="/Utah-mortgage-Layton" title="Utah Mortgage Layton" type="page" id="pageLinksOnPage">
               {" "}
               Utah
             </a>
@@ -233,6 +233,7 @@ function SaltLakeCity() {
               At Kenny Farshchian's office in{" "}
               <a
                 href="/Utah-mortgage-salt-lake-city"
+                title="Utah Mortgage Salt Lake City"
                 type="page"
                 id="pageLinksOnPage"
               >
@@ -282,7 +283,7 @@ function SaltLakeCity() {
           </h2>
           <p id="salt-lake-city-p">
             Meet{" "}
-            <a href="/aboutus" type="page" id="pageLinksOnPage">
+            <a href="/aboutus" title="About Us" type="page" id="pageLinksOnPage">
               {" "}
               Kenny Farshchian
             </a>
@@ -309,6 +310,7 @@ function SaltLakeCity() {
             Don't miss out on the opportunity to work with Kenny Farshchian, the
             <a
               href="/Reverse-mortgage-Utah-WestValleyCity"
+              title="Reverse Mortgage Utah West Valley City"
               type="page"
               id="pageLinksOnPage"
             >

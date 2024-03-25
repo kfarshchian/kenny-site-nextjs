@@ -92,7 +92,7 @@ function WestValleyCity() {
             >
               <p id="salt-lake-city-p">
                 At Primary Residential Mortgage Inc., we have been serving as
-                one of the top <a href="/aboutus" type="page" id="pageLinksOnPage"> mortgage companies West Valley City</a> could ask
+                one of the top <a href="/aboutus" title="About Us" type="page" id="pageLinksOnPage"> mortgage companies West Valley City</a> could ask
                 for. We understand how important a home investment is to you and
                 the impact it will have on your life, which is why our team of
                 experienced mortgage professionals led by Kenny Farshchian will
@@ -122,7 +122,7 @@ function WestValleyCity() {
           ourselves on being the dedicated mortgage lenders West Valley City
           clients can trust to get the loan they need in a timely manner. Give
           us a call today if you're ready to get started, and Kenny Farshchian
-          will be happy to <a href="/contact" type="page" id="pageLinksOnPage"> help you</a> find the right mortgage for your needs.
+          will be happy to <a href="/contact" title="Contact" type="page" id="pageLinksOnPage"> help you</a> find the right mortgage for your needs.
         </p>
       </Container>
       {/* second section */}
@@ -143,7 +143,7 @@ function WestValleyCity() {
             Farshchian
           </h2>
           <p>
-            The Most Hassle-Free <a href="/Reverse-mortgage-Florida-Palm-Beach" type="page" id="pageLinksOnPage"> Mortgage Lending West Valley City</a> Residents Can
+            The Most Hassle-Free <a href="/Reverse-mortgage-Florida-Palm-Beach" title="Reverse Mortgage Palm Beach Florida" type="page" id="pageLinksOnPage"> Mortgage Lending West Valley City</a> Residents Can
             Find At Primary Residential Mortgage, we handle everything
             mortgage-related, so that you can focus on the more important things
             in life. The mortgage process can be daunting, but with a company
@@ -171,7 +171,7 @@ function WestValleyCity() {
             so we can move the process along quickly. From there, we will
             provide your loan options and a pre-approval letter so that you can
             get shopping with your real estate agent to find the home that’s
-            right for you. <a href="/contact" type="page" id="pageLinksOnPage"> Contact us today</a> and come benefit from a stress-free
+            right for you. <a href="/contact" title="Contact" type="page" id="pageLinksOnPage"> Contact us today</a> and come benefit from a stress-free
             experience in mortgage lending West Valley City residents boast
             about!
           </p>
@@ -191,7 +191,7 @@ function WestValleyCity() {
             Kenny Farshchian at Primary Residential Mortgage Inc. because Kenny
             and his team are dedicated to making the mortgage lending process as
             hassle-free as possible for our beloved community’s residents. We’re
-            a top <a href="/Reverse-mortgage-Texas-Houston" type="page" id="pageLinksOnPage"> Utah loan officer West Valley City</a> clients recommend, and we
+            a top <a href="/Reverse-mortgage-Texas-Houston" title="Reverse Mortgage Houston Texas" type="page" id="pageLinksOnPage"> Utah loan officer West Valley City</a> clients recommend, and we
             know how to get many different types of loans for potential
             homeowners.
           </p>
@@ -236,7 +236,7 @@ function WestValleyCity() {
         </div>
         <div id="reverse-mortgage-texas-home-p">
           <p>
-          <a href="/" type="page" id="pageLinksOnPage"> Utah loan officer West Valley</a> City Don't hesitate to contact us
+          <a href="/" title="Utah Mortgage Kenny Farshchian" type="page" id="pageLinksOnPage"> Utah loan officer West Valley</a> City Don't hesitate to contact us
             today and discover why we’re the go-to loan officer West Valley City
             clients partner with again and again. We're confident that we can
             provide the best service possible and show you how simple and easy
