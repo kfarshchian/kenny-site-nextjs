@@ -22,6 +22,7 @@ const MobileNav = () => {
               {/* LOGO */}
               <Link href="/">
                       <Image
+                        title="Kenny Farshchian W/Primary Residential Mortgage, Inc."
                         src="/smalllogokenny.png"
                         width={350}
                         height={150}
@@ -52,7 +53,7 @@ const MobileNav = () => {
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
                 {/* about us */}
                 <li className="pb-2 text-xl text-black py-2 md:px-2 text-center border-b-2 md:border-b-0   border-black-900   md:hover:bg-transparent">
-                    <Link onClick={() => setNavbar(!navbar)} id="main-link" href="/">
+                    <Link  title="Kenny Farshchian W/Primary Residential Mortgage, Inc." onClick={() => setNavbar(!navbar)} id="main-link" href="/">
                       Home
                     </Link>
                   </li>
@@ -63,24 +64,24 @@ const MobileNav = () => {
                       </p>
                       <ul className="dropdown-content">
                         <li>
-                          <Link onClick={() => setNavbar(!navbar)} href="/aboutus">About Us</Link>
+                          <Link onClick={() => setNavbar(!navbar)} title="Aboutus" href="/aboutus">About Us</Link>
                         </li>
                         <li>
-                          <Link onClick={() => setNavbar(!navbar)} href="/our-process">Our Process</Link>
+                          <Link onClick={() => setNavbar(!navbar)} title="Our Process" href="/our-process">Our Process</Link>
                         </li>
                         <li>
-                          <Link onClick={() => setNavbar(!navbar)} href="/closing-guarantee">
+                          <Link onClick={() => setNavbar(!navbar)} title="Closing Guarantee" href="/closing-guarantee">
                             Closing Guarantee
                           </Link>
                         </li>
                         <li>
-                          <Link onClick={() => setNavbar(!navbar)} href="/Blog">Blog</Link>
+                          <Link onClick={() => setNavbar(!navbar)} title="Blog" href="/Blog">Blog</Link>
                         </li>
                         <li>
-                          <Link onClick={() => setNavbar(!navbar)} href="/contact">Contact Us</Link>
+                          <Link onClick={() => setNavbar(!navbar)} title="Contact" href="/contact">Contact Us</Link>
                         </li>
                         <li>
-                          <Link onClick={() => setNavbar(!navbar)} href="/Loans">Loans</Link>
+                          <Link onClick={() => setNavbar(!navbar)} title="Loans" href="/Loans">Loans</Link>
                         </li>
                       </ul>
                     </li>
@@ -94,24 +95,24 @@ const MobileNav = () => {
                       </p>
                       <ul className="dropdown-content">
                         <li>
-                          <a onClick={() => setNavbar(!navbar)} href="/Utah-mortgage-salt-lake-city">
+                          <a onClick={() => setNavbar(!navbar)} title="Utah Mortgage Salt Lake City" href="/Utah-mortgage-salt-lake-city">
                             Salt Lake City
                           </a>
                         </li>
                         <li>
-                          <a onClick={() => setNavbar(!navbar)} href="/Utah-mortgage-Layton">Layton</a>
+                          <a onClick={() => setNavbar(!navbar)} title="Utah Mortgage  Layton" href="/Utah-mortgage-Layton">Layton</a>
                         </li>
                         <li>
-                          <a onClick={() => setNavbar(!navbar)} href="/Utah-mortgage-Bountiful">Bountiful</a>
+                          <a onClick={() => setNavbar(!navbar)} title="Utah Mortgage  Bountiful" href="/Utah-mortgage-Bountiful">Bountiful</a>
                         </li>
                         <li>
-                          <a onClick={() => setNavbar(!navbar)} href="/Utah-Mortgage-Syracuse">Syracuse</a>
+                          <a onClick={() => setNavbar(!navbar)} title="Utah  Mortgage  Syracuse" href="/Utah-Mortgage-Syracuse">Syracuse</a>
                         </li>
                         <li>
-                          <a onClick={() => setNavbar(!navbar)} href="/Reverse-mortgage-Utah-Ogden">Ogden</a>
+                          <a onClick={() => setNavbar(!navbar)} title="Reverse Mortgage  Utah  Ogden" href="/Reverse-mortgage-Utah-Ogden">Ogden</a>
                         </li>
                         <li>
-                          <a onClick={() => setNavbar(!navbar)} href="/Reverse-mortgage-Utah-WestValleyCity">
+                          <a onClick={() => setNavbar(!navbar)} title="Reverse Mortgage  Utah  West Valley City" href="/Reverse-mortgage-Utah-WestValleyCity">
                             West Valley City
                           </a>
                         </li>
@@ -127,15 +128,15 @@ const MobileNav = () => {
                       </p>
                       <ul className="dropdown-content">
                         <li>
-                          <a onClick={() => setNavbar(!navbar)} href="/Reverse-mortgage-Florida-Venice">Venice</a>
+                          <a onClick={() => setNavbar(!navbar)} title="Reverse Mortgage  Florida  Venice" href="/Reverse-mortgage-Florida-Venice">Venice</a>
                         </li>
                         <li>
-                          <a onClick={() => setNavbar(!navbar)} href="/Reverse-mortgage-Florida-Palm-Beach">
+                          <a onClick={() => setNavbar(!navbar)} title="Reverse Mortgage  Florida  Palm  Beach" href="/Reverse-mortgage-Florida-Palm-Beach">
                             Palm Beach
                           </a>
                         </li>
                         <li>
-                          <a onClick={() => setNavbar(!navbar)} href="/Reverse-mortgage-Florida-Naples">Naples</a>
+                          <a onClick={() => setNavbar(!navbar)} title="Reverse Mortgage  Florida  Naples" href="/Reverse-mortgage-Florida-Naples">Naples</a>
                         </li>
                       </ul>
                     </li>
@@ -151,17 +152,17 @@ const MobileNav = () => {
                           </p>
                           <ul className="dropdown-content">
                             <li>
-                              <a href="/Reverse-mortgage-Texas-Austin">
+                              <a title="Reverse Mortgage  Texas  Austin" href="/Reverse-mortgage-Texas-Austin">
                                 Austin
                               </a>
                             </li>
                             <li>
-                              <a href="/Reverse-mortgage-Texas-Houston">
+                              <a title="Reverse Mortgage  Texas  Houston" href="/Reverse-mortgage-Texas-Houston">
                                 Houston
                               </a>
                             </li>
                             <li>
-                              <a href="/Reverse-mortgage-Texas-Dallas">
+                              <a title="Reverse Mortgage  Texas  Dallas" href="/Reverse-mortgage-Texas-Dallas">
                                 Dallas
                               </a>
                             </li>
