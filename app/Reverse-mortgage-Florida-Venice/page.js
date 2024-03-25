@@ -259,7 +259,7 @@ function Venice() {
           <br></br>
           <p id="salt-lake-city-p">
             For potential homeowners in Venice, Kenny Farshchian is a
-            name that undoubtedly rings a bell - one of the finest <a href="/Reverse-mortgage-Texas-Dallas" type="page" id="pageLinksOnPage"> loan officers
+            name that undoubtedly rings a bell - one of the finest <a title="Reverse Mortgage  Texas  Dallas" href="/Reverse-mortgage-Texas-Dallas" type="page" id="pageLinksOnPage"> loan officers
              Salt Lake City</a> has to offer. He is deeply passionate about
             assisting individuals in the communities he serves to achieve their
             dream of homeownership. Notably, he specializes in providing a

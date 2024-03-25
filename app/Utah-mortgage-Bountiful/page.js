@@ -250,7 +250,7 @@ function Bountiful() {
             devoted to providing a seamless and hassle-free mortgage experience.
             With Kenny's exceptional expertise and unwavering dedication, the
             loan process transforms into a smooth path, turning numerous
-            homeownership dreams into reality for families in <a href="/Utah-mortgage-Layton" type="page" id="pageLinksOnPage"> Bountiful and
+            homeownership dreams into reality for families in <a title="Utah Mortgage  Layton" href="/Utah-mortgage-Layton" type="page" id="pageLinksOnPage"> Bountiful and
             beyond.</a> His genuine passion for assisting individuals and families
             secure the financing they need to acquire their dream homes shines
             through in every aspect of the journey.

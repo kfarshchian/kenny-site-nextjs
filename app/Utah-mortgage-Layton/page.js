@@ -269,7 +269,7 @@ function Layton() {
           <br></br>
           <p id="salt-lake-city-p">
             Don't let this opportunity pass you by; work with Kenny Farshchian,
-            the <a href="/Utah-Mortgage-Syracuse" type="page" id="pageLinksOnPage"> Utah loan officer</a> who prioritizes your needs and ensures a
+            the <a title="Utah  Mortgage  Syracuse" href="/Utah-Mortgage-Syracuse" type="page" id="pageLinksOnPage"> Utah loan officer</a> who prioritizes your needs and ensures a
             stress-free path to homeownership. To embark on your journey towards
             your dream home, contact Kenny's office today and experience the
             top-notch service that sets him apart in the lending industry.

@@ -243,7 +243,7 @@ function Naples() {
             Kenny Farshchian, The Mortgage Expert in Naples
           </h2>
           <p id="salt-lake-city-p">
-            Residents of Naples rely on Kenny Farshchian, the expert at <a href="/" type="page" id="pageLinksOnPage">Primary
+            Residents of Naples rely on Kenny Farshchian, the expert at <a title="Kenny Farshchian W/Primary Residential Mortgage, Inc." href="/" type="page" id="pageLinksOnPage">Primary
             Residential Mortgage Inc.</a>, to secure their ideal home loans. He has
             earned a reputation as the go-to expert in the area, providing a
             seamless and hassle-free experience for his clients. With his

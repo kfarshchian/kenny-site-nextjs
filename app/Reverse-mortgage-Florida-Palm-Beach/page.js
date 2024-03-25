@@ -246,7 +246,7 @@ function PalmBeach() {
             most reputable in the business. With their extensive experience in
             mortgage lending in Florida, you can trust that you're in capable
             hands with us. If you're seeking a loan officer in Palm Beach,
-            Florida, that prioritizes your needs,  <a href="/contact" type="page" id="pageLinksOnPage"> reach out to Kenny Farshchian
+            Florida, that prioritizes your needs,  <a title="Contact" href="/contact" type="page" id="pageLinksOnPage"> reach out to Kenny Farshchian
             today!</a>
           </p>
         </div>

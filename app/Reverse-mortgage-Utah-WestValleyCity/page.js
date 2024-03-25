@@ -268,7 +268,7 @@ function WestValleyCity() {
           <br></br>
           <p id="salt-lake-city-p">
             If you're a potential homeowner in west Valley City, you've probably
-            heard of Kenny Farshchian - one of the top <a href="/Reverse-mortgage-Florida-Palm-Beach" type="page" id="pageLinksOnPage"> loan officers Salt
+            heard of Kenny Farshchian - one of the top <a title="Reverse Mortgage  Florida  Palm  Beach" href="/Reverse-mortgage-Florida-Palm-Beach" type="page" id="pageLinksOnPage"> loan officers Salt
             Lake City</a> has to offer. He's a well-respected mortgage lender who is
             passionate about helping people in the communities we serve with
             funding their dream home purchase. He also specializes in offering a

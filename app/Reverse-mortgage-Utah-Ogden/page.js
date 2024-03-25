@@ -263,7 +263,7 @@ function Ogden() {
             several critical factors demand consideration, with the expertise of
             an experienced broker being of utmost importance. Kenny Farshchian
             and the team at Primary Residential Mortgage are well-versed in the
-            intricacies of the <a href="/Utah-Mortgage-Syracuse" type="page" id="pageLinksOnPage"> mortgage Utah</a> refinance process Ogden clients seek,
+            intricacies of the <a title="Utah  Mortgage  Syracuse" href="/Utah-Mortgage-Syracuse" type="page" id="pageLinksOnPage"> mortgage Utah</a> refinance process Ogden clients seek,
             and we have a proven track record of securing competitive rates for
             our valued clients.
           </p>

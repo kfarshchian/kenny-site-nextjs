@@ -280,7 +280,7 @@ function Syracuse() {
             considering refinancing, Kenny and his proficient team will expertly
             guide you with personalized solutions and insightful advice. Our
             commitment to customer satisfaction is reflected in the numerous
-            glowing reviews on our <a href="/" type="page" id="pageLinksOnPage"> home page</a>, a testament to the positive
+            glowing reviews on our <a title="Kenny Farshchian W/Primary Residential Mortgage, Inc." href="/" type="page" id="pageLinksOnPage"> home page</a>, a testament to the positive
             experiences of our past clients.
           </p>
           <br></br>

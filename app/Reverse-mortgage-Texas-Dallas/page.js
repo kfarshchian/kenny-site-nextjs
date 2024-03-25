@@ -122,7 +122,7 @@ function Dallas() {
 
         <p id="salt-lake-city-p">
           Discover why we are the most ideal provider for first-time buyer home
-          loans in Dallas, TX. Our track record speaks for itself! <a href="/contact" type="page" id="pageLinksOnPage">Contact us</a>
+          loans in Dallas, TX. Our track record speaks for itself! <a title="Contact" href="/contact" type="page" id="pageLinksOnPage">Contact us</a>
           today to experience a seamless and rewarding home financing journey
           with Kenny Farshchian and his team.
         </p>

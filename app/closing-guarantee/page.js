@@ -81,6 +81,7 @@ function ClosingGuarantee() {
             <Button
               href={"#reverse-mortgage-florida-aboutus-closingGuarantee"}
               id="reverse-mortgage-florida-aboutus-button-1"
+              title="Closing Guarantee"
             >
               *Conditions apply.
             </Button>

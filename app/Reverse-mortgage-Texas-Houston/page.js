@@ -270,7 +270,7 @@ function Houston() {
           </p>
           <br></br>
           <p id="salt-lake-city-p">
-            As one of the finest mortgage <a href="/" type="page" id="pageLinksOnPage">loan officers in Houston</a>, Kenny
+            As one of the finest mortgage <a title="Kenny Farshchian W/Primary Residential Mortgage, Inc." href="/" type="page" id="pageLinksOnPage">loan officers in Houston</a>, Kenny
             Farshchian is a well-known name among potential homeowners. His
             unwavering passion lies in helping individuals in the communities he
             serves achieve their dream of homeownership. For Houston homeowners,

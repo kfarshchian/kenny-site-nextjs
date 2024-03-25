@@ -267,7 +267,7 @@ function Austin() {
           </p>
           <br></br>
           <p id="salt-lake-city-p">
-            As one of the finest mortgage <a href="/Utah-mortgage-Bountiful" type="page" id="pageLinksOnPage"> loan officers in Austin</a>, Kenny
+            As one of the finest mortgage <a title="Utah Mortgage  Bountiful" href="/Utah-mortgage-Bountiful" type="page" id="pageLinksOnPage"> loan officers in Austin</a>, Kenny
             Farshchian is a well-known name among potential homeowners. His
             unwavering passion lies in helping individuals in the communities he
             serves achieve their dream of homeownership. For Austin homeowners,

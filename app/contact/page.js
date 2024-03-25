@@ -102,7 +102,7 @@ function ContactUs() {
         </Stack>
         <p id="reverse-mortgage-texas-contact-us-Container-p-info">
           When it comes to navigating the intricate world of mortgages,
-          experience, and expertise matter. Meet <span id="reverse-mortgage-texas-contact-us-Container-a"><a id="reverse-mortgage-texas-contact-us-Container-a" href='/'>Kenny Farshchian </a></span>, a seasoned
+          experience, and expertise matter. Meet <span id="reverse-mortgage-texas-contact-us-Container-a"><a id="reverse-mortgage-texas-contact-us-Container-a" title="Kenny Farshchian W/Primary Residential Mortgage, Inc." href='/'>Kenny Farshchian </a></span>, a seasoned
           Loan Officer with a wealth of knowledge and a decade-long background
           in the field. Holding a Bachelor's degree in Business, Kenny is
           well-equipped to guide you through the complexities of the mortgage
