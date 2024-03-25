@@ -20,6 +20,7 @@ const Navbar = () => {
                 {/* LOGO */}
                 <Link href="/" target="_blank">
                   <Image
+                    title="Kenny Farshchian W/Primary Residential Mortgage, Inc."
                     id="kennyLogo"
                     src= {LocalLender}
                     priority
@@ -29,6 +30,7 @@ const Navbar = () => {
                 {/* prmi logo */}
                 <Link target="_blank" href="https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com" >
                   <Image
+                    title="apply.prmihome.com"
                     id="prmiBlackLogo"
                     src= {prmiBlack}
                     alt="Kenny Farshchian Logo PRMI"
@@ -58,24 +60,24 @@ const Navbar = () => {
                       </p>
                       <ul className="dropdown-content">
                         <li>
-                          <Link href="/aboutus">About Us</Link>
+                          <Link title="Aboutus" href="/aboutus">About Us</Link>
                         </li>
                         <li>
-                          <Link href="/our-process">Our Process</Link>
+                          <Link title="Our Process" href="/our-process">Our Process</Link>
                         </li>
                         <li>
-                          <Link href="/closing-guarantee">
+                          <Link title="Closing Guarantee" href="/closing-guarantee">
                             Closing Guarantee
                           </Link>
                         </li>
                         <li>
-                          <Link href="/Blog">Blog</Link>
+                          <Link title="Blog" href="/Blog">Blog</Link>
                         </li>
                         <li>
-                          <Link href="/contact">Contact Us</Link>
+                          <Link title="Contact" href="/contact">Contact Us</Link>
                         </li>
                         <li>
-                          <Link href="/Loans">Loans</Link>
+                          <Link title="Loans" href="/Loans">Loans</Link>
                         </li>
                       </ul>
                     </li>
@@ -88,24 +90,24 @@ const Navbar = () => {
                       </p>
                       <ul className="dropdown-content">
                         <li>
-                          <a href="/Utah-mortgage-salt-lake-city">
+                          <a title="Utah Mortgage Salt Lake City" href="/Utah-mortgage-salt-lake-city">
                             Salt Lake City
                           </a>
                         </li>
                         <li>
-                          <a href="/Utah-mortgage-Layton">Layton</a>
+                          <a title="Utah Mortgage  Layton" href="/Utah-mortgage-Layton">Layton</a>
                         </li>
                         <li>
-                          <a href="/Utah-mortgage-Bountiful">Bountiful</a>
+                          <a title="Utah Mortgage  Bountiful" href="/Utah-mortgage-Bountiful">Bountiful</a>
                         </li>
                         <li>
-                          <a href="/Utah-Mortgage-Syracuse">Syracuse</a>
+                          <a title="Utah  Mortgage  Syracuse" href="/Utah-Mortgage-Syracuse">Syracuse</a>
                         </li>
                         <li>
-                          <a href="/Reverse-mortgage-Utah-Ogden">Ogden</a>
+                          <a title="Reverse Mortgage  Utah  Ogden" href="/Reverse-mortgage-Utah-Ogden">Ogden</a>
                         </li>
                         <li>
-                          <a href="/Reverse-mortgage-Utah-WestValleyCity">
+                          <a title="Reverse Mortgage  Utah  West Valley City" href="/Reverse-mortgage-Utah-WestValleyCity">
                             West Valley City
                           </a>
                         </li>
@@ -120,15 +122,15 @@ const Navbar = () => {
                       </p>
                       <ul className="dropdown-content">
                         <li>
-                          <a href="/Reverse-mortgage-Florida-Venice">Venice</a>
+                          <a title="Reverse Mortgage  Florida  Venice" href="/Reverse-mortgage-Florida-Venice">Venice</a>
                         </li>
                         <li>
-                          <a href="/Reverse-mortgage-Florida-Palm-Beach">
+                          <a title="Reverse Mortgage  Florida  Palm  Beach" href="/Reverse-mortgage-Florida-Palm-Beach">
                             Palm Beach
                           </a>
                         </li>
                         <li>
-                          <a href="/Reverse-mortgage-Florida-Naples">Naples</a>
+                          <a title="Reverse Mortgage  Florida  Naples" href="/Reverse-mortgage-Florida-Naples">Naples</a>
                         </li>
                       </ul>
                     </li>
@@ -143,17 +145,17 @@ const Navbar = () => {
                           </p>
                           <ul className="dropdown-content">
                             <li>
-                              <a href="/Reverse-mortgage-Texas-Austin">
+                              <a title="Reverse Mortgage  Texas  Austin" href="/Reverse-mortgage-Texas-Austin">
                                 Austin
                               </a>
                             </li>
                             <li>
-                              <a href="/Reverse-mortgage-Texas-Houston">
+                              <a title="Reverse Mortgage  Texas  Houston" href="/Reverse-mortgage-Texas-Houston">
                                 Houston
                               </a>
                             </li>
                             <li>
-                              <a href="/Reverse-mortgage-Texas-Dallas">
+                              <a title="Reverse Mortgage  Texas  Dallas" href="/Reverse-mortgage-Texas-Dallas">
                                 Dallas
                               </a>
                             </li>
@@ -167,6 +169,7 @@ const Navbar = () => {
                     target="_blank"
                       className="mortgage-company-utah-apply-today"
                       href="https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com"
+                      title="apply.prmihome.com"
                     >
                       Loan Questionnaire
                     </Link>
@@ -175,6 +178,7 @@ const Navbar = () => {
                     <Link
                       className="mortgage-company-utah-team-number"
                       href="/"
+                      title="Kenny Farshchian W/Primary Residential Mortgage, Inc. Phone Number"
                     >
                       801-520-8475
                     </Link>

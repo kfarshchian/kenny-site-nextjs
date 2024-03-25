@@ -25,7 +25,7 @@ const MobileNav = () => {
                         src="/smalllogokenny.png"
                         width={350}
                         height={150}
-                        alt="ASAP WebDevs Logo"
+                        alt="kenny mortgage logo"
                       />
                     </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
