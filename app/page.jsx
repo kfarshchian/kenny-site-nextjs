@@ -118,7 +118,7 @@ const Home = () => {
                   stress-free experience.
                 </Typography>
                 <Button
-                  title="reverse mortgage utah"
+                  title="apply.prmihome.com"
                   target="_blank"
                   href={
                     "https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com"
@@ -151,7 +151,7 @@ const Home = () => {
                   run.
                 </Typography>
                 <Button
-                  title="reverse mortgage utah"
+                  title="apply.prmihome.com"
                   target="_blank"
                   href={
                     "https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com"
@@ -185,7 +185,7 @@ const Home = () => {
                   outcomes.
                 </Typography>
                 <Button
-                  title="reverse mortgage utah"
+                  title="apply.prmihome.com"
                   target="_blank"
                   href={
                     "https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com"
@@ -200,7 +200,7 @@ const Home = () => {
             </div>
           </Stack>
           <Button
-            title="reverse mortgage utah"
+            title="apply.prmihome.com"
             target="_blank"
             href={
               "https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com"
@@ -246,7 +246,7 @@ const Home = () => {
           </h2>
           <p>
             As the esteemed loan officer,{" "}
-            <a href="/aboutus" type="page" id="pageLinksOnPage">
+            <a title="Aboutus" href="/aboutus" type="page" id="pageLinksOnPage">
               Kenny Farshchian
             </a>
             , you can rest assured that you are working with the best in Utah.
@@ -267,7 +267,7 @@ const Home = () => {
             Kenny strives to build lasting relationships based on trust and
             transparency. You can trust that Kenny Farshchian, as your dedicated
             reverse mortgage loan officer, will provide you with{" "}
-            <a href="/contact" type="page" id="pageLinksOnPage">
+            <a title="Contact" href="/contact" type="page" id="pageLinksOnPage">
               personalized guidance
             </a>{" "}
             and the highest level of service throughout the loan process.
@@ -283,7 +283,7 @@ const Home = () => {
           </h2>
           <p>
             At Primary Residential Mortgage, Inc., we are dedicated direct
-            <a href="/Utah-mortgage-Layton" type="page" id="pageLinksOnPage">
+            <a title="Utah Mortgage Salt Lake City" href="/Utah-mortgage-Layton" type="page" id="pageLinksOnPage">
               {" "}
               mortgage lenders in Utah
             </a>
@@ -302,6 +302,7 @@ const Home = () => {
             finding the best mortgage solution tailored to your specific
             circumstances. As a{" "}
             <a
+              title="Reverse Mortgage  Texas  Austin"
               href="/Reverse-mortgage-Texas-Austin"
               type="page"
               id="pageLinksOnPage"
@@ -357,6 +358,7 @@ const Home = () => {
             financial needs and goals of his clients in Utah and beyond. His
             extensive knowledge and expertise as a{" "}
             <a
+              title="Utah Mortgage Salt Lake City"
               href="/Utah-mortgage-salt-lake-city"
               type="page"
               id="pageLinksOnPage"
@@ -373,6 +375,7 @@ const Home = () => {
             strong relationships with his clients, guided by trust and open
             communication. Kenny's dedication to creating an
             <a
+              title="Reverse Mortgage  Florida  Venice"
               href="/Reverse-mortgage-Florida-Venice"
               type="page"
               id="pageLinksOnPage"
@@ -391,7 +394,7 @@ const Home = () => {
             of financial decisions and their impact on his clients' lives. With
             his expertise in the reverse mortgage markets of Utah, Texas, and
             Florida, Kenny provides{" "}
-            <a href="/contact" type="page" id="pageLinksOnPage">
+            <a title="Contact" href="/contact" type="page" id="pageLinksOnPage">
               comprehensive guidance
             </a>{" "}
             that considers building the unique regulations and trends of each
@@ -415,6 +418,7 @@ const Home = () => {
           <p id="UtahLocalLenderP">
             As direct{" "}
             <a
+              title="Reverse Mortgage  Texas  Houston"
               href="/Reverse-mortgage-Texas-Houston"
               type="page"
               id="pageLinksOnPage"
@@ -435,6 +439,7 @@ const Home = () => {
           <p>
             As a{" "}
             <a
+              title="Reverse Mortgage  Texas  Houston"
               href="/Reverse-mortgage-Texas-Houston"
               type="page"
               id="pageLinksOnPage"
@@ -480,6 +485,7 @@ const Home = () => {
             buyer or a seasoned homeowner in Utah, it's crucial to work with a
             trusted{" "}
             <a
+              title="Reverse Mortgage  Florida  Palm  Beach"
               href="/Reverse-mortgage-Florida-Palm-Beach"
               type="page"
               id="pageLinksOnPage"
@@ -524,6 +530,7 @@ const Home = () => {
             <p id="reverse-mortgage-texas-home-stack-p">
               As a reliable{" "}
               <a
+                title="Reverse Mortgage  Utah  Ogden"
                 href="/Reverse-mortgage-Utah-Ogden"
                 type="page"
                 id="pageLinksOnPage"
@@ -553,6 +560,7 @@ const Home = () => {
             fast mortgage approvals, competitive interest rates, and exceptional
             customer service. While their business spans{" "}
             <a
+              title="Reverse Mortgage  Texas  Dallas"
               href="/Reverse-mortgage-Texas-Dallas"
               type="page"
               id="pageLinksOnPage"

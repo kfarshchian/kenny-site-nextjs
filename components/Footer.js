@@ -55,6 +55,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Utah-mortgage-salt-lake-city"
+              title="Utah Mortgage Salt Lake City"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -66,6 +67,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Utah-mortgage-Layton"
+              title="Utah Mortgage  Layton"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -77,6 +79,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Utah-mortgage-Bountiful"
+              title="Utah Mortgage  Bountiful"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -88,6 +91,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Utah-Mortgage-Syracuse"
+              title="Utah  Mortgage  Syracuse"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -99,6 +103,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Reverse-mortgage-Utah-Ogden"
+              title="Reverse Mortgage  Utah  Ogden"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -110,6 +115,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Reverse-mortgage-Utah-WestValleyCity"
+              title="Reverse Mortgage  Utah  West Valley City"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -134,6 +140,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Reverse-mortgage-Florida-Venice"
+              title="Reverse Mortgage  Florida  Venice"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -145,6 +152,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Reverse-mortgage-Florida-Palm-Beach"
+              title="Reverse Mortgage  Florida  Palm  Beach"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -156,6 +164,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Reverse-mortgage-Florida-Naples"
+              title="Reverse Mortgage  Florida  Naples"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -168,6 +177,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Reverse-mortgage-Texas-Austin"
+              title="Reverse Mortgage  Texas  Austin"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -179,6 +189,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Reverse-mortgage-Texas-Dallas"
+              title="Reverse Mortgage  Texas  Dallas"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -190,6 +201,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Reverse-mortgage-Texas-Houston"
+              title="Reverse Mortgage  Texas  Houston"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -216,6 +228,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/"
+              title="Kenny Farshchian W/Primary Residential Mortgage, Inc."
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -227,6 +240,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/our-process"
+              title="our-process"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -238,6 +252,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Loans"
+              title="Loans"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -249,6 +264,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/contact"
+              title="contact"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -260,6 +276,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/closing-guarantee"
+              title="closing-guarantee"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -271,6 +288,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/Disclosure"
+              title="Disclosure"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -283,6 +301,7 @@ const Footer = () => {
               id="reverse-mortgage-florida-footer"
               href="https://www.primeres.com/licenses"
               target="_blank"
+              title="Licenses"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -295,6 +314,7 @@ const Footer = () => {
               id="reverse-mortgage-florida-footer"
               href="/aboutus"
               target="_blank"
+              title="aboutus"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -306,6 +326,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               target="_blank"
+              title="consumer-voice"
               href="https://www.primeres.com/consumer-voice"
               sx={{
                 color: "black",
@@ -319,6 +340,7 @@ const Footer = () => {
               id="reverse-mortgage-florida-footer"
               target="_blank"
               href="https://www.primeres.com/terms-of-use"
+              title="terms-of-use"
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -366,6 +388,7 @@ const Footer = () => {
               textTransform: "none",
               textDecoration: "none",
             }}
+            title="facebook"
             href="https://www.facebook.com/"
             target="_blank"
           >
@@ -377,6 +400,7 @@ const Footer = () => {
               textTransform: "none",
               textDecoration: "none",
             }}
+            title="linkedin"
             href="https://www.linkedin.com"
             target="_blank"
           >
@@ -388,6 +412,7 @@ const Footer = () => {
               textTransform: "none",
               textDecoration: "none",
             }}
+            title="instagram"
             href="https://www.instagram.com"
             target="_blank"
           >
@@ -399,6 +424,7 @@ const Footer = () => {
               textTransform: "none",
               textDecoration: "none",
             }}
+            title="email"
             href="mailto:kenf@primeres.com"
             target="_blank"
           >
@@ -409,7 +435,7 @@ const Footer = () => {
         <Typography variant="caption">
           © 2023 | Kenny Farshchian | Primary Residential Mortgage, Inc. All
           Rights Reserved.
-          | <a id="reverse-mortgage-florida-privacy-policy" target="_blank" href='https://www.primeres.com/privacy-policy'> Privacy Policy</a>
+          | <a id="reverse-mortgage-florida-privacy-policy" title="privacy-policy" target="_blank" href='https://www.primeres.com/privacy-policy'> Privacy Policy</a>
         </Typography>
         <Typography variant="caption" sx={{ textAlign: "center" }}>
           by Primary Residential Mortgage, Inc. NMLS#: 919520 Utah DRE Mortgage
