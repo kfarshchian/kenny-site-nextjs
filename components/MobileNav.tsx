@@ -20,9 +20,8 @@ const MobileNav = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
-              <Link href="/">
+              <Link title="Kenny Farshchian W/Primary Residential Mortgage, Inc." href="/">
                       <Image
-                        title="Kenny Farshchian W/Primary Residential Mortgage, Inc."
                         src="/smalllogokenny.png"
                         width={350}
                         height={150}
