@@ -15,7 +15,6 @@ function ThisScript() {
         {" "}
       </Script>
       <Script src="https://cdn.userway.org/widget.js" data-account="TFsl3YzRJU"></Script>
-      <Script src="https://assets.usestyle.ai/seonajsplugin" defer id="seona-js-plugin"></Script>
     </>
   );
 }
