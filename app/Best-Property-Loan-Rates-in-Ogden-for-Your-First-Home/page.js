@@ -11,7 +11,7 @@ export const metadata = {
   title: "How to Find the Best Property Loan Rates in Ogden for Your First Home ",
   description: "Gain clarity on your home ownership with Kenny Farshchian, Utahs top mortgage lender. Trust his expertise for peace of mind in navigating mortgage complexities.",
   alternates: {
-    canonical: 'https://www.mortgagekenny.com/does-the-bank-own-my-home-with-a-reverse-mortgage',
+    canonical: 'https://www.mortgagekenny.com/Best-Property-Loan-Rates-in-Ogden-for-Your-First-Home',
   },
   robots: {
     index: true,
@@ -22,7 +22,7 @@ export const metadata = {
     },
     },
   openGraph: {
-    url: "https://www.mortgagekenny.com/does-the-bank-own-my-home-with-a-reverse-mortgage",
+    url: "https://www.mortgagekenny.com/Best-Property-Loan-Rates-in-Ogden-for-Your-First-Home",
     title: "How to Find the Best Property Loan Rates in Ogden for Your First Home ",
     type: "website",
     description: "Gain clarity on your home ownership with Kenny Farshchian, Utahs top mortgage lender. Trust his expertise for peace of mind in navigating mortgage complexities.",
