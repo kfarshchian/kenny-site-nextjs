@@ -8,10 +8,10 @@ import UtahMortgageNearMe from "../../public/home-genz.png"
 import Image from "next/image";
 
 export const metadata = {
-  title: "How to Find the Best Property Loan Rates in Ogden for Your First Home ",
-  description: "Gain clarity on your home ownership with Kenny Farshchian, Utahs top mortgage lender. Trust his expertise for peace of mind in navigating mortgage complexities.",
+  title: "Buying a home for your Gen Z",
+  description: "Empowering Gen Z with savvy insights and expert tips on navigating the home buying journey. Your go-to guide for owning your first home.",
   alternates: {
-    canonical: 'https://www.mortgagekenny.com/Best-Property-Loan-Rates-in-Ogden-for-Your-First-Home',
+    canonical: 'https://www.mortgagekenny.com/buying-a-home-for-your-gen-z',
   },
   robots: {
     index: true,
@@ -22,15 +22,15 @@ export const metadata = {
     },
     },
   openGraph: {
-    url: "https://www.mortgagekenny.com/Best-Property-Loan-Rates-in-Ogden-for-Your-First-Home",
-    title: "How to Find the Best Property Loan Rates in Ogden for Your First Home ",
+    url: "https://www.mortgagekenny.com/buying-a-home-for-your-gen-z",
+    title: "Buying a home for your Gen Z",
     type: "website",
-    description: "Gain clarity on your home ownership with Kenny Farshchian, Utahs top mortgage lender. Trust his expertise for peace of mind in navigating mortgage complexities.",
+    description: "Empowering Gen Z with savvy insights and expert tips on navigating the home buying journey. Your go-to guide for owning your first home.",
     images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
     twitter: {
       card: "summary_large_image",
-      title: "How to Find the Best Property Loan Rates in Ogden for Your First Home ",
-      description: "Gain clarity on your home ownership with Kenny Farshchian, Utahs top mortgage lender. Trust his expertise for peace of mind in navigating mortgage complexities.",
+      title: "Buying a home for your Gen Z",
+      description: "Empowering Gen Z with savvy insights and expert tips on navigating the home buying journey. Your go-to guide for owning your first home.",
       images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
     },
   }
