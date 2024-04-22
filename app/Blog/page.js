@@ -256,6 +256,32 @@ function Austin() {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         > */}
           {/* card 1 */}
+          <Card sx={{ maxWidth: 345, minWidth:320 }}>
+            <CardMedia
+              sx={{ height: 140 }}
+              image='/genz.png'
+              title="green iguana"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+              Buying a home for your Gen Z
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+              In today's fast-paced world, where the economic landscape is constantly evolving, the prospect of homeownership seems increasingly out of reach...
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button
+                title="reverse mortgage utah"
+                href="../buying-a-home-for-your-gen-z"
+                id="reverse-mortgage-utah-home-button-1"
+                size="small"
+              >
+                Read it here
+              </Button>
+            </CardActions>
+          </Card>
+          {/* card 1 */}
           {/* <Card sx={{ maxWidth: 345, minWidth:320 }}>
             <CardMedia
               sx={{ height: 140 }}
