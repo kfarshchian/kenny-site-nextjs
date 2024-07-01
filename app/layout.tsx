@@ -1,6 +1,6 @@
 import Navbar from '@/components/Navbar'
 import './globals.css'
-import type { Metadata } from 'next'
+// import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
 import ThisScript from './ThisScript/ThisScript'
@@ -9,15 +9,12 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 const inter = Inter({ subsets: ['latin'] })
 import {GoogleAnalyticsTracking} from '../components/GoogleAnalyticsTracking/GoogleAnalyticsTracking'
 
-export const metadata: Metadata = {
-  robots: { index: false, follow: false },
-  title: 'google-site-verification',
-  description:
-    'google-site-verification',
-  verification: {
-    google: 'google02b8e01adca70520.html',
-  },
-};
+// export const metadata: Metadata = {
+//   metadataBase: new URL('https://www.mortgagekenny.com'),
+//   alternates: {
+//     canonical: '/',
+//   },
+// }
 
 export default function RootLayout({
   children,
