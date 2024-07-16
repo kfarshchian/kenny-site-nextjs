@@ -12,6 +12,7 @@ import HeaderPage from "../components/HeaderPage/HeaderPage";
 import Image from "next/image";
 import ExperienceBanner from "../public/top.png";
 import HeaderImage from "../public/Local-Lender-Utah.png";
+import HeaderImageMobile from "../public/Local-Lender-Utah-mobile.png";
 import utahMoving from "../public/reverse-mortgage-utah-moving.jpg";
 import localLenderDocuments from "../public/reverse-mortgage-florida-signing.jpg";
 import localLenderHome from "../public/reverse-mortgage-florida-home2.png";
@@ -23,6 +24,7 @@ import localLoanOfficer from "../public/reverse-mortgage-texas-home-calc.jpg";
 import homePurchase from "../public/reverse-mortgage-texas-painting-house-buying3.png";
 import homeRefinance from "../public/reverse-mortgage-florida-painting-house-refinance3.png";
 import reverseMortgage from "../public/reverse-mortgage-utah-retirement3.png";
+
 
 export const metadata = {
   title: "Utah Mortgage Expert - Kenny Farshchian | PRMI",
@@ -55,6 +57,8 @@ export const metadata = {
 };
 
 const Home = () => {
+
+ 
   const headerProp = [
     { headerImage: HeaderImage },
     { headerTitle: "Your Utah Local Home Lender." },
@@ -63,6 +67,22 @@ const Home = () => {
         "As a Utah mortgage company, we provide personalized home financing with local expertise and competitive rates. From first-time buyers, Reverse Mortgages to refinancing, we offer quick approvals and guidance, ensuring your homeownership dreams come true.",
     },
   ];
+  
+  // const mobileHeaderProp = [
+  //   { headerImage: HeaderImageMobile },
+  //   { headerTitle: "Your Utah Local Home Lender." },
+  //   {
+  //     pHeader:
+  //       "As a Utah mortgage company, we provide personalized home financing with local expertise and competitive rates. From first-time buyers, Reverse Mortgages to refinancing, we offer quick approvals and guidance, ensuring your homeownership dreams come true.",
+  //   },
+  // ];
+
+  // const width = window.screen.width
+
+  // const isMobile = width < 640(mobileHeaderProp ?? headerProp);
+  // let useHeader = isMobile
+  // const screenSize = useScreenSize();
+  // console.log(screenSize);
 
   return (
     <>

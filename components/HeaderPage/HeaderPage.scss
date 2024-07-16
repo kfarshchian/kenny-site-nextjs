@@ -14,7 +14,8 @@
     align-items: center;
 }
 #headerImage{
-    width: 50%;
+    width: auto;
+    height: auto;
     animation: fade-in 2s;
 }
 #verbiage{
@@ -101,7 +102,8 @@
         animation: slideInFromLeft 1.5s ease forwards;
     }
     #headerImage{
-        width: 100%;
+        width: auto;
+    height: auto;
         animation: fade-in 2s;
     }
   }
