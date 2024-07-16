@@ -12,7 +12,7 @@ import HeaderPage from "../components/HeaderPage/HeaderPage";
 import Image from "next/image";
 import ExperienceBanner from "../public/top.png";
 import HeaderImage from "../public/Local-Lender-Utah.png";
-import HeaderImageMobile from "../public/Local-Lender-Utah-mobile2.png";
+import HeaderImageMobile from "../public/Local-Lender-Utah-mobile.png";
 import utahMoving from "../public/reverse-mortgage-utah-moving.jpg";
 import localLenderDocuments from "../public/reverse-mortgage-florida-signing.jpg";
 import localLenderHome from "../public/reverse-mortgage-florida-home2.png";
@@ -57,15 +57,16 @@ export const metadata = {
 };
 
 const Home = () => {
-
+  
  
   const headerProp = [
-    { headerImage: HeaderImageMobile },
+    { headerImage: HeaderImage },
     { headerTitle: "Your Utah Local Home Lender." },
     {
       pHeader:
         "As a Utah mortgage company, we provide personalized home financing with local expertise and competitive rates. From first-time buyers, Reverse Mortgages to refinancing, we offer quick approvals and guidance, ensuring your homeownership dreams come true.",
     },
+    { headerImageMobile: HeaderImageMobile },
   ];
   
   // const mobileHeaderProp = [

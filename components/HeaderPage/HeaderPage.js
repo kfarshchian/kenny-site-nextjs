@@ -6,7 +6,7 @@ import Image from "next/image";
 function HeaderPage(props) {
 
     const { headerProp } = props;
-
+  
   return (
     <>
       <div id="headerPage">
@@ -27,6 +27,9 @@ function HeaderPage(props) {
           </div>
           <div id="headerImage">
             <Image src={headerProp[0].headerImage} alt="keys" rel="preload"  priority/>
+          </div>
+          <div id="mobileHeaderImage">
+            <Image id="mobileHeaderImage" src={headerProp[3].headerImageMobile} alt="keys" rel="preload"  priority/>
           </div>
         </Stack>
       </div>

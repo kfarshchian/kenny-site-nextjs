@@ -38,6 +38,12 @@
     width: 50%;
     animation: slideInFromLeft 1.5s ease forwards;
 }
+#headerImage{
+    display: block !important;
+}
+#mobileHeaderImage{
+    display: none !important;
+}
 @keyframes fade-in {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -66,6 +72,8 @@
         width: 70%;
         animation: slideInFromLeft 1.5s ease forwards;
     }
+    
+    
   }
   @media (max-width: 1152px) {
     #headerPage{
@@ -105,5 +113,25 @@
         width: auto;
     height: auto;
         animation: fade-in 2s;
+    }
+  }
+  @media (max-width: 899px) {
+    #headerPage{
+        padding-top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #pHeader{
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+        animation: slideInFromLeft 1.5s ease forwards;
+    }
+    #headerImage{
+        display: none !important;
+    }
+    #mobileHeaderImage{
+        display: block !important;
     }
   }
