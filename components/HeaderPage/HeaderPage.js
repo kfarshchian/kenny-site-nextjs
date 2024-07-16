@@ -6,7 +6,10 @@ import Image from "next/image";
 function HeaderPage(props) {
 
     const { headerProp } = props;
-  
+    let title = headerProp[1].headerTitle
+    let header = headerProp[2].pHeader
+    let image = headerProp[0].headerImage
+    let mobileImage = headerProp[3].headerImageMobile
     
   return (
     <>
@@ -21,16 +24,16 @@ function HeaderPage(props) {
           spacing={{ xs: 1, sm: 2, md: 2 }}
         >
           <div id="verbiage">
-            <h1 id="titleHeader">{headerProp[1].headerTitle}</h1>
+            <h1 id="titleHeader">{title}</h1>
             <p id="pHeader">
-            {headerProp[2].pHeader}
+            {header}
             </p>
           </div>
           <div id="headerImage">
-            <Image src={headerProp[0].headerImage} alt="keys" rel="preload"  priority/>
+            <Image src={image} alt="keys" rel="preload"  priority/>
           </div>
           <div id="mobileHeaderImage">
-            <Image id="mobileHeaderImage" src={headerProp[3].headerImageMobile} alt="keys" rel="preload"  priority/>
+            <Image id="mobileHeaderImage" src={mobileImage} alt="keys" rel="preload"  priority/>
           </div>
         </Stack>
       </div>
