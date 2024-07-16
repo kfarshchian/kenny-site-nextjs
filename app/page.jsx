@@ -12,7 +12,7 @@ import HeaderPage from "../components/HeaderPage/HeaderPage";
 import Image from "next/image";
 import ExperienceBanner from "../public/top.png";
 import HeaderImage from "../public/Local-Lender-Utah.png";
-import HeaderImageMobile from "../public/Local-Lender-Utah-mobile.png";
+import HeaderImageMobile from "../public/Local-Lender-Utah-mobile2.png";
 import utahMoving from "../public/reverse-mortgage-utah-moving.jpg";
 import localLenderDocuments from "../public/reverse-mortgage-florida-signing.jpg";
 import localLenderHome from "../public/reverse-mortgage-florida-home2.png";
@@ -60,7 +60,7 @@ const Home = () => {
 
  
   const headerProp = [
-    { headerImage: HeaderImage },
+    { headerImage: HeaderImageMobile },
     { headerTitle: "Your Utah Local Home Lender." },
     {
       pHeader:
