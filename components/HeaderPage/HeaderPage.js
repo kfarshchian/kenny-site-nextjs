@@ -7,6 +7,7 @@ function HeaderPage(props) {
 
     const { headerProp } = props;
   
+    
   return (
     <>
       <div id="headerPage">
