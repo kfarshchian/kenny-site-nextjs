@@ -57,8 +57,7 @@ export const metadata = {
 };
 
 const Home = () => {
-  
- 
+
   const headerProp = [
     { headerImage: HeaderImage },
     { headerTitle: "Your Utah Local Home Lender." },
