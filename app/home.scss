@@ -261,7 +261,17 @@ align-items: center;
 .card-body {
   padding: 5px;
 }
+@media (max-width: 1449px) {
 
+  #mobileHeaderImage{
+      display: none;
+  }
+}
+@media (max-width: 899px) {
+  #mobileHeaderImage{
+      display: block;
+  }
+}
 @media (max-width: 768px) {
     .reverse-mortgage-utah-home-Container-stack-img1  {
       flex-direction: column;
