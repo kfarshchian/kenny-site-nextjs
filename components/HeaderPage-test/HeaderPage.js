@@ -9,6 +9,7 @@ function HeaderPage(props) {
     let title = headerProp[1].headerTitle
     let header = headerProp[2].pHeader
     let image = headerProp[0].headerImage
+    let mobileImage = headerProp[3].headerImageMobile
     
   return (
     <>
@@ -30,6 +31,9 @@ function HeaderPage(props) {
           </div>
           <div id="headerImage">
             <Image src={image} alt="keys" rel="preload"  priority/>
+          </div>
+          <div id="mobileHeaderImage">
+            <Image id="mobileHeaderImage" src={mobileImage} alt="keys" rel="preload"  priority/>
           </div>
         </Stack>
       </div>

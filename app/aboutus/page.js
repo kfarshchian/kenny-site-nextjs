@@ -4,7 +4,6 @@ import "./aboutus.scss";
 import { Container, Stack } from "@mui/material";
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import HeaderImage from "/public/arch-utah-reverse-mortgage-utah.jpg"
-import HeaderImageMobile from "/public/arch-utah-reverse-mortgage-utah.jpg";
 
 export const metadata = {
   title: "Best Utah Mortgage Lender & Reverse Mortgages | Kenny Farshchian",
@@ -39,8 +38,7 @@ function aboutus() {
   const headerProp =[
     {headerImage: HeaderImage},
     {headerTitle: "Utah Loan Officer and Utah Mortgage Lender."},
-    {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."},
-    { headerImageMobile: HeaderImageMobile },
+    {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
   ]
   return (
     <>
