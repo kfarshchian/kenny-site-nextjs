@@ -30,10 +30,10 @@ function HeaderPage(props) {
             </p>
           </div>
           <div id="headerImage">
-            <Image src={image} alt="keys" rel="preload" loading="lazy"  />
+            <Image src={image} alt="keys" rel="preload"  priority/>
           </div>
           <div id="mobileHeaderImage">
-            <Image id="mobileHeaderImage" src={mobileImage} alt="keys" rel="preload" loading="lazy"  />
+            <Image id="mobileHeaderImage" src={mobileImage} alt="keys" rel="preload"  priority/>
           </div>
         </Stack>
       </div>
