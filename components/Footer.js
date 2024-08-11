@@ -1,5 +1,5 @@
 'use client'
-import React from "react";
+import React, { Suspense } from "react";
 import { Container, Link, Stack, Divider, Typography } from "@mui/material";
 import PinDropIcon from "@mui/icons-material/PinDrop";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
@@ -212,8 +212,10 @@ const Footer = () => {
             </Link>
           </Stack>
           {/* <div id="mapDiv"> */}
-            <Map loading="lazy"></Map>
+          <Suspense fallback={<div>Loading...</div>}> 
+            <Map></Map>
           {/* </div> */}
+          </Suspense>
           <Stack
             direction={{ xs: "column", sm: "column" }}
             id="stackLinks"
