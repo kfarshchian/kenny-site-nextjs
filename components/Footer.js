@@ -431,7 +431,7 @@ const Footer = () => {
             <MailOutlineIcon />
           </Link>
         </Stack>
-        <Image id="smallLogo" src={footerLogo} alt="Utah Local Lender Mortgage Kenny Logo"/>
+        <Image id="smallLogo" src={footerLogo} alt="Utah Local Lender Mortgage Kenny Logo" loading="lazy" />
         <Typography variant="caption">
           © 2023 | Kenny Farshchian | Primary Residential Mortgage, Inc. All
           Rights Reserved.
