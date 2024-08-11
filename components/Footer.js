@@ -1,5 +1,5 @@
 'use client'
-import React, { Suspense } from "react";
+import React from "react";
 import { Container, Link, Stack, Divider, Typography } from "@mui/material";
 import PinDropIcon from "@mui/icons-material/PinDrop";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
@@ -7,7 +7,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import Map from "./Map";
+// import Map from "./Map";
 import "./footer.scss";
 import Image from "next/image";
 import footerLogo from "/public/smalllogokenny.png"
@@ -211,11 +211,28 @@ const Footer = () => {
               Houston
             </Link>
           </Stack>
-          {/* <div id="mapDiv"> */}
-          <Suspense fallback={<div>Loading...</div>}> 
-            <Map></Map>
-          {/* </div> */}
-          </Suspense>
+          <div id="mapDiv">
+          <Link
+            sx={{
+              color: "black",
+              textTransform: "none",
+              textDecoration: "none",
+            }}
+            title="Kenny Farshchian Team Utah Mortgages Map"
+            href="/contact"
+            target="_blank"
+          >
+          <PinDropIcon id="hoursTitle" ></PinDropIcon>
+          </Link>
+          <h2 id="hoursTitleFooter">Business Hours</h2>
+        <p id="hoursDayFooter">Sunday Closed</p>
+        <p id="hoursDayFooter">Monday 9AM - 5PM</p>
+        <p id="hoursDayFooter">Tuesday 9AM - 5PM</p>
+        <p id="hoursDayFooter">Wednesday 9AM - 5PM</p>
+        <p id="hoursDayFooter">Thursday 9AM - 5PM</p>
+        <p id="hoursDayFooter">Friday 9AM - 5PM</p>
+        <p id="hoursDayFooter">Saturday Closed</p>
+          </div>
           <Stack
             direction={{ xs: "column", sm: "column" }}
             id="stackLinks"

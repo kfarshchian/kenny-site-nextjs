@@ -7,6 +7,7 @@ import ContactForm from "../../components/ContactForm/ContactForm";
 import './contact.scss'
 import HeaderPage from "../../components/HeaderPage/HeaderPage";
 import HeaderImage from "/public/reverse-mortgage-florida-reverse-mortgage-texas-contact-us.jpg"
+import Map from "../../components/Map/index";
 
 export const metadata = {
   title: "Best Mortgage Expert in Utah - Kenny Farshchian",
@@ -142,6 +143,9 @@ function ContactUs() {
         <p id="hoursDay">Friday 9AM - 5PM</p>
         <p id="hoursDay">Saturday Closed</p>
         </div>
+<div id="map-container">
+        <Map ></Map>
+</div>
       </Container>
     </>
   );
