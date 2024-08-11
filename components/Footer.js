@@ -212,7 +212,7 @@ const Footer = () => {
             </Link>
           </Stack>
           {/* <div id="mapDiv"> */}
-            <Map></Map>
+            <Map loading="lazy"></Map>
           {/* </div> */}
           <Stack
             direction={{ xs: "column", sm: "column" }}
