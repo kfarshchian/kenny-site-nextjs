@@ -2,8 +2,12 @@ import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import "./aboutus.scss";
 import { Container, Stack } from "@mui/material";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import HeaderImage from "/public/arch-utah-reverse-mortgage-utah.jpg"
+import Image from "next/image";
+import KennyFarshchianUtahLoanOfficer from "/public/kennyf.png"
+import HeaderImageMobile from "/public/arch-utah-reverse-mortgage-utah-mobile.png"
+
 
 export const metadata = {
   title: "Best Utah Mortgage Lender & Reverse Mortgages | Kenny Farshchian",
@@ -38,7 +42,9 @@ function aboutus() {
   const headerProp =[
     {headerImage: HeaderImage},
     {headerTitle: "Utah Loan Officer and Utah Mortgage Lender."},
-    {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
+    {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."},
+    { headerImageMobile: HeaderImageMobile },
+	
   ]
   return (
     <>
@@ -71,10 +77,10 @@ function aboutus() {
             </p>
           </div>
           <div id="reverse-mortgage-florida-aboutus-stack-container">
-            <img
+            <Image
               id="reverse-mortgage-florida-aboutus-stack-img-kenny"
-              src='/kennyf.png'
-              alt="reverse mortgage Utah Moving Boxes"
+              src={KennyFarshchianUtahLoanOfficer}
+              alt="Kenny Farshchian Utah Loan Officer"
             />
           </div>
         </Stack>
