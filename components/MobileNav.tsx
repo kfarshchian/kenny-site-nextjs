@@ -82,6 +82,9 @@ const MobileNav = () => {
                         <li>
                           <Link onClick={() => setNavbar(!navbar)} title="Loans" href="/Loans">Loans</Link>
                         </li>
+                        <li>
+                          <Link onClick={() => setNavbar(!navbar)} title="Reviews" href="/Reviews">Reviews</Link>
+                        </li>
                       </ul>
                     </li>
                   </ul>
