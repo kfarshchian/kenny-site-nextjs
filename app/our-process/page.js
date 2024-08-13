@@ -3,11 +3,13 @@ import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import './OurProcess.scss'
 import VTimeline from '@/components/VTimeline'
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import HeaderImage from "/public/our-process-moving-reverse-mortgage-utah.jpg"
+import HeaderImageMobile from "/public/our-process-moving-reverse-mortgage-utah-mobile.jpg";
 import Image from "next/image";
 import movingBox from "../../public/our-process-moving-reverse-mortgage-utah.jpg"
 import houseCalculations from "../../public/austin-coins-reverse-mortgage-texas.jpg"
+
 
 
 export const metadata = {
@@ -44,7 +46,8 @@ function OurProcess() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Our Process The PRMI Home Process"},
-      {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
+      {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."},
+      { headerImageMobile: HeaderImageMobile },   
     ]
   return (
     <>

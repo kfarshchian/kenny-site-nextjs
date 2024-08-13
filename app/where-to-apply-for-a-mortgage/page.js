@@ -1,9 +1,10 @@
 import React from "react";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import './apply.scss'
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/where-to-apply.jpg"
+import HeaderImageMobile from "/public/where-to-apply-mobile.jpg";
 
 
 export const metadata = {
@@ -39,7 +40,8 @@ function Apply() {
       const headerProp =[
         {headerImage: HeaderImage},
         {headerTitle: "Where to apply for a reverse mortgage?"},
-        {pHeader: ""}
+        {pHeader: ""},
+        { headerImageMobile: HeaderImageMobile },
       ]
   return (
     <>

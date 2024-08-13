@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import './westvalleycity.scss'
 import HeaderImage from "/public/west-valley-city-reverse--mortgage-utah-2.png"
+import HeaderImageMobile from "/public/west-valley-city-reverse--mortgage-utah-2-mobile.png";
 import Image from "next/image";
 import signDocs from "../../public/west-valley-city-sign-reverse-mortgage-utah.jpg"
 import houseRates from "../../public/west-valley-city-stats-reverse-mortgage-utah.jpg"
@@ -43,7 +44,8 @@ function WestValleyCity() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "West Valley City Utah mortgages and Reverse mortgages"},
-      {pHeader: "Kenny is an exceptional lender in West Valley City, Utah, known for expertise in both traditional and reverse mortgages. With competitive rates and a client-centered approach, he's a top choice."}
+      {pHeader: "Kenny is an exceptional lender in West Valley City, Utah, known for expertise in both traditional and reverse mortgages. With competitive rates and a client-centered approach, he's a top choice."},
+      { headerImageMobile: HeaderImageMobile },
     ]
   return (
     <>

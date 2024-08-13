@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import './get.scss'
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/where-to-get.jpg"
-
+import HeaderImageMobile from "/public/where-to-get-mobile.jpg";
 
 export const metadata = {
   title: "Top Reverse Mortgage Lender - Kenny Farshchian",
@@ -39,7 +39,8 @@ function GetMortgage() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Where to get a Reverse Mortgage?"},
-      {pHeader: ""}
+      {pHeader: ""},
+      { headerImageMobile: HeaderImageMobile },
     ]
   return (
     <>

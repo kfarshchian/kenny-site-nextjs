@@ -5,8 +5,9 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import ForwardToInboxIcon from "@mui/icons-material/ForwardToInbox";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import './contact.scss'
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import HeaderImage from "/public/reverse-mortgage-florida-reverse-mortgage-texas-contact-us.jpg"
+import HeaderImageMobile from "/public/reverse-mortgage-florida-reverse-mortgage-texas-contact-us-mobile.jpg";
 import Map from "../../components/Map/index";
 
 export const metadata = {
@@ -43,7 +44,8 @@ function ContactUs() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Contact Us With Any Mortgage Questions."},
-      {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."}
+      {pHeader: "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers."},
+      { headerImageMobile: HeaderImageMobile },
     ]
     
 

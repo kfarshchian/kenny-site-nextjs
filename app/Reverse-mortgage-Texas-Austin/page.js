@@ -1,9 +1,10 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './austin.scss'
 import HeaderImage from "/public/austin-city-reverse-mortgage-texas.jpg"
+import HeaderImageMobile from "/public/austin-city-reverse-mortgage-texas-mobile.jpg";
 import Image from "next/image";
 import signDocs from "../../public/austin-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/austin-coins-reverse-mortgage-texas.jpg"
@@ -42,7 +43,8 @@ function Austin() {
       const headerProp =[
         {headerImage: HeaderImage},
         {headerTitle: "Austin Texas mortgages and Reverse mortgages"},
-        {pHeader: "Kenny is a top lender in Austin, Texas, offering expertise in both traditional and reverse mortgages. His local knowledge, competitive rates, and client-centered service make him a trusted choice."}
+        {pHeader: "Kenny is a top lender in Austin, Texas, offering expertise in both traditional and reverse mortgages. His local knowledge, competitive rates, and client-centered service make him a trusted choice."},
+        { headerImageMobile: HeaderImageMobile },
       ]
 
   return (

@@ -1,9 +1,10 @@
 import React from "react";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import './OgdenRates.scss'
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/stats-layton-reverse-mortage-utah.jpg"
+import headerImageMobile from "/public/stats-layton-reverse-mortage-utah-mobile.jpg"
 import UtahMortgageNearMe from "../../public/UtahMortgageNearMe.png"
 import Image from "next/image";
 
@@ -41,7 +42,8 @@ function OgdenRates() {
       const headerProp =[
         {headerImage: HeaderImage},
         {headerTitle: "How to Find the Best Property Loan Rates in Ogden for Your First Home"},
-        {pHeader: ""}
+        {pHeader: ""},
+        { headerImageMobile: headerImageMobile },
       ]
   return (
     <>

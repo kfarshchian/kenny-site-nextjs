@@ -1,9 +1,10 @@
 import React from "react";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import './bankOwn.scss'
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/doesTheBankOwnMyMortgage.jpg"
+import HeaderImageMobile from "/public/doesTheBankOwnMyMortgageMobile.jpg";
 
 
 export const metadata = {
@@ -40,7 +41,8 @@ function Afford() {
       const headerProp =[
         {headerImage: HeaderImage},
         {headerTitle: "Does the Bank Own My Home with a Reverse Mortgage?"},
-        {pHeader: ""}
+        {pHeader: ""},
+        { headerImageMobile: HeaderImageMobile },
       ]
   return (
     <>

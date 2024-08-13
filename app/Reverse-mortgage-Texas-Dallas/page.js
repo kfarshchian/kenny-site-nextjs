@@ -1,9 +1,10 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './dallas.scss'
 import HeaderImage from "/public/dallas-city-reverse-mortgage-texas.jpg"
+import HeaderImageMobile from "/public/dallas-city-reverse-mortgage-texas-mobile.jpg";
 import Image from "next/image";
 import signDocs from "../../public/dallas-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/dallas-rate-reverse-mortgage-texas.jpg"
@@ -42,7 +43,8 @@ function Dallas() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Dallas Texas mortgages and Reverse mortgages"},
-      {pHeader: "Kenny is an outstanding lender in Dallas, Texas, excelling in both traditional and reverse mortgages. His local expertise, competitive rates, and dedication to clients make him a top choice."}
+      {pHeader: "Kenny is an outstanding lender in Dallas, Texas, excelling in both traditional and reverse mortgages. His local expertise, competitive rates, and dedication to clients make him a top choice."},
+      { headerImageMobile: HeaderImageMobile },
     ]
   return (
     <>

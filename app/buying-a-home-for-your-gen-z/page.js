@@ -1,14 +1,15 @@
 import React from "react";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import './genz.scss'
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderImage from "/public/stats-layton-reverse-mortage-utah.jpg"
+import HeaderImage from "/public/buying-a-home-gen-z-utah.jpg"
+import HeaderImageMobile from "/public/stats-layton-reverse-mortage-utah-mobile.jpg";
 import UtahMortgageNearMe from "../../public/home-genz.png"
 import Image from "next/image";
 
 export const metadata = {
-  title: "Buying a home for your Gen Z",
+  title: "Buying A Home For Your Gen Z",
   description: "Empowering Gen Z with savvy insights and expert tips on navigating the home buying journey. Your go-to guide for owning your first home.",
   alternates: {
     canonical: 'https://www.mortgagekenny.com/buying-a-home-for-your-gen-z',
@@ -23,7 +24,7 @@ export const metadata = {
     },
   openGraph: {
     url: "https://www.mortgagekenny.com/buying-a-home-for-your-gen-z",
-    title: "Buying a home for your Gen Z",
+    title: "Buying A Home For Your Gen Z",
     type: "website",
     description: "Empowering Gen Z with savvy insights and expert tips on navigating the home buying journey. Your go-to guide for owning your first home.",
     images: ["https://www.mortgagekenny.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsmalllogokenny.8cfc83f9.png&w=1080&q=75"],
@@ -40,8 +41,9 @@ function genz() {
 
       const headerProp =[
         {headerImage: HeaderImage},
-        {headerTitle: "Buying a home for your Gen Z"},
-        {pHeader: ""}
+        {headerTitle: "Buying A Home For Your Gen Z"},
+        {pHeader: ""},
+        { headerImageMobile: HeaderImageMobile },
       ]
   return (
     <>

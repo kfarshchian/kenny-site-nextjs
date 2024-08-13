@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import './bountiful.scss'
 import HeaderImage from "/public/bountiful-rates-reverse-mortgage-utah.jpg"
+import HeaderImageMobile from "/public/bountiful-rates-reverse-mortgage-utah-mobile.jpg";
 import Image from "next/image";
 import signDocs from "../../public/syracuse-sign-reverse-mortgage-utah.jpg"
 import realEstateCalculations from "../../public/bountiful-rates-reverse-mortgage-utah.jpg"
@@ -42,7 +43,8 @@ function Bountiful() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Bountiful Utah mortgages and Reverse mortgages"},
-      {pHeader: "Kenny is an outstanding lender in Bountiful, Utah, known for his expertise in traditional and reverse mortgages. His local insights, competitive rates, and client-centric approach make him highly recommended."}
+      {pHeader: "Kenny is an outstanding lender in Bountiful, Utah, known for his expertise in traditional and reverse mortgages. His local insights, competitive rates, and client-centric approach make him highly recommended."},
+      { headerImageMobile: HeaderImageMobile },
     ]
     
   return (

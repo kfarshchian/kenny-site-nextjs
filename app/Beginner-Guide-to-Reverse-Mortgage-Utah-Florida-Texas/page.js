@@ -1,9 +1,10 @@
 import React from "react";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import "./beginnerguide.scss";
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/pastdue.jpg"
+import HeaderImageMobile from "/public/pastdue-mobile.jpg";
 
 export const metadata = {
   title: "Reverse Mortgages Guide | Unlock Your Home's Potential",
@@ -42,6 +43,7 @@ function beginnerGuide() {
         "Beginner Guide's to Reverse Mortgages: Unlocking Your Home's Potential!",
     },
     { pHeader: "" },
+    { headerImageMobile: HeaderImageMobile },
   ];
   return (
     <>

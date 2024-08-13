@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import './syracuse.scss'
 import HeaderImage from "/public/syracuse-calc-reverse-mortgage-utah.jpg"
+import HeaderImageMobile from "/public/syracuse-calc-reverse-mortgage-utah-mobile.jpg";
 import Image from "next/image";
 import signDocs from "../../public/bountiful-sign-reverse-mortgage-utah.jpg"
 import houseCalculations from "../../public/syracuse-calc-reverse-mortgage-utah.jpg"
@@ -41,7 +42,8 @@ function Syracuse() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Syracuse Utah mortgages and Reverse mortgages"},
-      {pHeader: "Kenny is a superb lender in Syracuse, Utah, excelling in both traditional and reverse mortgages. His local knowledge, competitive rates, and dedication to clients make him an exceptional choice."}
+      {pHeader: "Kenny is a superb lender in Syracuse, Utah, excelling in both traditional and reverse mortgages. His local knowledge, competitive rates, and dedication to clients make him an exceptional choice."},
+      { headerImageMobile: HeaderImageMobile },
     ]
   return (
     <>

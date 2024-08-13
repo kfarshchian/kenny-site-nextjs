@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import './ogden.scss'
 import HeaderImage from "/public/ogden-home-reverse-mortgage-utah2.png"
+import HeaderImageMobile from "/public/ogden-home-reverse-mortgage-utah2-mobile.png";
 import Image from "next/image";
 import signDocs from "../../public/ogden-sign-reverse-mortgage-utah.jpg"
 import houseCalculations from "../../public/ogden-rate-arrow-reverse-mortgage-utah.jpg"
@@ -42,7 +43,8 @@ function Ogden() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Ogden Utah mortgages and Reverse mortgages"},
-      {pHeader: "Kenny is an exceptional lender in Ogden, Utah, with expertise in traditional and reverse mortgages. His local knowledge, competitive rates, and client-focused approach make him a top choice."}
+      {pHeader: "Kenny is an exceptional lender in Ogden, Utah, with expertise in traditional and reverse mortgages. His local knowledge, competitive rates, and client-focused approach make him a top choice."},
+      { headerImageMobile: HeaderImageMobile },
     ]
   return (
     <>

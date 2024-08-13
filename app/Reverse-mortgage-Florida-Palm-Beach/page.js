@@ -1,9 +1,10 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './palmbeach.scss'
 import HeaderImage from "/public/Palm-Beach-city-reverse-mortgage-florida.jpg"
+import HeaderImageMobile from "/public/Palm-Beach-city-reverse-mortgage-florida-mobile.jpg";
 import Image from "next/image";
 import signDocs from "../../public/palm-beach-sign-paperword-reverse-mortgage-utah.jpg.jpg"
 import loanApplication from "../../public/palm-beach-approved-reverse-mortgage-florida.jpg"
@@ -42,7 +43,8 @@ function PalmBeach() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Palm Beach Florida mortgages and Reverse mortgages"},
-      {pHeader: "Kenny stands out as a superb lender in Palm Beach, Florida. His local insights, competitive rates, and commitment to clients make him a trusted choice for traditional and reverse mortgages."}
+      {pHeader: "Kenny stands out as a superb lender in Palm Beach, Florida. His local insights, competitive rates, and commitment to clients make him a trusted choice for traditional and reverse mortgages."},
+      { headerImageMobile: HeaderImageMobile },
     ]
   return (
     <>

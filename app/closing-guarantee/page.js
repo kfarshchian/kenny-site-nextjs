@@ -2,8 +2,9 @@ import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import { Container, Stack, Button } from "@mui/material";
 import "./closing-guarantee.scss";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import HeaderImage from "/public/mortgage-broker-utah-approved.jpg";
+import HeaderImageMobile from "/public/mortgage-broker-utah-approved-mobile.jpg";
 import Image from "next/image";
 import signDocs from "../../public/sign-paperword-reverse-mortgage-utah.jpg"
 
@@ -44,6 +45,7 @@ function ClosingGuarantee() {
       pHeader:
         "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers.",
     },
+    { headerImageMobile: HeaderImageMobile },
   ];
   return (
     <>

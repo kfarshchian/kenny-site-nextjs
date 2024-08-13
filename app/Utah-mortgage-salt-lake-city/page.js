@@ -2,8 +2,9 @@ import React from "react";
 import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import "./saltlakecity.scss";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import headerImage from "/public/utah-mortgage-salt-lake-city.jpg"
+import HeaderImageMobile from "/public/utah-mortgage-salt-lake-city-mobile.jpg";
 import Image from "next/image";
 import Moving from "../../public/reverse-mortgage-utah-moving.jpg"
 import keysCalculator from "../../public/project-reverse-mortgage-utah.jpg"
@@ -45,6 +46,7 @@ function SaltLakeCity() {
       pHeader:
         "Kenny is a standout Salt Lake City loan officer, excelling in both traditional and reverse mortgages. With local expertise, competitive rates, and a focus on customer satisfaction, he's known for transparent communication and reliable guidance. Clients trust Kenny for his integrity and experience in navigating the lending process.",
     },
+    { headerImageMobile: HeaderImageMobile },
   ];
   return (
     <>

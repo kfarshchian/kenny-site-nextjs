@@ -1,9 +1,10 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './venice.scss'
 import HeaderImage from "/public/city-reverse-mortgage-florida2.png"
+import HeaderImageMobile from "/public/city-reverse-mortgage-florida2-mobile.png";
 import Image from "next/image";
 import signDocs from "../../public/venice-sign-reverse-mortgage-florida.jpg"
 import loanApplication from "../../public/applications-city-reverse-mortgage-florida2.png"
@@ -42,7 +43,8 @@ function Venice() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Venice Florida mortgages and Reverse mortgages"},
-      {pHeader: "Kenny excels in Venice, Florida, as a lender for both traditional and reverse mortgages. His local expertise, competitive rates, and dedicated client service make him a top-notch choice."}
+      {pHeader: "Kenny excels in Venice, Florida, as a lender for both traditional and reverse mortgages. His local expertise, competitive rates, and dedicated client service make him a top-notch choice."},
+      { headerImageMobile: HeaderImageMobile },
     ]
   return (
     <>

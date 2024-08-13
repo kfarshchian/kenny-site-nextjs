@@ -1,8 +1,9 @@
 import "./Loans.scss";
 import { Container, Button, Grid } from "@mui/material";
 import Contactform from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import HeaderImage from "/public/reverse-mortgage-florida-reverse-mortgage-texas2.png";
+import HeaderImageMobile from "/public/reverse-mortgage-florida-reverse-mortgage-texas2-mobile.png";
 
 export const metadata = {
   title: "Home Loans & Reverse Mortgages in Utah - Kenny Farshchian",
@@ -48,6 +49,7 @@ function Loans() {
       pHeader:
         "We provide competitive rates, excellent customer service, and a seamless lending process. We offer expertise and transparency, earning trust among borrowers.",
     },
+    { headerImageMobile: HeaderImageMobile },
   ];
   return (
     <>

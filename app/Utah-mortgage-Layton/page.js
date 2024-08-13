@@ -2,7 +2,8 @@ import React from "react";
 import './layton.scss'
 import { Container, Stack, Divider } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
+import HeaderImageMobile from "/public/Layton-reverse-mortgage-utah-mobile.jpg";
 import HeaderImage from "/public/Layton-reverse-mortgage-utah.jpg"
 import Image from "next/image";
 import signDocs from "../../public/Layton-sign-reverse-mortgage-utah.jpg"
@@ -43,7 +44,8 @@ function Layton() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Layton mortgages and Reverse mortgages"},
-      {pHeader: "Kenny is an exceptional lender in Layton, Utah, with expertise in both mortgages and reverse mortgages. His local knowledge, competitive rates, and commitment to clients make him a top choice."}
+      {pHeader: "Kenny is an exceptional lender in Layton, Utah, with expertise in both mortgages and reverse mortgages. His local knowledge, competitive rates, and commitment to clients make him a top choice."},
+      { headerImageMobile: HeaderImageMobile },
     ]
   return (
     <>

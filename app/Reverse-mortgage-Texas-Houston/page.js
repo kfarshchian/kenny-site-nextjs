@@ -1,9 +1,10 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './houston.scss'
 import HeaderImage from "/public/houston-house-reverse-mortgage-texas2.png"
+import HeaderImageMobile from "/public/houston-house-reverse-mortgage-texas2-mobile.png";
 import Image from "next/image";
 import signDocs from "../../public/houston-sign-reverse-mortgage-texas.jpg"
 import houseCalculations from "../../public/houston-rate-reverse-mortgage-texas.jpg"
@@ -42,7 +43,8 @@ function Houston() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Houston Texas mortgages and Reverse mortgages"},
-      {pHeader: "Kenny is a standout lender in Houston, Texas, with expertise in both traditional and reverse mortgages. His local knowledge, competitive rates, and dedication to clients make him an excellent choice."}
+      {pHeader: "Kenny is a standout lender in Houston, Texas, with expertise in both traditional and reverse mortgages. His local knowledge, competitive rates, and dedication to clients make him an excellent choice."},
+      { headerImageMobile: HeaderImageMobile },
     ]
   return (
     <>

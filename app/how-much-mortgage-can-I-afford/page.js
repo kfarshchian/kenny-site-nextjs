@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import './afford.scss'
 import { Container, Button } from "@mui/material";
 import ContactForm from "../../components/ContactForm/ContactForm";
 import HeaderImage from "/public/what-mortgage-afford.jpg"
-
+import HeaderImageMobile from "/public/what-mortgage-afford-mobile.jpg";
 
 export const metadata = {
   title: "Receive expert advice on mortgages in Utah, Florida, and Texas.",
@@ -40,7 +40,8 @@ function Afford() {
       const headerProp =[
         {headerImage: HeaderImage},
         {headerTitle: "What Mortgage Can I Afford?"},
-        {pHeader: ""}
+        {pHeader: ""},
+        { headerImageMobile: HeaderImageMobile },
       ]
   return (
     <>

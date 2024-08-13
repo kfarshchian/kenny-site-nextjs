@@ -1,9 +1,10 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import { Container, Stack, Divider } from "@mui/material";
 import './naples.scss'
 import HeaderImage from "/public/Naples-House-sign-reverse-mortgage-florida.jpg"
+import HeaderImageMobile from "/public/Naples-House-sign-reverse-mortgage-florida-mobile.jpg";
 import Image from "next/image";
 import signDocs from "../../public/Naples-sign-reverse-mortgage-florida.jpg"
 import loanApplication from "../../public/Naples-approved-reverse-mortgage-florida.jpg"
@@ -42,7 +43,8 @@ function Naples() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Naples Florida mortgages and Reverse mortgages"},
-      {pHeader: "Kenny excels in Naples, Florida, as a lender for both traditional and reverse mortgages. His local expertise, competitive rates, and dedication to clients make him a top choice."}
+      {pHeader: "Kenny excels in Naples, Florida, as a lender for both traditional and reverse mortgages. His local expertise, competitive rates, and dedication to clients make him a top choice."},
+      { headerImageMobile: HeaderImageMobile },
     ]
   return (
     <>

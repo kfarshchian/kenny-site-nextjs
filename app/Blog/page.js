@@ -1,6 +1,6 @@
 import React from "react";
 import ContactForm from "../../components/ContactForm/ContactForm";
-import HeaderPage from "../../components/HeaderPage/HeaderPage";
+import HeaderPage from "../../components/HeaderPage-test/HeaderPage";
 import {
   Container,
   Button,
@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import './blog.scss'
 import HeaderImage from "/public/blog-reverse-mortgage-utah.jpg"
-
+import HeaderImageMobile from "/public/blog-reverse-mortgage-utah-mobile.jpg";
 
 export const metadata = {
   title: "Utah Mortgage Expert - Kenny Farshchian PRMI",
@@ -49,7 +49,8 @@ function Austin() {
     const headerProp =[
       {headerImage: HeaderImage},
       {headerTitle: "Securing Your Financial Future in mortgages and Reverse mortgages Blog"},
-      {pHeader: ""}
+      {pHeader: ""},
+      { headerImageMobile: HeaderImageMobile },
     ]
     
   return (
