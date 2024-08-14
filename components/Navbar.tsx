@@ -80,6 +80,9 @@ const Navbar = () => {
                         <li>
                           <Link title="Reviews" href="/Reviews">Reviews</Link>
                         </li>
+                        <li>
+                          <Link title="Mortgage-Calculator-Utah" href="/Mortgage-Calculator-Utah">Mortgage Calculator Utah</Link>
+                        </li>
                       </ul>
                     </li>
                   </ul>
