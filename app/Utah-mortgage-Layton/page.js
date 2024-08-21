@@ -8,7 +8,7 @@ import HeaderImage from "/public/Layton-reverse-mortgage-utah.jpg"
 import Image from "next/image";
 import signDocs from "../../public/Layton-sign-reverse-mortgage-utah.jpg"
 import interestPC from "../../public/stats-layton-reverse-mortage-utah.jpg"
-
+import Head from "next/head";
 
 
 export const metadata = {
@@ -50,6 +50,15 @@ function Layton() {
     ]
   return (
     <>
+    <Head>
+    {/* <!-- Google tag (gtag.js) event --> */}
+<script>
+ {` gtag('event', 'ads_conversion_Request_quote_1', {
+    // <event_parameters>
+  }); `}
+</script>
+
+    </Head>
      <HeaderPage headerProp={headerProp ?? []}/>
 
       <Container maxWidth="md">
