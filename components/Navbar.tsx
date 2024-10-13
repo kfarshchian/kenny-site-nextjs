@@ -6,7 +6,7 @@ import "./navbar.scss";
 import MobileNav from "./MobileNav";
 import "./mobileNav.scss";
 import LocalLender from "../public/smalllogokenny.png"
-import prmiBlack from "../public/prmiblack2.png"
+import HTMortgageLogo from "../public/HTMortgageLogo.png"
 
 
 const Navbar = () => {
@@ -18,20 +18,20 @@ const Navbar = () => {
             <div>
               <div id="logoContainer" className="flex items-center justify-between py-3 md:block">
                 {/* LOGO */}
-                <Link title="Kenny Farshchian W/Primary Residential Mortgage, Inc." href="/" target="_blank">
+                <Link title="Kenny Farshchian W/The Hometown Mortgage Co.." href="/" target="_blank">
                   <Image            
                     id="kennyLogo"
                     src= {LocalLender}
                     priority
-                    alt="Kenny Farshchian Logo PRMI"
+                    alt="Kenny Farshchian Logo The Hometown Mortgage Co"
                   />
                 </Link>
-                {/* prmi logo */}
-                <Link title="apply.prmihome.com" target="_blank" href="https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com" >
+                {/* The Hometown Mortgage Co logo */}
+                <Link title="apply The Hometown Mortgage Co" target="_blank" href="https://thehtmortgage.my1003app.com?time=1728535279914" >
                   <Image
-                    id="prmiBlackLogo"
-                    src= {prmiBlack}
-                    alt="Kenny Farshchian Logo PRMI"
+                    id="The-Hometown-Mortgage-Co"
+                    src= {HTMortgageLogo}
+                    alt="Kenny Farshchian Logo The Hometown Mortgage Co"
                   />
                 </Link>
                 {/* HAMBURGER BUTTON FOR MOBILE */}
@@ -47,7 +47,7 @@ const Navbar = () => {
               >
                 <ul className="h-screen md:h-auto items-center justify-center md:flex ">
                   <li className="pb-2 text-xl text-black py-2 px-2 text-center  border-b-2 md:border-b-0  hover:bg-slate-600  border-black-900  md:hover:bg-transparent">
-                    <Link title="Kenny Farshchian W/Primary Residential Mortgage, Inc." className="home" id="main-link" href="/">
+                    <Link title="Kenny Farshchian W/The Hometown Mortgage Co." className="home" id="main-link" href="/">
                       Home
                     </Link>
                   </li>
@@ -64,9 +64,6 @@ const Navbar = () => {
                           <Link title="Our Process" href="/our-process">Our Process</Link>
                         </li>
                         <li>
-                          <Link title="Closing Guarantee" href="/closing-guarantee">
-                            Closing Guarantee
-                          </Link>
                         </li>
                         <li>
                           <Link title="Blog" href="/Blog">Blog</Link>
@@ -172,8 +169,8 @@ const Navbar = () => {
                     <Link
                     target="_blank"
                       className="mortgage-company-utah-apply-today"
-                      href="https://apply.prmihome.com/#/journey?referrerId=kenf%40primeres.com"
-                      title="apply.prmihome.com"
+                      href="https://thehtmortgage.my1003app.com?time=1728535279914"
+                      title="apply The Hometown Mortgage Co"
                     >
                       Loan Questionnaire
                     </Link>
@@ -182,7 +179,7 @@ const Navbar = () => {
                     <Link
                       className="mortgage-company-utah-team-number"
                       href="/"
-                      title="Kenny Farshchian W/Primary Residential Mortgage, Inc. Phone Number"
+                      title="Kenny Farshchian W/The Hometown Mortgage Co.. Phone Number"
                     >
                       801-520-8475
                     </Link>

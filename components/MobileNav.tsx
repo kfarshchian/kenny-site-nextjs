@@ -20,11 +20,11 @@ const MobileNav = () => {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {/* LOGO */}
-              <Link title="Kenny Farshchian W/Primary Residential Mortgage, Inc." href="/">
+              <Link title="Kenny Farshchian W/The Hometown Mortgage Co.." href="/">
                       <Image
-                        src="/smalllogokenny.png"
-                        width={350}
-                        height={150}
+                        src="/HTMortgageLogo.png"
+                        width={150}
+                        height={50}
                         alt="kenny mortgage logo"
                       />
                     </Link>
@@ -52,7 +52,7 @@ const MobileNav = () => {
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
                 {/* about us */}
                 <li className="pb-2 text-xl text-black py-2 md:px-2 text-center border-b-2 md:border-b-0   border-black-900   md:hover:bg-transparent">
-                    <Link  title="Kenny Farshchian W/Primary Residential Mortgage, Inc." onClick={() => setNavbar(!navbar)} id="main-link" href="/">
+                    <Link  title="Kenny Farshchian W/The Hometown Mortgage Co.." onClick={() => setNavbar(!navbar)} id="main-link" href="/">
                       Home
                     </Link>
                   </li>
@@ -69,9 +69,6 @@ const MobileNav = () => {
                           <Link onClick={() => setNavbar(!navbar)} title="Our Process" href="/our-process">Our Process</Link>
                         </li>
                         <li>
-                          <Link onClick={() => setNavbar(!navbar)} title="Closing Guarantee" href="/closing-guarantee">
-                            Closing Guarantee
-                          </Link>
                         </li>
                         <li>
                           <Link onClick={() => setNavbar(!navbar)} title="Blog" href="/Blog">Blog</Link>

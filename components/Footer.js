@@ -11,7 +11,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import "./footer.scss";
 import Image from "next/image";
 import footerLogo from "/public/smalllogokenny.png"
-import prmiLogo from "/public/prmi1.png"
+import theHometownMortgageCoLogo from "/public/HTMortgageLogo.png"
 import equalHousing from "/public/equalhousingopp.png"
 
 
@@ -247,7 +247,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               href="/"
-              title="Kenny Farshchian W/Primary Residential Mortgage, Inc."
+              title="Kenny Farshchian W/The Hometown Mortgage Co."
               sx={{
                 color: "black",
                 textTransform: "none",
@@ -294,18 +294,6 @@ const Footer = () => {
             </Link>
             <Link
               id="reverse-mortgage-florida-footer"
-              href="/closing-guarantee"
-              title="closing-guarantee"
-              sx={{
-                color: "black",
-                textTransform: "none",
-                textDecoration: "none",
-              }}
-            >
-              Closing Guarantee
-            </Link>
-            <Link
-              id="reverse-mortgage-florida-footer"
               href="/Disclosure"
               title="Disclosure"
               sx={{
@@ -318,7 +306,7 @@ const Footer = () => {
             </Link>
             <Link
               id="reverse-mortgage-florida-footer"
-              href="https://www.primeres.com/licenses"
+              href=""
               target="_blank"
               title="Licenses"
               sx={{
@@ -345,20 +333,7 @@ const Footer = () => {
             <Link
               id="reverse-mortgage-florida-footer"
               target="_blank"
-              title="consumer-voice"
-              href="https://www.primeres.com/consumer-voice"
-              sx={{
-                color: "black",
-                textTransform: "none",
-                textDecoration: "none",
-              }}
-            >
-              Consumer Voice
-            </Link>
-            <Link
-              id="reverse-mortgage-florida-footer"
-              target="_blank"
-              href="https://www.primeres.com/terms-of-use"
+              href=""
               title="terms-of-use"
               sx={{
                 color: "black",
@@ -385,13 +360,13 @@ const Footer = () => {
           <div>
             <Typography variant="caption">
               <PinDropIcon />
-              Address:1597 Woodland Park Dr STE 100, Layton, UT 84041
+              Address:Layton, UT
             </Typography>
           </div>
           <div>
             <Typography variant="caption">
               <LocalPhoneIcon />
-              Phones:(801) 520-8475; (801) 320-7081{" "}
+              Phones:(801) 520-8475;
             </Typography>
           </div>
         </Stack>
@@ -444,7 +419,7 @@ const Footer = () => {
               textDecoration: "none",
             }}
             title="email"
-            href="mailto:kenf@primeres.com"
+            href="mailto:kennyf@thehtmortgage.com"
             target="_blank"
           >
             <MailOutlineIcon />
@@ -452,14 +427,14 @@ const Footer = () => {
         </Stack>
         <Image id="smallLogo" src={footerLogo} alt="Utah Local Lender Mortgage Kenny Logo" loading="lazy" />
         <Typography variant="caption">
-          © 2023 | Kenny Farshchian | Primary Residential Mortgage, Inc. All
+          © 2023 | Kenny Farshchian | The Hometown Mortgage Co. All
           Rights Reserved.
-          | <a id="reverse-mortgage-florida-privacy-policy" title="privacy-policy" target="_blank" href='https://www.primeres.com/privacy-policy'> Privacy Policy</a>
+          | <a id="reverse-mortgage-florida-privacy-policy" title="privacy-policy" target="_blank" href=''> Privacy Policy</a>
         </Typography>
         <Typography variant="caption" sx={{ textAlign: "center" }}>
-          by Primary Residential Mortgage, Inc. NMLS#: 919520 Utah DRE Mortgage
-          Office License # 8335595. MLO 0117736. MC3094-122. All loans subject
-          to credit and property approval. PRMI NMLS 3094. PRMI is an Equal
+          by The Hometown Mortgage Co. NMLS#:  Utah DRE Mortgage
+          Office License # . MLO . . All loans subject
+          to credit and property approval. The Hometown Mortgage Co. NMLS . The Hometown Mortgage Co. is an Equal
           Housing Lender. Some products and services may not be available in all
           states. Credit and collateral are subject to approval. Terms and
           conditions apply. This is not a commitment to lend. Programs, rates,
@@ -467,7 +442,7 @@ const Footer = () => {
         </Typography>
         <Stack
           direction={{ xs: "column", sm: "row" }}
-          id="prmi-eoh"
+          id="The-Hometown-Mortgage-Co-eoh"
           sx={{
             marginTop: "15px",
             marginBottom: "15px",
@@ -477,10 +452,8 @@ const Footer = () => {
           }}
           spacing={{ xs: 1, sm: 2, md: 4 }}
         >
-          <Image id="prmiLogo" src={prmiLogo} alt="Utah Local Lender Mortgage PRMI Logo" loading="lazy"/>
+          <Image id="The-Hometown-Mortgage-Co" src={theHometownMortgageCoLogo} alt="Utah Local Lender Mortgage The Hometown Mortgage Co Logo" loading="lazy"/>
           <Image id="equalLogo" src={equalHousing} alt="Utah Local Lender Mortgage Equal Housing Logo" loading="lazy"/>
-          {/* <img id="prmiLogo" src='/prmi1.png' alt="SmallLogo" />
-          <img id="equalLogo" src='/equalhousingopp.png' alt="SmallLogo" /> */}
         </Stack>
       </Container>
     </div>
